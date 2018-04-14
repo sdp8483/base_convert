@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 147.924999 17.924999 220.075001 124.075001)
     (thickness 1.6)
-    (drawings 4)
+    (drawings 38)
     (tracks 0)
     (zones 0)
     (modules 53)
@@ -62,7 +62,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -492,7 +492,7 @@
       (net 33 "Net-(SW1-Pad1)"))
     (pad 2 smd rect (at 4.59 0 90) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 34 "Net-(SW1-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -538,7 +538,7 @@
       (net 35 "Net-(SW2-Pad1)"))
     (pad 2 smd rect (at 4.59 0 90) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 36 "Net-(SW2-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -584,7 +584,7 @@
       (net 37 "Net-(SW3-Pad1)"))
     (pad 2 smd rect (at 4.59 0 90) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 38 "Net-(SW3-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -630,7 +630,7 @@
       (net 39 "Net-(SW4-Pad1)"))
     (pad 2 smd rect (at 4.59 0 90) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 40 "Net-(SW4-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -676,7 +676,7 @@
       (net 41 "Net-(SW5-Pad1)"))
     (pad 2 smd rect (at 4.59 0 90) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 42 "Net-(SW5-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -722,7 +722,7 @@
       (net 43 "Net-(SW6-Pad1)"))
     (pad 2 smd rect (at 4.59 0 90) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 44 "Net-(SW6-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -768,7 +768,7 @@
       (net 45 "Net-(SW7-Pad1)"))
     (pad 2 smd rect (at 4.59 0 90) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 46 "Net-(SW7-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -814,7 +814,7 @@
       (net 47 "Net-(SW8-Pad1)"))
     (pad 2 smd rect (at 4.59 0 90) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 48 "Net-(SW8-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -860,7 +860,7 @@
       (net 49 "Net-(SW9-Pad1)"))
     (pad 2 smd rect (at 4.59 0 90) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 50 "Net-(SW9-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -906,7 +906,7 @@
       (net 51 "Net-(SW10-Pad1)"))
     (pad 2 smd rect (at 4.59 0 90) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 52 "Net-(SW10-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -952,7 +952,7 @@
       (net 53 "Net-(SW11-Pad1)"))
     (pad 2 smd rect (at 4.59 0 90) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 54 "Net-(SW11-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -998,7 +998,7 @@
       (net 55 "Net-(SW12-Pad1)"))
     (pad 2 smd rect (at 4.59 0 90) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 56 "Net-(SW12-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1044,7 +1044,7 @@
       (net 57 "Net-(SW13-Pad1)"))
     (pad 2 smd rect (at 4.59 0 90) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 58 "Net-(SW13-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1090,7 +1090,7 @@
       (net 59 "Net-(SW14-Pad1)"))
     (pad 2 smd rect (at 4.59 0 90) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 60 "Net-(SW14-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1136,20 +1136,20 @@
       (net 61 "Net-(SW15-Pad1)"))
     (pad 2 smd rect (at 4.59 0 90) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 62 "Net-(SW15-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC1FAF)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD2107F) (tstamp 5ABC1FAF)
     (at 152.2 69 90)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC43A8)
     (attr smd)
-    (fp_text reference SW16 (at 0 -2.6 90) (layer F.SilkS)
+    (fp_text reference SW16 (at 0 -2.6 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3 90) (layer F.Fab)
@@ -1182,20 +1182,20 @@
       (net 63 "Net-(SW16-Pad1)"))
     (pad 2 smd rect (at 4.59 0 90) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 64 "Net-(SW16-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC1FB5)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD2127E) (tstamp 5ABC1FB5)
     (at 183 113)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC2E68)
     (attr smd)
-    (fp_text reference SW17 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference SW17 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3) (layer F.Fab)
@@ -1228,20 +1228,20 @@
       (net 65 "Net-(SW17-Pad1)"))
     (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 66 "Net-(SW17-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC1FBB)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD21272) (tstamp 5ABC1FBB)
     (at 170.5 106)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC4142)
     (attr smd)
-    (fp_text reference SW18 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference SW18 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3) (layer F.Fab)
@@ -1274,20 +1274,20 @@
       (net 67 "Net-(SW18-Pad1)"))
     (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 68 "Net-(SW18-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC1FC1)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD21276) (tstamp 5ABC1FC1)
     (at 183 106)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC421E)
     (attr smd)
-    (fp_text reference SW19 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference SW19 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3) (layer F.Fab)
@@ -1320,20 +1320,20 @@
       (net 69 "Net-(SW19-Pad1)"))
     (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 70 "Net-(SW19-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC1FC7)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD2127A) (tstamp 5ABC1FC7)
     (at 195.5 106)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC4396)
     (attr smd)
-    (fp_text reference SW20 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference SW20 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3) (layer F.Fab)
@@ -1366,20 +1366,20 @@
       (net 71 "Net-(SW20-Pad1)"))
     (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 72 "Net-(SW20-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC1FCD)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD21266) (tstamp 5ABC1FCD)
     (at 170.5 99)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC43AE)
     (attr smd)
-    (fp_text reference SW21 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference SW21 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3) (layer F.Fab)
@@ -1412,20 +1412,20 @@
       (net 73 "Net-(SW21-Pad1)"))
     (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 74 "Net-(SW21-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC1FD3)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD21269) (tstamp 5ABC1FD3)
     (at 183 99)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC2E6E)
     (attr smd)
-    (fp_text reference SW22 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference SW22 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3) (layer F.Fab)
@@ -1458,20 +1458,20 @@
       (net 75 "Net-(SW22-Pad1)"))
     (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 76 "Net-(SW22-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC1FD9)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD2126E) (tstamp 5ABC1FD9)
     (at 195.5 99)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC2E74)
     (attr smd)
-    (fp_text reference SW23 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference SW23 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3) (layer F.Fab)
@@ -1504,20 +1504,20 @@
       (net 77 "Net-(SW23-Pad1)"))
     (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 78 "Net-(SW23-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC1FDF)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD21256) (tstamp 5ABC1FDF)
     (at 170.5 92)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC2E7A)
     (attr smd)
-    (fp_text reference SW24 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference SW24 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3) (layer F.Fab)
@@ -1550,20 +1550,20 @@
       (net 79 "Net-(SW24-Pad1)"))
     (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 80 "Net-(SW24-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC1FE5)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD2125A) (tstamp 5ABC1FE5)
     (at 183 92)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC33CC)
     (attr smd)
-    (fp_text reference SW25 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference SW25 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3) (layer F.Fab)
@@ -1596,20 +1596,20 @@
       (net 81 "Net-(SW25-Pad1)"))
     (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 82 "Net-(SW25-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC1FEB)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD21260) (tstamp 5ABC1FEB)
     (at 195.5 92)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC33D2)
     (attr smd)
-    (fp_text reference SW26 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference SW26 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3) (layer F.Fab)
@@ -1642,20 +1642,20 @@
       (net 83 "Net-(SW26-Pad1)"))
     (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 84 "Net-(SW26-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC1FF1)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD21283) (tstamp 5ABC1FF1)
     (at 208 85)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC33D8)
     (attr smd)
-    (fp_text reference SW27 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference SW27 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3) (layer F.Fab)
@@ -1688,20 +1688,20 @@
       (net 85 "Net-(SW27-Pad1)"))
     (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 86 "Net-(SW27-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC1FF7)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD21287) (tstamp 5ABC1FF7)
     (at 208 92)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC33DE)
     (attr smd)
-    (fp_text reference SW28 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference SW28 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3) (layer F.Fab)
@@ -1734,20 +1734,20 @@
       (net 87 "Net-(SW28-Pad1)"))
     (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 88 "Net-(SW28-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC1FFD)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD2128B) (tstamp 5ABC1FFD)
     (at 208 99)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC33E4)
     (attr smd)
-    (fp_text reference SW29 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference SW29 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3) (layer F.Fab)
@@ -1780,20 +1780,20 @@
       (net 89 "Net-(SW29-Pad1)"))
     (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 90 "Net-(SW29-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC2003)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD21290) (tstamp 5ABC2003)
     (at 208 106)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC33EA)
     (attr smd)
-    (fp_text reference SW30 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference SW30 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3) (layer F.Fab)
@@ -1826,20 +1826,20 @@
       (net 91 "Net-(SW30-Pad1)"))
     (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 92 "Net-(SW30-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC2009)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD21294) (tstamp 5ABC2009)
     (at 208 113)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC33F0)
     (attr smd)
-    (fp_text reference SW31 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference SW31 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3) (layer F.Fab)
@@ -1872,20 +1872,20 @@
       (net 93 "Net-(SW31-Pad1)"))
     (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 94 "Net-(SW31-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 58723FBE) (tstamp 5ABC200F)
+  (module Buttons_Switches_SMD:SW_SPST_FSMSM (layer F.Cu) (tedit 5AD21298) (tstamp 5ABC200F)
     (at 208 120)
     (descr http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English)
     (tags "SPST button tactile switch")
     (path /5ABC33F6)
     (attr smd)
-    (fp_text reference SW32 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference SW32 (at 0 -2.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_Push (at 0 3) (layer F.Fab)
@@ -1918,19 +1918,19 @@
       (net 95 "Net-(SW32-Pad1)"))
     (pad 2 smd rect (at 4.59 0) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask)
       (net 96 "Net-(SW32-Pad2)"))
-    (model ${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPST_FSMSM.wrl
+    (model ${KIPRJMOD}/3d_models/SW_SPST_FSMSM.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Displays_7-Segment:DA04-11SURKWA (layer F.Cu) (tedit 59947292) (tstamp 5ABC2445)
+  (module Displays_7-Segment:DA04-11SURKWA (layer F.Cu) (tedit 5AD21097) (tstamp 5ABC2445)
     (at 164 34 90)
     (descr "http://www.kingbright.com/attachments/file/psearch/000/00/00/DA04-11SURKWA(Ver.10A).pdf")
     (tags "Dubble digit hyper red 7 segment LED display")
     (path /5ABC2E7C)
-    (fp_text reference AFF1 (at 0.5 -2.21 90) (layer F.SilkS)
+    (fp_text reference AFF1 (at 0.5 -2.21 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value DA04-11 (at 4.59 20.17 90) (layer F.Fab)
@@ -2061,12 +2061,12 @@
     )
   )
 
-  (module Displays_7-Segment:DA04-11SURKWA (layer F.Cu) (tedit 59947292) (tstamp 5ABC246D)
+  (module Displays_7-Segment:DA04-11SURKWA (layer F.Cu) (tedit 5AD21092) (tstamp 5ABC246D)
     (at 154 51 90)
     (descr "http://www.kingbright.com/attachments/file/psearch/000/00/00/DA04-11SURKWA(Ver.10A).pdf")
     (tags "Dubble digit hyper red 7 segment LED display")
     (path /5ABC3396)
-    (fp_text reference AFF3 (at 0.5 -2.21 90) (layer F.SilkS)
+    (fp_text reference AFF3 (at 0.5 -2.21 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value DA04-11 (at 4.59 20.17 90) (layer F.Fab)
@@ -2790,12 +2790,12 @@
     )
   )
 
-  (module LEDs:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5ABC2E2A)
+  (module LEDs:LED_D3.0mm (layer F.Cu) (tedit 5AD2108A) (tstamp 5ABC2E2A)
     (at 152.2 57.6 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5ABC22A5)
-    (fp_text reference D16 (at 1.27 -2.96 90) (layer F.SilkS)
+    (fp_text reference D16 (at 1.27 -2.96 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96 90) (layer F.Fab)
@@ -2825,6 +2825,108 @@
     )
   )
 
+  (gr_text F (at 208 81.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text E (at 208 88.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text D (at 208 95.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text C (at 208 102.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text B (at 208 109.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text A (at 208 116.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 9 (at 195.5 88.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 8 (at 183 88.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 7 (at 170.5 88.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 6 (at 195.5 95.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 5 (at 183 95.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 4 (at 170.5 95.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 3 (at 195.5 102.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 2 (at 183 102.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 1 (at 170.5 102.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 0 (at 183 109.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text DEC (at 150.4 44.65 90) (layer F.SilkS)
+    (effects (font (size 3 3) (thickness 0.43)))
+  )
+  (gr_text HEX (at 160 27.65 90) (layer F.SilkS)
+    (effects (font (size 3 3) (thickness 0.43)))
+  )
+  (gr_text 15 (at 152.2 61) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 14 (at 156.4 61) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 13 (at 160.6 61) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 12 (at 164.8 61) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 11 (at 169 61) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 10 (at 173.2 61) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 9 (at 177.4 61) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 8 (at 181.6 61) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 7 (at 185.8 61) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 6 (at 190 61) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 5 (at 194.2 61) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 4 (at 198.4 61) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 3 (at 202.6 61) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 2 (at 206.8 61) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 1 (at 211 61) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text 0 (at 215.2 61) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 148 124) (end 220 124) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 148 18) (end 148 124) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 220 18) (end 220 124) (angle 90) (layer Edge.Cuts) (width 0.15))
