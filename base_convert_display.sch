@@ -38,11 +38,11 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
-Title ""
+Sheet 2 3
+Title "Base Converter"
 Date ""
 Rev ""
-Comp ""
+Comp "Perry Leumas"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -568,9 +568,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 6750 3550 6750
 Wire Wire Line
-	3150 1800 4800 1800
-Wire Wire Line
-	4800 1800 4850 1800
+	3150 1800 4850 1800
 Wire Wire Line
 	4850 1900 4800 1900
 Wire Wire Line
@@ -679,45 +677,7 @@ F
 Text Label 7650 3500 2    60   ~ 0
 G
 Wire Bus Line
-	7750 550  7750 700 
-Wire Bus Line
-	7750 700  7750 800 
-Wire Bus Line
-	7750 800  7750 900 
-Wire Bus Line
-	7750 900  7750 1000
-Wire Bus Line
-	7750 1000 7750 1100
-Wire Bus Line
-	7750 1100 7750 1200
-Wire Bus Line
-	7750 1200 7750 1700
-Wire Bus Line
-	7750 1700 7750 1800
-Wire Bus Line
-	7750 1800 7750 1900
-Wire Bus Line
-	7750 1900 7750 2000
-Wire Bus Line
-	7750 2000 7750 2100
-Wire Bus Line
-	7750 2100 7750 2200
-Wire Bus Line
-	7750 2200 7750 2300
-Wire Bus Line
-	7750 2300 7750 2800
-Wire Bus Line
-	7750 2800 7750 2900
-Wire Bus Line
-	7750 2900 7750 3000
-Wire Bus Line
-	7750 3000 7750 3100
-Wire Bus Line
-	7750 3100 7750 3200
-Wire Bus Line
-	7750 3200 7750 3300
-Wire Bus Line
-	7750 3300 7750 3400
+	7750 550  7750 3400
 Entry Wire Line
 	7650 700  7750 600 
 Entry Wire Line
@@ -1185,4 +1145,36 @@ Entry Wire Line
 	8800 3800 8900 3900
 Entry Wire Line
 	8800 4600 8900 4700
+Text HLabel 1550 950  0    60   Input ~ 0
+HEX1
+Text HLabel 1550 1650 0    60   Input ~ 0
+HEX2
+Text HLabel 1550 2350 0    60   Input ~ 0
+HEX3
+Text HLabel 1550 3050 0    60   Input ~ 0
+HEX4
+Text HLabel 1550 3750 0    60   Input ~ 0
+DEC1
+Text HLabel 1550 4450 0    60   Input ~ 0
+DEC2
+Text HLabel 1550 5150 0    60   Input ~ 0
+DEC3
+Text HLabel 1550 5850 0    60   Input ~ 0
+DEC4
+Text HLabel 1550 6550 0    60   Input ~ 0
+DEC5
+Text HLabel 10150 1000 2    60   Input ~ 0
+SEG-A
+Text HLabel 10150 1800 2    60   Input ~ 0
+SEG-B
+Text HLabel 10150 2600 2    60   Input ~ 0
+SEG-C
+Text HLabel 10150 3400 2    60   Input ~ 0
+SEG-D
+Text HLabel 10150 4200 2    60   Input ~ 0
+SEG-E
+Text HLabel 10150 5000 2    60   Input ~ 0
+SEG-F
+Text HLabel 10150 5800 2    60   Input ~ 0
+SEG-G
 $EndSCHEMATC
