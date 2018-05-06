@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Switch_CK)(type KiCad)(uri ${KIPRJMOD}/lib_fp/Switch_CK.pretty)(options "")(descr ""))
+  (lib (name Lite-On)(type KiCad)(uri ${KIPRJMOD}/lib_fp/Lite-On.pretty)(options "")(descr ""))
+  (lib (name MPD)(type KiCad)(uri ${KIPRJMOD}/lib_fp/MPD.pretty)(options "")(descr ""))
+)
