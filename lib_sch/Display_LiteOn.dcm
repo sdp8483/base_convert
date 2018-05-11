@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LTD-4608JR
+D LED 7-SEG .40" 2DGT SUPER RED CA
+K 7-SEG display segment LED
+$ENDCMP
+#
 #End Doc Library
