@@ -2,39 +2,187 @@ EESchema Schematic File Version 2
 LIBS:Display_LiteOn
 LIBS:MSP430
 LIBS:Switch_CK
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:base_convert-cache
+LIBS:4xxx
+LIBS:4xxx_IEEE
+LIBS:74xGxx
+LIBS:74xx
+LIBS:74xx_IEEE
+LIBS:Amplifier_Audio
+LIBS:Amplifier_Buffer
+LIBS:Amplifier_Current
+LIBS:Amplifier_Difference
+LIBS:Amplifier_Instrumentation
+LIBS:Amplifier_Operational
+LIBS:Amplifier_Video
+LIBS:Analog
+LIBS:Analog_ADC
+LIBS:Analog_DAC
+LIBS:Analog_Switch
+LIBS:Audio
+LIBS:Battery_Management
+LIBS:Comparator
+LIBS:Connector
+LIBS:Connector_Generic
+LIBS:Connector_Generic_MountingPin
+LIBS:Connector_Generic_Shielded
+LIBS:Converter_ACDC
+LIBS:Converter_DCDC
+LIBS:CPLD_Altera
+LIBS:CPLD_Xilinx
+LIBS:CPU
+LIBS:CPU_NXP_6800
+LIBS:CPU_NXP_68000
+LIBS:CPU_PowerPC
+LIBS:Device
+LIBS:Diode
+LIBS:Diode_Bridge
+LIBS:Diode_Laser
+LIBS:Display_Character
+LIBS:Display_Graphic
+LIBS:Driver_Display
+LIBS:Driver_FET
+LIBS:Driver_LED
+LIBS:Driver_Motor
+LIBS:Driver_Relay
+LIBS:DSP_Freescale
+LIBS:DSP_Microchip_DSPIC33
+LIBS:DSP_Motorola
+LIBS:DSP_Texas
+LIBS:Filter
+LIBS:FPGA_Microsemi
+LIBS:FPGA_Xilinx
+LIBS:FPGA_Xilinx_Artix7
+LIBS:FPGA_Xilinx_Kintex7
+LIBS:FPGA_Xilinx_Spartan6
+LIBS:FPGA_Xilinx_Virtex5
+LIBS:FPGA_Xilinx_Virtex6
+LIBS:FPGA_Xilinx_Virtex7
+LIBS:GPU
+LIBS:Graphic
+LIBS:Interface
+LIBS:Interface_CAN_LIN
+LIBS:Interface_CurrentLoop
+LIBS:Interface_Ethernet
+LIBS:Interface_Expansion
+LIBS:Interface_HID
+LIBS:Interface_LineDriver
+LIBS:Interface_Optical
+LIBS:Interface_Telecom
+LIBS:Interface_UART
+LIBS:Interface_USB
+LIBS:Isolator
+LIBS:Isolator_Analog
+LIBS:Jumper
+LIBS:LED
+LIBS:Logic_LevelTranslator
+LIBS:Logic_Programmable
+LIBS:MCU_AnalogDevices
+LIBS:MCU_Cypress
+LIBS:MCU_Espressif
+LIBS:MCU_Intel
+LIBS:MCU_Microchip_8051
+LIBS:MCU_Microchip_ATmega
+LIBS:MCU_Microchip_ATtiny
+LIBS:MCU_Microchip_AVR
+LIBS:MCU_Microchip_PIC10
+LIBS:MCU_Microchip_PIC12
+LIBS:MCU_Microchip_PIC16
+LIBS:MCU_Microchip_PIC18
+LIBS:MCU_Microchip_PIC24
+LIBS:MCU_Microchip_PIC32
+LIBS:MCU_Microchip_SAME
+LIBS:MCU_Microchip_SAML
+LIBS:MCU_Module
+LIBS:MCU_Nordic
+LIBS:MCU_NXP_ColdFire
+LIBS:MCU_NXP_HC11
+LIBS:MCU_NXP_HC12
+LIBS:MCU_NXP_HCS12
+LIBS:MCU_NXP_Kinetis
+LIBS:MCU_NXP_LPC
+LIBS:MCU_NXP_MAC7100
+LIBS:MCU_NXP_MCore
+LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
+LIBS:MCU_SiFive
+LIBS:MCU_SiliconLabs
+LIBS:MCU_ST_STM8
+LIBS:MCU_ST_STM32F0
+LIBS:MCU_ST_STM32F1
+LIBS:MCU_ST_STM32F2
+LIBS:MCU_ST_STM32F3
+LIBS:MCU_ST_STM32F4
+LIBS:MCU_ST_STM32F7
+LIBS:MCU_ST_STM32H7
+LIBS:MCU_ST_STM32L0
+LIBS:MCU_ST_STM32L1
+LIBS:MCU_ST_STM32L4
+LIBS:MCU_ST_STM32L4+
+LIBS:MCU_Texas
+LIBS:MCU_Texas_MSP430
+LIBS:Mechanical
+LIBS:Memory_Controller
+LIBS:Memory_EEPROM
+LIBS:Memory_EPROM
+LIBS:Memory_Flash
+LIBS:Memory_NVRAM
+LIBS:Memory_RAM
+LIBS:Memory_ROM
+LIBS:Memory_UniqueID
+LIBS:Motor
+LIBS:Oscillator
+LIBS:Potentiometer_Digital
+LIBS:power
+LIBS:Power_Management
+LIBS:Power_Protection
+LIBS:Power_Supervisor
+LIBS:pspice
+LIBS:Reference_Current
+LIBS:Reference_Voltage
+LIBS:Regulator_Controller
+LIBS:Regulator_Current
+LIBS:Regulator_Linear
+LIBS:Regulator_SwitchedCapacitor
+LIBS:Regulator_Switching
+LIBS:Relay
+LIBS:Relay_SolidState
+LIBS:RF
+LIBS:RF_AM_FM
+LIBS:RF_Amplifier
+LIBS:RF_Bluetooth
+LIBS:RF_GPS
+LIBS:RF_Mixer
+LIBS:RF_Module
+LIBS:RF_RFID
+LIBS:RF_Switch
+LIBS:RF_WiFi
+LIBS:RF_ZigBee
+LIBS:Sensor
+LIBS:Sensor_Audio
+LIBS:Sensor_Current
+LIBS:Sensor_Gas
+LIBS:Sensor_Humidity
+LIBS:Sensor_Magnetic
+LIBS:Sensor_Motion
+LIBS:Sensor_Optical
+LIBS:Sensor_Pressure
+LIBS:Sensor_Proximity
+LIBS:Sensor_Temperature
+LIBS:Sensor_Touch
+LIBS:Sensor_Voltage
+LIBS:Switch
+LIBS:Timer
+LIBS:Timer_PLL
+LIBS:Timer_RTC
+LIBS:Transformer
+LIBS:Transistor_Array
+LIBS:Transistor_BJT
+LIBS:Transistor_FET
+LIBS:Transistor_IGBT
+LIBS:Triac_Thyristor
+LIBS:Valve
+LIBS:Video
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
@@ -73,6 +221,42 @@ F17 "SEG-G" I L 8600 4350 60
 F18 "DEC6" I L 8600 5450 60 
 F19 "SEG-DP" I L 8600 4450 60 
 $EndSheet
+$Sheet
+S 8600 2450 1350 1000
+U 5AEDC370
+F0 "Binary Display" 60
+F1 "base_convert_bin.sch" 60
+F2 "LED_BIT0" I L 8600 3050 60 
+F3 "LED_BIT1" I L 8600 3150 60 
+F4 "LED_BIT2" I L 8600 3250 60 
+F5 "LED_BIT3" I L 8600 3350 60 
+F6 "NIBBLE0" I L 8600 2550 60 
+F7 "NIBBLE1" I L 8600 2650 60 
+F8 "NIBBLE2" I L 8600 2750 60 
+F9 "NIBBLE3" I L 8600 2850 60 
+$EndSheet
+$Sheet
+S 1250 4450 1300 1700
+U 5AEC7C6F
+F0 "Keypad" 60
+F1 "base_convert_keypad.sch" 60
+F2 "ROW0" I R 2550 4550 60 
+F3 "ROW1" I R 2550 4650 60 
+F4 "ROW2" I R 2550 4750 60 
+F5 "ROW3" I R 2550 4850 60 
+F6 "COL0" I R 2550 4950 60 
+F7 "COL1" I R 2550 5050 60 
+F8 "COL2" I R 2550 5150 60 
+F9 "COL3" I R 2550 5250 60 
+F10 "BROW0" I R 2550 5350 60 
+F11 "BROW1" I R 2550 5450 60 
+F12 "BROW2" I R 2550 5550 60 
+F13 "BROW3" I R 2550 5650 60 
+F14 "BCOL0" I R 2550 5750 60 
+F15 "BCOL1" I R 2550 5850 60 
+F16 "BCOL2" I R 2550 5950 60 
+F17 "BCOL3" I R 2550 6050 60 
+$EndSheet
 $Comp
 L MSP430FR4133IPMR U1
 U 1 1 5AEBBA05
@@ -80,7 +264,11 @@ P 3100 2950
 F 0 "U1" H 5200 3350 60  0000 C CNN
 F 1 "MSP430FR4133IPMR" H 5200 3250 60  0000 C CNN
 F 2 "Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm" H 5200 3190 60  0001 C CNN
-F 3 "" H 3100 2950 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/msp430fr4131.pdf" H 3100 2950 60  0001 C CNN
+F 4 "Texas Instruments" H 5200 3450 50  0001 C CNN "Manufacture"
+F 5 "MSP430FR4133IPMR" H 5200 3450 50  0001 C CNN "Mfg Part Number"
+F 6 "64-LQFP (10x10)" H 5200 3450 50  0001 C CNN "Package"
+F 7 "IC MCU 16BIT 15.5KB FRAM 64LQFP" H 5200 3450 50  0001 C CNN "Description"
 	1    3100 2950
 	1    0    0    -1  
 $EndComp
@@ -89,13 +277,13 @@ L Battery BT1
 U 1 1 5AEC3A00
 P 1000 1350
 F 0 "BT1" H 1100 1450 50  0000 L CNN
-F 1 "Battery" H 1100 1350 50  0000 L CNN
+F 1 "2x AA Battery" H 1100 1350 50  0000 L CNN
 F 2 "MPD:BC2AAPC" V 1000 1410 50  0001 C CNN
-F 3 "" V 1000 1410 50  0001 C CNN
-F 4 "NONE" H 1000 1350 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 1000 1350 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 1000 1350 60  0001 C CNN "Package"
-F 7 "NONE" H 1000 1350 60  0001 C CNN "Description"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Memory%20Protection%20PDFs/BC2AAPC.pdf" V 1000 1410 50  0001 C CNN
+F 4 "HOLDER BATT 2-AA CELLS PC MNT" H 1000 1350 60  0001 C CNN "Description"
+F 5 "MPD (Memory Protection Devices)" H 1000 1350 60  0001 C CNN "Manufacture"
+F 6 "BC2AAPC" H 1000 1350 60  0001 C CNN "Mfg Part Number"
+F 7 "PC Pin" H 1000 1350 60  0001 C CNN "Package"
 	1    1000 1350
 	1    0    0    -1  
 $EndComp
@@ -121,8 +309,6 @@ F 3 "" H 2450 1300 50  0001 C CNN
 	1    2450 1300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1000 1550 1000 1600
 $Comp
 L GND #PWR5
 U 1 1 5AEC5CE6
@@ -134,8 +320,6 @@ F 3 "" H 2450 1700 50  0001 C CNN
 	1    2450 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2450 1700 2450 1500
 $Comp
 L VCC #PWR7
 U 1 1 5AEC60F4
@@ -147,28 +331,6 @@ F 3 "" H 2950 1100 50  0001 C CNN
 	1    2950 1100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2650 1200 2950 1200
-Wire Wire Line
-	2950 1100 2950 1300
-$Sheet
-S 8600 2450 1350 1000
-U 5AEDC370
-F0 "Binary Display" 60
-F1 "base_convert_bin.sch" 60
-F2 "LED_BIT0" I L 8600 3050 60 
-F3 "LED_BIT1" I L 8600 3150 60 
-F4 "LED_BIT2" I L 8600 3250 60 
-F5 "LED_BIT3" I L 8600 3350 60 
-F6 "NIBBLE0" I L 8600 2550 60 
-F7 "NIBBLE1" I L 8600 2650 60 
-F8 "NIBBLE2" I L 8600 2750 60 
-F9 "NIBBLE3" I L 8600 2850 60 
-$EndSheet
-Wire Wire Line
-	3100 3650 2450 3650
-Wire Wire Line
-	2450 3650 2450 4200
 $Comp
 L GND #PWR6
 U 1 1 5AF08A85
@@ -188,10 +350,6 @@ F 0 "C1" H 1875 4050 50  0000 L CNN
 F 1 "10uF" H 1875 3850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 1888 3800 50  0001 C CNN
 F 3 "" H 1850 3950 50  0001 C CNN
-F 4 "NONE" H 1850 3950 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 1850 3950 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 1850 3950 60  0001 C CNN "Package"
-F 7 "NONE" H 1850 3950 60  0001 C CNN "Description"
 	1    1850 3950
 	1    0    0    -1  
 $EndComp
@@ -203,28 +361,9 @@ F 0 "C2" H 2175 4050 50  0000 L CNN
 F 1 "100nF" H 2175 3850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 2188 3800 50  0001 C CNN
 F 3 "" H 2150 3950 50  0001 C CNN
-F 4 "NONE" H 2150 3950 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 2150 3950 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 2150 3950 60  0001 C CNN "Package"
-F 7 "NONE" H 2150 3950 60  0001 C CNN "Description"
 	1    2150 3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1850 3750 3100 3750
-Wire Wire Line
-	1850 3700 1850 3800
-Wire Wire Line
-	2150 3800 2150 3750
-Connection ~ 2150 3750
-Wire Wire Line
-	1850 4100 1850 4150
-Wire Wire Line
-	1850 4150 2450 4150
-Wire Wire Line
-	2150 4100 2150 4150
-Connection ~ 2150 4150
-Connection ~ 2450 4150
 $Comp
 L VCC #PWR4
 U 1 1 5AF0BA91
@@ -236,7 +375,6 @@ F 3 "" H 1850 3700 50  0001 C CNN
 	1    1850 3700
 	1    0    0    -1  
 $EndComp
-Connection ~ 1850 3750
 $Comp
 L SS-24E06-TG5P SW2
 U 2 1 5AF1B232
@@ -245,10 +383,6 @@ F 0 "SW2" H 1750 1470 50  0000 C CNN
 F 1 "SELECT" H 1750 700 50  0000 C CNN
 F 2 "Switch_CK:DP4T_SS-24E06-TG5P" H 1750 1300 50  0001 C CNN
 F 3 "" H 1750 1300 50  0001 C CNN
-F 4 "NONE" H 1750 1100 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 1750 1100 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 1750 1100 60  0001 C CNN "Package"
-F 7 "NONE" H 1750 1100 60  0001 C CNN "Description"
 	2    1750 1100
 	1    0    0    -1  
 $EndComp
@@ -260,32 +394,9 @@ F 0 "SW2" H 1200 3420 50  0000 C CNN
 F 1 "SELECT" H 1200 2650 50  0000 C CNN
 F 2 "Switch_CK:DP4T_SS-24E06-TG5P" H 1200 3250 50  0001 C CNN
 F 3 "" H 1200 3250 50  0001 C CNN
-F 4 "NONE" H 1200 3050 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 1200 3050 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 1200 3050 60  0001 C CNN "Package"
-F 7 "NONE" H 1200 3050 60  0001 C CNN "Description"
 	1    1200 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1000 1100 1550 1100
-Wire Wire Line
-	1950 1000 2100 1000
-Wire Wire Line
-	2100 1000 2100 1400
-Wire Wire Line
-	2100 1400 1950 1400
-Wire Wire Line
-	1950 1200 2250 1200
-Connection ~ 2100 1200
-NoConn ~ 1950 800 
-NoConn ~ 1400 2750
-Wire Wire Line
-	1400 2950 3100 2950
-Wire Wire Line
-	1400 3150 2750 3150
-Wire Wire Line
-	1400 3350 2850 3350
 $Comp
 L GND #PWR2
 U 1 1 5AF24AED
@@ -297,16 +408,6 @@ F 3 "" H 750 3300 50  0001 C CNN
 	1    750  3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	750  3300 750  3050
-Wire Wire Line
-	750  3050 1000 3050
-Text Label 1900 2950 2    60   ~ 0
-DEC_INPUT
-Text Label 1900 3150 2    60   ~ 0
-HEX_INPUT
-Text Label 1900 3350 2    60   ~ 0
-BIN_INPUT
 $Comp
 L R R1
 U 1 1 5AF2F1FC
@@ -315,10 +416,6 @@ F 0 "R1" V 3030 1450 50  0000 C CNN
 F 1 "20k" V 2950 1450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 2880 1450 50  0001 C CNN
 F 3 "" H 2950 1450 50  0001 C CNN
-F 4 "NONE" H 2950 1450 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 2950 1450 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 2950 1450 60  0001 C CNN "Package"
-F 7 "NONE" H 2950 1450 60  0001 C CNN "Description"
 	1    2950 1450
 	1    0    0    -1  
 $EndComp
@@ -330,10 +427,6 @@ F 0 "R2" V 3030 1850 50  0000 C CNN
 F 1 "20k" V 2950 1850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 2880 1850 50  0001 C CNN
 F 3 "" H 2950 1850 50  0001 C CNN
-F 4 "NONE" H 2950 1850 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 2950 1850 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 2950 1850 60  0001 C CNN "Package"
-F 7 "NONE" H 2950 1850 60  0001 C CNN "Description"
 	1    2950 1850
 	1    0    0    -1  
 $EndComp
@@ -348,16 +441,6 @@ F 3 "" H 2950 2050 50  0001 C CNN
 	1    2950 2050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2950 2050 2950 2000
-Connection ~ 2950 1200
-Wire Wire Line
-	2950 1600 2950 1700
-Wire Wire Line
-	2950 1650 3350 1650
-Connection ~ 2950 1650
-Text Label 3350 1650 2    60   ~ 0
-BATT_V
 $Comp
 L Conn_01x04 J1
 U 1 1 5AF372A3
@@ -369,28 +452,6 @@ F 3 "" H 5200 1250 50  0001 C CNN
 	1    5200 1250
 	-1   0    0    -1  
 $EndComp
-Text Label 2700 3850 0    60   ~ 0
-SBWTDIO
-Text Label 2700 3950 0    60   ~ 0
-SBWTCK
-Wire Wire Line
-	2700 3850 3100 3850
-Wire Wire Line
-	2700 3950 3100 3950
-Text Label 2700 4350 0    60   ~ 0
-BATT_V
-Text Label 5800 1250 2    60   ~ 0
-SBWTDIO
-Text Label 5800 1350 2    60   ~ 0
-SBWTCK
-Wire Wire Line
-	5400 1250 5800 1250
-Wire Wire Line
-	5400 1350 5800 1350
-Wire Wire Line
-	5400 1150 5550 1150
-Wire Wire Line
-	5550 1150 5550 1000
 $Comp
 L GND #PWR10
 U 1 1 5AF42179
@@ -402,10 +463,6 @@ F 3 "" H 5550 1600 50  0001 C CNN
 	1    5550 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5400 1450 5550 1450
-Wire Wire Line
-	5550 1450 5550 1600
 $Comp
 L VCC #PWR9
 U 1 1 5AF43264
@@ -417,6 +474,198 @@ F 3 "" H 5550 1000 50  0001 C CNN
 	1    5550 1000
 	1    0    0    -1  
 $EndComp
+$Comp
+L SW_Push_Dual SW1
+U 1 1 5AF596CE
+P 1050 3750
+F 0 "SW1" H 1100 3850 50  0000 L CNN
+F 1 "CLEAR" H 1050 3500 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 1050 3950 50  0001 C CNN
+F 3 "" H 1050 3950 50  0001 C CNN
+	1    1050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR1
+U 1 1 5AF596D6
+P 700 4250
+F 0 "#PWR1" H 700 4000 50  0001 C CNN
+F 1 "GND" H 700 4100 50  0000 C CNN
+F 2 "" H 700 4250 50  0001 C CNN
+F 3 "" H 700 4250 50  0001 C CNN
+	1    700  4250
+	1    0    0    -1  
+$EndComp
+Text Label 1900 2950 2    60   ~ 0
+DEC_INPUT
+Text Label 1900 3150 2    60   ~ 0
+HEX_INPUT
+Text Label 1900 3350 2    60   ~ 0
+BIN_INPUT
+Text Label 3350 1650 2    60   ~ 0
+BATT_V
+Text Label 2700 3850 0    60   ~ 0
+SBWTDIO
+Text Label 2700 3950 0    60   ~ 0
+SBWTCK
+Text Label 2700 4350 0    60   ~ 0
+BATT_V
+Text Label 5800 1250 2    60   ~ 0
+SBWTDIO
+Text Label 5800 1350 2    60   ~ 0
+SBWTCK
+Text Label 1500 3750 2    60   ~ 0
+CLEAR
+Text Label 2700 4550 0    60   ~ 0
+ROW0
+Text Label 2700 4650 0    60   ~ 0
+ROW1
+Text Label 2700 4750 0    60   ~ 0
+ROW2
+Text Label 2700 4850 0    60   ~ 0
+ROW3
+Text Label 2700 4950 0    60   ~ 0
+COL0
+Text Label 2700 5050 0    60   ~ 0
+COL1
+Text Label 2700 5150 0    60   ~ 0
+COL2
+Text Label 2700 5250 0    60   ~ 0
+COL3
+Text Label 2700 5350 0    60   ~ 0
+BROW0
+Text Label 2700 5450 0    60   ~ 0
+BROW1
+Text Label 2700 5550 0    60   ~ 0
+BROW2
+Text Label 2700 5650 0    60   ~ 0
+BROW3
+Text Label 2700 5750 0    60   ~ 0
+BCOL0
+Text Label 2700 5850 0    60   ~ 0
+BCOL1
+Text Label 2700 5950 0    60   ~ 0
+BCOL2
+Text Label 2700 6050 0    60   ~ 0
+BCOL3
+Text Label 7700 2950 2    60   ~ 0
+NIBBLE0
+Text Label 7700 3050 2    60   ~ 0
+NIBBLE1
+Text Label 7700 3150 2    60   ~ 0
+NIBBLE2
+Text Label 7700 3250 2    60   ~ 0
+NIBBLE3
+Text Label 7700 3350 2    60   ~ 0
+LED_BIT0
+Text Label 7700 3450 2    60   ~ 0
+LED_BIT1
+Text Label 7700 3550 2    60   ~ 0
+LED_BIT2
+Text Label 7700 3650 2    60   ~ 0
+LED_BIT3
+Text Label 7700 3750 2    60   ~ 0
+SEG_A
+Text Label 7700 3850 2    60   ~ 0
+SEG_B
+Text Label 7700 3950 2    60   ~ 0
+SEG_C
+Text Label 7700 4050 2    60   ~ 0
+SEG_D
+Text Label 7700 4150 2    60   ~ 0
+SEG_E
+Text Label 7700 4250 2    60   ~ 0
+SEG_F
+Text Label 7700 4350 2    60   ~ 0
+SEG_G
+Text Label 7700 4550 2    60   ~ 0
+HEX1
+Text Label 7700 4650 2    60   ~ 0
+HEX2
+Text Label 7700 4750 2    60   ~ 0
+HEX3
+Text Label 7700 4850 2    60   ~ 0
+HEX4
+Text Label 7700 4450 2    60   ~ 0
+SEG_DP
+Text Label 7700 4950 2    60   ~ 0
+DEC1
+Text Label 7700 5050 2    60   ~ 0
+DEC2
+Text Label 7700 5150 2    60   ~ 0
+DEC3
+Text Label 7700 5250 2    60   ~ 0
+DEC4
+Text Label 7700 5350 2    60   ~ 0
+DEC5
+Text Label 7700 5450 2    60   ~ 0
+DEC6
+Wire Wire Line
+	1000 1550 1000 1600
+Wire Wire Line
+	2450 1700 2450 1500
+Wire Wire Line
+	2650 1200 2950 1200
+Wire Wire Line
+	2950 1100 2950 1300
+Wire Wire Line
+	3100 3650 2450 3650
+Wire Wire Line
+	2450 3650 2450 4200
+Wire Wire Line
+	1850 3750 3100 3750
+Wire Wire Line
+	1850 3700 1850 3800
+Wire Wire Line
+	2150 3800 2150 3750
+Wire Wire Line
+	1850 4100 1850 4150
+Wire Wire Line
+	1850 4150 2450 4150
+Wire Wire Line
+	2150 4100 2150 4150
+Wire Wire Line
+	1000 1100 1550 1100
+Wire Wire Line
+	1950 1000 2100 1000
+Wire Wire Line
+	2100 1000 2100 1400
+Wire Wire Line
+	2100 1400 1950 1400
+Wire Wire Line
+	1950 1200 2250 1200
+Wire Wire Line
+	1400 2950 3100 2950
+Wire Wire Line
+	1400 3150 2750 3150
+Wire Wire Line
+	1400 3350 2850 3350
+Wire Wire Line
+	750  3300 750  3050
+Wire Wire Line
+	750  3050 1000 3050
+Wire Wire Line
+	2950 2050 2950 2000
+Wire Wire Line
+	2950 1600 2950 1700
+Wire Wire Line
+	2950 1650 3350 1650
+Wire Wire Line
+	2700 3850 3100 3850
+Wire Wire Line
+	2700 3950 3100 3950
+Wire Wire Line
+	5400 1250 5800 1250
+Wire Wire Line
+	5400 1350 5800 1350
+Wire Wire Line
+	5400 1150 5550 1150
+Wire Wire Line
+	5550 1150 5550 1000
+Wire Wire Line
+	5400 1450 5550 1450
+Wire Wire Line
+	5550 1450 5550 1600
 Wire Wire Line
 	1000 1150 1000 1100
 Wire Wire Line
@@ -499,62 +748,12 @@ Wire Wire Line
 	8600 5250 7300 5250
 Wire Wire Line
 	7300 5350 8600 5350
-$Sheet
-S 1250 4450 1300 1700
-U 5AEC7C6F
-F0 "Keypad" 60
-F1 "base_convert_keypad.sch" 60
-F2 "ROW0" I R 2550 4550 60 
-F3 "ROW1" I R 2550 4650 60 
-F4 "ROW2" I R 2550 4750 60 
-F5 "ROW3" I R 2550 4850 60 
-F6 "COL0" I R 2550 4950 60 
-F7 "COL1" I R 2550 5050 60 
-F8 "COL2" I R 2550 5150 60 
-F9 "COL3" I R 2550 5250 60 
-F10 "BROW0" I R 2550 5350 60 
-F11 "BROW1" I R 2550 5450 60 
-F12 "BROW2" I R 2550 5550 60 
-F13 "BROW3" I R 2550 5650 60 
-F14 "BCOL0" I R 2550 5750 60 
-F15 "BCOL1" I R 2550 5850 60 
-F16 "BCOL2" I R 2550 5950 60 
-F17 "BCOL3" I R 2550 6050 60 
-$EndSheet
-$Comp
-L SW_Push SW1
-U 1 1 5AF596CE
-P 1050 3750
-F 0 "SW1" H 1100 3850 50  0000 L CNN
-F 1 "CLEAR" H 1050 3690 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 1050 3950 50  0001 C CNN
-F 3 "" H 1050 3950 50  0001 C CNN
-F 4 "NONE" H 1050 3750 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 1050 3750 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 1050 3750 60  0001 C CNN "Package"
-F 7 "NONE" H 1050 3750 60  0001 C CNN "Description"
-	1    1050 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1250 3750 1550 3750
-$Comp
-L GND #PWR1
-U 1 1 5AF596D6
-P 700 4250
-F 0 "#PWR1" H 700 4000 50  0001 C CNN
-F 1 "GND" H 700 4100 50  0000 C CNN
-F 2 "" H 700 4250 50  0001 C CNN
-F 3 "" H 700 4250 50  0001 C CNN
-	1    700  4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	700  4250 700  3750
 Wire Wire Line
 	700  3750 850  3750
-Text Label 1500 3750 2    60   ~ 0
-CLEAR
 Wire Wire Line
 	3100 4350 2700 4350
 Wire Wire Line
@@ -605,92 +804,17 @@ Wire Wire Line
 	2950 3450 2950 3250
 Wire Wire Line
 	2950 3250 3100 3250
-Text Label 2700 4550 0    60   ~ 0
-ROW0
-Text Label 2700 4650 0    60   ~ 0
-ROW1
-Text Label 2700 4750 0    60   ~ 0
-ROW2
-Text Label 2700 4850 0    60   ~ 0
-ROW3
-Text Label 2700 4950 0    60   ~ 0
-COL0
-Text Label 2700 5050 0    60   ~ 0
-COL1
-Text Label 2700 5150 0    60   ~ 0
-COL2
-Text Label 2700 5250 0    60   ~ 0
-COL3
-Text Label 2700 5350 0    60   ~ 0
-BROW0
-Text Label 2700 5450 0    60   ~ 0
-BROW1
-Text Label 2700 5550 0    60   ~ 0
-BROW2
-Text Label 2700 5650 0    60   ~ 0
-BROW3
-Text Label 2700 5750 0    60   ~ 0
-BCOL0
-Text Label 2700 5850 0    60   ~ 0
-BCOL1
-Text Label 2700 5950 0    60   ~ 0
-BCOL2
-Text Label 2700 6050 0    60   ~ 0
-BCOL3
-Text Label 7700 2950 2    60   ~ 0
-NIBBLE0
-Text Label 7700 3050 2    60   ~ 0
-NIBBLE1
-Text Label 7700 3150 2    60   ~ 0
-NIBBLE2
-Text Label 7700 3250 2    60   ~ 0
-NIBBLE3
-Text Label 7700 3350 2    60   ~ 0
-LED_BIT0
-Text Label 7700 3450 2    60   ~ 0
-LED_BIT1
-Text Label 7700 3550 2    60   ~ 0
-LED_BIT2
-Text Label 7700 3650 2    60   ~ 0
-LED_BIT3
-Text Label 7700 3750 2    60   ~ 0
-SEG_A
-Text Label 7700 3850 2    60   ~ 0
-SEG_B
-Text Label 7700 3950 2    60   ~ 0
-SEG_C
-Text Label 7700 4050 2    60   ~ 0
-SEG_D
-Text Label 7700 4150 2    60   ~ 0
-SEG_E
-Text Label 7700 4250 2    60   ~ 0
-SEG_F
-Text Label 7700 4350 2    60   ~ 0
-SEG_G
-Text Label 7700 4550 2    60   ~ 0
-HEX1
-Text Label 7700 4650 2    60   ~ 0
-HEX2
-Text Label 7700 4750 2    60   ~ 0
-HEX3
-Text Label 7700 4850 2    60   ~ 0
-HEX4
 Wire Wire Line
 	8600 5450 7300 5450
 Wire Wire Line
 	8600 4450 7300 4450
-Text Label 7700 4450 2    60   ~ 0
-SEG_DP
-Text Label 7700 4950 2    60   ~ 0
-DEC1
-Text Label 7700 5050 2    60   ~ 0
-DEC2
-Text Label 7700 5150 2    60   ~ 0
-DEC3
-Text Label 7700 5250 2    60   ~ 0
-DEC4
-Text Label 7700 5350 2    60   ~ 0
-DEC5
-Text Label 7700 5450 2    60   ~ 0
-DEC6
+Connection ~ 2150 3750
+Connection ~ 2150 4150
+Connection ~ 2450 4150
+Connection ~ 1850 3750
+Connection ~ 2100 1200
+Connection ~ 2950 1200
+Connection ~ 2950 1650
+NoConn ~ 1950 800 
+NoConn ~ 1400 2750
 $EndSCHEMATC
