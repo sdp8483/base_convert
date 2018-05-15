@@ -78,7 +78,7 @@ void main(void) {
     P5OUT |= DIGIT4;
 
     for(;;) {
-        uint8_t i = 0;
+        volatile uint8_t i = 0;
         for(i; i < sizeof(count); i++){
             P3OUT ^= count[i];
             __delay_cycles(500000);
