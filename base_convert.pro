@@ -1,4 +1,4 @@
-update=5/15/2018 4:55:09 PM
+update=5/22/2018 4:13:22 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -214,3 +214,13 @@ LibName184=kicad-symbols/Valve
 LibName185=kicad-symbols/Video
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=pdf/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
