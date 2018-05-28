@@ -6,7 +6,7 @@
 #include <msp430.h>
 #include <stdint.h>
 
-// Digit pin defines, port 5
+// Digit pin defines, port 6
 #define DIGIT1 BIT0
 #define DIGIT2 BIT1
 #define DIGIT3 BIT2
@@ -43,20 +43,23 @@ uint8_t numeral[] = {ZERO, ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE,
 
 // prototype defines
 void init_7seg(void);
+void init_bin(void);
 void disp_hex(uint16_t hex_value);
 
 void main(void) {
     WDTCTL = WDTPW | WDTHOLD;               // Stop watchdog timer
+    init_bin();
     init_7seg();                            // Initialize pins for 4 digit display
 
     PM5CTL0 &= ~LOCKLPM5;                   // Disable the GPIO power-on default high-impedance mode
                                             // to activate previously configured port settings
+    P7OUT ^= (BIT0 + BIT1 + BIT2 + BIT3);
 
     for(;;) {
         volatile uint16_t i = 0;
         for(i; i< 0x10000; i++){
             volatile uint16_t j = 0;
-            for(j; j< 10; j++){
+            for(j; j< 100; j++){
                 disp_hex(i);
             }
         }
@@ -65,17 +68,17 @@ void main(void) {
 
 void init_7seg() {
     /* Initialize pins for 4 digit 7 segment common anode display
-     * digits connected to P5.0 to P5.3
+     * digits connected to P6.0 to P6.3
      * Segments connected to P3.0 to P3.6
      */
 
     // Setup digit pins
-    P5DIR |= DIGIT1;
-    P5DIR |= DIGIT2;
-    P5DIR |= DIGIT3;
-    P5DIR |= DIGIT4;
+    P6DIR |= DIGIT1;
+    P6DIR |= DIGIT2;
+    P6DIR |= DIGIT3;
+    P6DIR |= DIGIT4;
 
-    P5OUT |= (DIGIT1 | DIGIT2 | DIGIT3 |DIGIT4);   // pull all high, they are off
+    P6OUT |= (DIGIT1 | DIGIT2 | DIGIT3 |DIGIT4);   // pull all high, they are off
 
     // setup segment pins
     P3DIR |= SEG_A;
@@ -86,8 +89,18 @@ void init_7seg() {
     P3DIR |= SEG_F;
     P3DIR |= SEG_G;
 
-    P3OUT |= SEG_A | SEG_B | SEG_C | SEG_D | SEG_E | SEG_F | SEG_G; // pull all high, they are off
+    P3OUT &= ~(SEG_A | SEG_B | SEG_C | SEG_D | SEG_E | SEG_F | SEG_G); // pull all low, they are off
 
+}
+
+void init_bin(){
+    /* Initialize pins for binary LED display
+     * nibbles P7.0 to P7.0 low is on
+     * bits P7.4 to P7.7 high is on
+     */
+    P7OUT |= (BIT0 + BIT1 + BIT2 + BIT3);
+    P7OUT &= ~(BIT4 + BIT5 + BIT6 + BIT7);
+    P7DIR |= 0xFF; // all port 7 is output
 }
 
 void disp_hex(uint16_t hex_value) {
@@ -97,33 +110,33 @@ void disp_hex(uint16_t hex_value) {
 
     // get the least significant nibble (ie digit 4 of display)
     uint8_t lsn = hex_value & ~(0xFFF0);
-    P5OUT &= ~DIGIT4;
-    P3OUT &= ~numeral[lsn];
-    __delay_cycles(1000);
-    P5OUT |= DIGIT4;
+    P6OUT &= ~DIGIT4;
     P3OUT |= numeral[lsn];
+    __delay_cycles(1000);
+    P6OUT |= DIGIT4;
+    P3OUT &= ~numeral[lsn];
 
     // get the next nibble
     uint8_t mlsn = (hex_value >> 4) & ~(0xFF0);
-    P5OUT &= ~DIGIT3;
-    P3OUT &= ~numeral[mlsn];
-    __delay_cycles(1000);
-    P5OUT |= DIGIT3;
+    P6OUT &= ~DIGIT3;
     P3OUT |= numeral[mlsn];
+    __delay_cycles(1000);
+    P6OUT |= DIGIT3;
+    P3OUT &= ~numeral[mlsn];
 
     // second to last nibble
     uint8_t mmsn = (hex_value >> 8) & ~(0xF0);
-    P5OUT &= ~DIGIT2;
-    P3OUT &= ~numeral[mmsn];
-    __delay_cycles(1000);
-    P5OUT |= DIGIT2;
+    P6OUT &= ~DIGIT2;
     P3OUT |= numeral[mmsn];
+    __delay_cycles(1000);
+    P6OUT |= DIGIT2;
+    P3OUT &= ~numeral[mmsn];
 
     // most significant nibble
     uint8_t msn = (hex_value >> 12);
-    P5OUT &= ~DIGIT1;
-    P3OUT &= ~numeral[msn];
-    __delay_cycles(1000);
-    P5OUT |= DIGIT1;
+    P6OUT &= ~DIGIT1;
     P3OUT |= numeral[msn];
+    __delay_cycles(1000);
+    P6OUT |= DIGIT1;
+    P3OUT &= ~numeral[msn];
 }

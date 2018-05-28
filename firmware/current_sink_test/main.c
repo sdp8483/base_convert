@@ -1,6 +1,4 @@
 #include <msp430.h> 
-
-
 /**
  * main.c
  */
@@ -8,11 +6,20 @@ int main(void)
 {
 	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
 	
-	P8OUT &= ~BIT1; // pull low to enable PNP transistor
-	P8DIR |= BIT1;  // P8.1 is output
+	// Pull NPN transistors HIGH
+	P3OUT |= 0xFF;              // all P3 is high
+	P7OUT |= (BIT4 + BIT5 + BIT6 + BIT7);
 
-	P1OUT &= ~0xFF; // all P1 is low
-	P1DIR |= 0xFF;  // all P1 is output
+	// Make sure all PNPs are LOW
+	P7OUT &= ~(BIT0 + BIT1 + BIT2 + BIT3);
+	P6OUT &= ~(0xFF);
+	P2OUT &= ~(BIT0 + BIT1);
+
+	P6DIR |= 0xFF;              // all of P6 is output
+	P2DIR |= (BIT0 + BIT1);
+
+	P3DIR |= 0xFF;              // all of P3 is output
+	P7DIR |= 0xFF;              // all of P7 is output
 
 	PM5CTL0 &= ~LOCKLPM5;                   // Disable the GPIO power-on default high-impedance mode
 	                                            // to activate previously configured port settings
