@@ -151,3 +151,101 @@ uint8_t dispBin(uint8_t value) {
         return 0;
     }
 }
+
+void dispUpdate(uint16_t num) {
+    static uint8_t digit = 0;                   // this is the display that will be updated when timerA0 interrupts
+                                                // displays are number starting at 0 top left of the PCB, left to right and up down
+                                                // HEX/BIN display has 0-3, DEC has 4-9
+
+    static uint16_t num_old = 0;                // used to determine if it is time to update vars used for display
+    static uint8_t num_b0 = 0;                  // least significant bit of num, bit0
+    static uint8_t num_b1 = 0;                  // bit1 of num
+    static uint8_t num_b2 = 0;                  // bit2 of num
+    static uint8_t num_b3 = 0;                  // most significant bit of num, bit3
+    static uint8_t num_1 = 0;                   // ones place
+    static uint8_t num_10 = 0;                  // tens place
+    static uint8_t num_100 = 0;                 // hundreds place
+    static uint8_t num_1000 = 0;                // thousands place
+    static uint8_t num_10000 = 0;               // ten thousands place
+    static uint8_t num_100000 = 0;              // 100 thousands place
+
+    if (num != num_old) {                       // has num changed?
+        num_old = num;
+        num_b0 = num & ~(0xFFF0);
+        num_b1 = (num >> 4) & ~(0xFF0);
+        num_b2 = (num >> 8) & ~(0xF0);
+        num_b3 = num >> 12;
+        num_1 = num % 10;
+        num_10 = (num/10) % 10;
+        num_100 = (num/100) % 10;
+        num_1000 = (num/1000) % 10;
+        num_10000 = (num/10000) % 10;
+        num_100000 = (num/100000) % 10;
+
+    }
+
+    switch(digit) {
+        case 0:
+            D0PORT  &= ~D0PIN;              // set digit 0 active
+            SEGPORT |= dispSegments(num_b3);
+
+            NPORT   &= ~N3PIN;              // set nibble 3 active
+            BPORT   |= dispBin(num_b3);
+            break;
+        case 1:
+            D1PORT  &= ~D1PIN;              // set digit 1 active
+            SEGPORT |= dispSegments(num_b2);
+
+            NPORT   &= ~N2PIN;              // set nibble 3 active
+            BPORT   |= dispBin(num_b2);
+            break;
+        case 2:
+            D2PORT  &= ~D2PIN;
+            SEGPORT |= dispSegments(num_b1);
+
+            NPORT   &= ~N1PIN;              // set nibble 3 active
+            BPORT   |= dispBin(num_b1);
+            break;
+        case 3:
+            D3PORT  &= ~D3PIN;
+            SEGPORT |= dispSegments(num_b0);
+
+            NPORT   &= ~N0PIN;              // set nibble 3 active
+            BPORT   |= dispBin(num_b0);
+            break;
+        case 4:
+            D4PORT &= ~D4PIN;
+            SEGPORT |= dispSegments(num_100000);
+            break;
+        case 5:
+            D5PORT &= ~D5PIN;
+            SEGPORT |= dispSegments(num_10000);
+            break;
+        case 6:
+            D6PORT &= ~D6PIN;
+            SEGPORT |= dispSegments(num_1000);
+            break;
+        case 7:
+            D7PORT &= ~D7PIN;
+            SEGPORT |= dispSegments(num_100);
+            break;
+        case 8:
+            D8PORT &= ~D8PIN;
+            SEGPORT |= dispSegments(num_10);
+            break;
+        case 9:
+            D9PORT &= ~D9PIN;
+            SEGPORT |= dispSegments(num_1);
+            break;
+
+        default:
+            // should never get here
+            break;
+    } // end switch
+
+    digit++;                                // increment to update the next digit
+
+    if (digit > DIGIT_MAX) {                // roll over when we reach the max digit
+        digit = 0;
+    }
+}

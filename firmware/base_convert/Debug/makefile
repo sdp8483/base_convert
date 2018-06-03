@@ -10,6 +10,7 @@ GEN_OPTS__FLAG :=
 GEN_CMDS__FLAG := 
 
 ORDERED_OBJS += \
+"./button.obj" \
 "./display.obj" \
 "./main.obj" \
 "../lnk_msp430fr4133.cmd" \
@@ -155,8 +156,8 @@ base_convert.hex: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "display.obj" "main.obj" 
-	-$(RM) "display.d" "main.d" 
+	-$(RM) "button.obj" "display.obj" "main.obj" 
+	-$(RM) "button.d" "display.d" "main.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

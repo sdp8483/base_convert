@@ -8,6 +8,8 @@
 #ifndef DISPLAY_H_
 #define DISPLAY_H_
 
+#define DIGIT_MAX   9                           // if digit to update exceeds this, reset to zero
+
 // 7 Segment HEX display
 #define D0DIR   P6DIR                           // Digit0 direction
 #define D0PORT  P6OUT                           // Digit0 port
@@ -111,6 +113,7 @@
 // prototype defines
 void dispSetup(void);                           // setup pins for the HEX, DEC, and BIN displays
 void dispBlank(void);                           // blank display, ready for next digit update
+void dispUpdate(uint16_t num);                  // update display
 uint8_t dispSegments(uint8_t value);            // return 7-segments based on value
 uint8_t dispBin(uint8_t value);                 // return bin segments base on value
 
