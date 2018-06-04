@@ -23,6 +23,8 @@ void main(void) {
     PM5CTL0 &= ~LOCKLPM5;                       // Disable the GPIO power-on default high-impedance mode
                                                 // to activate previously configured port settings
 
+    __enable_interrupt();                       // Enable global interrupts
+
     TA0CCTL0 |= CCIE;                           // TACCR0 interrupt enabled
     TA0CCR0 = 1190;                             // 1190 should interrupt at ~840Hz
     TA0CTL = TASSEL__SMCLK | MC__UP;            // SMCLK, UP mode
@@ -71,4 +73,18 @@ void __attribute__ ((interrupt(TIMER0_A0_VECTOR))) Timer_A (void)
 {
     TA0CTL ^= MC__UP;                           // toggle timer off
     __bic_SR_register_on_exit(LPM3_bits);       // Exit LPM3
+}
+
+/**
+ * WDT interrupt service routine
+ */
+#if defined(__TI_COMPILER_VERSION__) || defined(__IAR_SYSTEMS_ICC__)
+#pragma vector = WDT_VECTOR
+__interrupt void WDT_ISR(void)
+#else
+#error Compiler not supported!
+#endif
+{
+        WDTCTL = WDTPW + WDTHOLD;               // Stop WDT
+        __bic_SR_register_on_exit(LPM3_bits);   // Exit LPM3
 }

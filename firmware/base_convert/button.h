@@ -8,8 +8,7 @@
 #ifndef BUTTON_H_
 #define BUTTON_H_
 
-#define DEBOUNCE __delay_cycles(20000);
-#define WAITFORRELESE(pin, colPin)  while(!(pin & colPin)){ __delay_cycles(5000);}
+#define WAITFORRELESE(pin, colPin)  while(!(pin & colPin)){ WDT_waitForRelease();}
 
 // Mode slide switch inputs
 #define MODEDIR     P2DIR
@@ -63,6 +62,8 @@
 void modeSetup(void);                           // setup input pins for mode slide switch
 void clearSetup(void);                          // setup input pin for clear button
 void keySetup(void);                            // setup DEC/HEX keypad
+static void WDT_startDebounce(void);            // from TI Low_Power_Keypad example
+static void WDT_waitForRelease(void);           // wait for button to be relesed delay
 uint8_t modeGet(void);                          // get current position of slide switch
 uint16_t clearPoll(uint16_t num);               // check if clear button was pressed
 uint16_t keyPollHEX(uint16_t num);              // check keypad input, update num if necessary, Hex input mode
