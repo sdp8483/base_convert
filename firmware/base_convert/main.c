@@ -34,7 +34,24 @@ void main(void) {
         // we have awaken from interrupt so time to do stuff
         dispBlank();                            // blank all the digits
         num = clearPoll(num);                   // clear input?
-        num = keyPollHex(num);                  // new hex input?
+
+        switch (modeGet()) {
+        case HEXMODE:
+            num = keyPollHEX(num);              // new hex input?
+            break;
+
+        case DECMODE:
+            num = keyPollDEC(num);              // new DEC input?
+            break;
+
+        case BINMODE:
+            num = keyPollBIN(num);              // new BIN input?
+            break;
+
+        default:                                // should never get here
+            break;
+        }
+
         dispUpdate(num);                        // update the display
 
         TA0CTL ^= MC__UP;                       // toggle timer on

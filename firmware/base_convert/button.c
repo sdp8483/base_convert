@@ -25,6 +25,7 @@ void clearSetup() {
 }
 
 void keySetup() {
+    // HEX/DEC keypad
     // setup rows as outputs
     KPOUT |= KPROW0 + KPROW1 + KPROW2 + KPROW3; // preload keypad outputs high
     KPDIR |= KPROW0 + KPROW1 + KPROW2 + KPROW3; // set keypad rows as outputs
@@ -33,7 +34,17 @@ void keySetup() {
     KPDIR &= ~(KPCOL0 + KPCOL1 + KPCOL2 + KPCOL3);
     KPREN |= KPCOL0 + KPCOL1 + KPCOL2 + KPCOL3; // enable keypad pullup/pulldown resistor
     KPOUT |= KPCOL0 + KPCOL1 + KPCOL2 + KPCOL3; // set resistor to pullup
-}
+
+    // BIN keypad
+    // setup rows as outputs
+    BKPOUT |= BKPROW0 + BKPROW1 + BKPROW2 + BKPROW3; // preload keypad outputs high
+    BKPDIR |= BKPROW0 + BKPROW1 + BKPROW2 + BKPROW3; // set keypad rows as outputs
+
+    // setup columns as inputs
+    BKPDIR &= ~(BKPCOL0 + BKPCOL1 + BKPCOL2 + BKPCOL3);
+    BKPREN |= BKPCOL0 + BKPCOL1 + BKPCOL2 + BKPCOL3; // enable keypad pullup/pulldown resistor
+    BKPOUT |= BKPCOL0 + BKPCOL1 + BKPCOL2 + BKPCOL3; // set resistor to pullup
+} // end keySetup()
 
 uint8_t modeGet() {
     if (!(MODEIN & DECPIN)) {                   // DEC input
@@ -49,14 +60,14 @@ uint8_t modeGet() {
 
 uint16_t clearPoll(uint16_t num) {
     if (!(CLEARIN & CLEARPIN)) {                // clear button is pressed
-        while (!(CLEARIN & CLEARPIN));          // wait for button to be released
+        WAITFORRELESE(CLEARIN, CLEARPIN);       // wait for button to be released
         return 0;                               // clear input
     } else {
         return num;                             // don't clear input
     }
 } // end clearPoll()
 
-uint16_t keyPollHex(uint16_t num) {             // we are in hex input mode
+uint16_t keyPollHEX(uint16_t num) {             // we are in hex input mode
     static uint8_t row = 0;                     // this is the current row to scan
 
     switch(row) {
@@ -65,19 +76,19 @@ uint16_t keyPollHex(uint16_t num) {             // we are in hex input mode
         if(!(KPIN & KPCOL0)) {
             DEBOUNCE;
             num = (num << 4) + 3;               // 3 pressed
-            WAITFORRELESE(KPCOL0);            // wait for user to release
+            WAITFORRELESE(KPIN, KPCOL0);            // wait for user to release
         } else if(!(KPIN & KPCOL1)) {
             DEBOUNCE;
             num = (num << 4) + 2;              // 2 pressed
-            WAITFORRELESE(KPCOL1);            // wait for user to release
+            WAITFORRELESE(KPIN, KPCOL1);            // wait for user to release
         } else if(!(KPIN & KPCOL2)) {
             DEBOUNCE;
             num = (num << 4) + 1;              // 1 pressed
-            WAITFORRELESE(KPCOL2);            // wait for user to release
+            WAITFORRELESE(KPIN, KPCOL2);            // wait for user to release
         } else if(!(KPIN & KPCOL3)) {
             DEBOUNCE;
             num = (num << 4) + 0xB;            // B pressed
-            WAITFORRELESE(KPCOL3);            // wait for user to release
+            WAITFORRELESE(KPIN, KPCOL3);            // wait for user to release
         } else {
                                                 // nothing pressed
         }
@@ -89,19 +100,19 @@ uint16_t keyPollHex(uint16_t num) {             // we are in hex input mode
         if(!(KPIN & KPCOL0)) {
             DEBOUNCE;
             num =  (num << 4) + 6;              // 6 pressed
-            WAITFORRELESE(KPCOL0);            // wait for user to release
+            WAITFORRELESE(KPIN, KPCOL0);            // wait for user to release
         } else if(!(KPIN & KPCOL1)) {
             DEBOUNCE;
             num =  (num << 4) + 5;              // 5 pressed
-            WAITFORRELESE(KPCOL1);            // wait for user to release
+            WAITFORRELESE(KPIN, KPCOL1);            // wait for user to release
         } else if(!(KPIN & KPCOL2)) {
             DEBOUNCE;
             num =  (num << 4) + 4;              // 4 pressed
-            WAITFORRELESE(KPCOL2);            // wait for user to release
+            WAITFORRELESE(KPIN, KPCOL2);            // wait for user to release
         } else if(!(KPIN & KPCOL3)) {
             DEBOUNCE;
             num =  (num << 4) + 0xC;            // C pressed
-            WAITFORRELESE(KPCOL3);            // wait for user to release
+            WAITFORRELESE(KPIN, KPCOL3);            // wait for user to release
         } else {
                                                  // nothing pressed
         }
@@ -113,19 +124,19 @@ uint16_t keyPollHex(uint16_t num) {             // we are in hex input mode
         if(!(KPIN & KPCOL0)) {
             DEBOUNCE;
             num =  (num << 4) + 9;              // 9 pressed
-            WAITFORRELESE(KPCOL0);            // wait for user to release
+            WAITFORRELESE(KPIN, KPCOL0);            // wait for user to release
         } else if(!(KPIN & KPCOL1)) {
             DEBOUNCE;
             num =  (num << 4) + 8;              // 8 pressed
-            WAITFORRELESE(KPCOL1);            // wait for user to release
+            WAITFORRELESE(KPIN, KPCOL1);            // wait for user to release
         } else if(!(KPIN & KPCOL2)) {
             DEBOUNCE;
             num =  (num << 4) + 7;              // 7 pressed
-            WAITFORRELESE(KPCOL2);            // wait for user to release
+            WAITFORRELESE(KPIN, KPCOL2);            // wait for user to release
         } else if(!(KPIN & KPCOL3)) {
             DEBOUNCE;
             num =  (num << 4) + 0xD;            // D pressed
-            WAITFORRELESE(KPCOL3);            // wait for user to release
+            WAITFORRELESE(KPIN, KPCOL3);            // wait for user to release
         } else {
                                                  // nothing pressed
         }
@@ -137,19 +148,19 @@ uint16_t keyPollHex(uint16_t num) {             // we are in hex input mode
         if(!(KPIN & KPCOL0)) {
             DEBOUNCE;
             num =  (num << 4) + 0xF;            // F pressed
-            WAITFORRELESE(KPCOL0);            // wait for user to release
+            WAITFORRELESE(KPIN, KPCOL0);            // wait for user to release
         } else if(!(KPIN & KPCOL1)) {
             DEBOUNCE;
             num =  (num << 4) + 0;              // 0 pressed
-            WAITFORRELESE(KPCOL1);            // wait for user to release
+            WAITFORRELESE(KPIN, KPCOL1);            // wait for user to release
         } else if(!(KPIN & KPCOL2)) {
             DEBOUNCE;
             num =  (num << 4) + 0xA;            // A pressed
-            WAITFORRELESE(KPCOL2);            // wait for user to release
+            WAITFORRELESE(KPIN, KPCOL2);            // wait for user to release
         } else if(!(KPIN & KPCOL3)) {
             DEBOUNCE;
             num =  (num << 4) + 0xE;            // E pressed
-            WAITFORRELESE(KPCOL3);            // wait for user to release
+            WAITFORRELESE(KPIN, KPCOL3);            // wait for user to release
         } else {
                                                  // nothing pressed
         }
@@ -162,4 +173,231 @@ uint16_t keyPollHex(uint16_t num) {             // we are in hex input mode
         row = 0;
     }
     return num;
-}
+} // end keyPollHEX()
+
+uint16_t keyPollDEC(uint16_t num) {             // we are in hex input mode
+    static uint8_t row = 0;                     // this is the current row to scan
+
+    switch (row)
+    {
+    case (0):
+        KPOUT ^= KPROW0;                        // toggle row0 low
+        if (!(KPIN & KPCOL0))
+        {
+            DEBOUNCE
+            ;
+            num = (num * 10) + 3;               // 3 pressed
+            WAITFORRELESE(KPIN, KPCOL0);            // wait for user to release
+        }
+        else if (!(KPIN & KPCOL1))
+        {
+            DEBOUNCE
+            ;
+            num = (num * 10) + 2;              // 2 pressed
+            WAITFORRELESE(KPIN, KPCOL1);            // wait for user to release
+        }
+        else if (!(KPIN & KPCOL2))
+        {
+            DEBOUNCE
+            ;
+            num = (num * 10) + 1;              // 1 pressed
+            WAITFORRELESE(KPIN, KPCOL2);            // wait for user to release
+        }
+        else
+        {
+            // nothing pressed
+        }
+        KPOUT ^= KPROW0;                        // toggle row0 high
+        break;
+
+    case (1):
+        KPOUT ^= KPROW1;                        // toggle row1 low
+        if (!(KPIN & KPCOL0))
+        {
+            DEBOUNCE
+            ;
+            num = (num * 10) + 6;              // 6 pressed
+            WAITFORRELESE(KPIN, KPCOL0);            // wait for user to release
+        }
+        else if (!(KPIN & KPCOL1))
+        {
+            DEBOUNCE
+            ;
+            num = (num * 10) + 5;              // 5 pressed
+            WAITFORRELESE(KPIN, KPCOL1);            // wait for user to release
+        }
+        else if (!(KPIN & KPCOL2))
+        {
+            DEBOUNCE
+            ;
+            num = (num * 10) + 4;              // 4 pressed
+            WAITFORRELESE(KPIN, KPCOL2);            // wait for user to release
+        }
+        else
+        {
+            // nothing pressed
+        }
+        KPOUT ^= KPROW1;                        // toggle row1 high
+        break;
+
+    case (2):
+        KPOUT ^= KPROW2;                        // toggle row2 low
+        if (!(KPIN & KPCOL0))
+        {
+            DEBOUNCE
+            ;
+            num = (num * 10) + 9;              // 9 pressed
+            WAITFORRELESE(KPIN, KPCOL0);            // wait for user to release
+        }
+        else if (!(KPIN & KPCOL1))
+        {
+            DEBOUNCE
+            ;
+            num = (num * 10) + 8;              // 8 pressed
+            WAITFORRELESE(KPIN, KPCOL1);            // wait for user to release
+        }
+        else if (!(KPIN & KPCOL2))
+        {
+            DEBOUNCE
+            ;
+            num = (num * 10) + 7;              // 7 pressed
+            WAITFORRELESE(KPIN, KPCOL2);            // wait for user to release
+        }
+        else
+        {
+            // nothing pressed
+        }
+        KPOUT ^= KPROW2;                        // toggle row2 high
+        break;
+
+    case (3):
+        KPOUT ^= KPROW3;                        // toggle row3 low
+        if (!(KPIN & KPCOL1))
+        {
+            DEBOUNCE
+            ;
+            num = (num * 10) + 0;              // 0 pressed
+            WAITFORRELESE(KPIN, KPCOL1);            // wait for user to release
+        }
+        else
+        {
+            // nothing pressed
+        }
+        KPOUT ^= KPROW3;                        // toggle row2 high
+        break;
+    } // end switch(row)
+
+    row++;
+    if(row > 4) {
+        row = 0;
+    }
+    return num;
+} // end keyPollDEC()
+
+uint16_t keyPollBIN(uint16_t num) {             // we are in hex input mode
+    static uint8_t row = 0;                     // this is the current row to scan
+
+    switch(row) {
+    case(0):
+        BKPOUT ^= BKPROW0;                        // toggle row0 low
+        if(!(BKPIN & BKPCOL0)) {
+            DEBOUNCE;
+            num ^= BIT0;
+            WAITFORRELESE(BKPIN, BKPCOL0);            // wait for user to release
+        } else if(!(BKPIN & BKPCOL1)) {
+            DEBOUNCE;
+            num ^= BIT1;
+            WAITFORRELESE(BKPIN, BKPCOL1);            // wait for user to release
+        } else if(!(BKPIN & BKPCOL2)) {
+            DEBOUNCE;
+            num ^= BIT2;
+            WAITFORRELESE(BKPIN, BKPCOL2);            // wait for user to release
+        } else if(!(BKPIN & BKPCOL3)) {
+            DEBOUNCE;
+            num ^= BIT3;
+            WAITFORRELESE(BKPIN, BKPCOL3);            // wait for user to release
+        } else {
+                                                // nothing pressed
+        }
+        BKPOUT ^= BKPROW0;                        // toggle row0 high
+        break;
+
+    case(1):
+        BKPOUT ^= BKPROW1;                        // toggle row1 low
+        if(!(BKPIN & BKPCOL0)) {
+            DEBOUNCE;
+            num ^= BIT4;
+            WAITFORRELESE(BKPIN, BKPCOL0);            // wait for user to release
+        } else if(!(BKPIN & BKPCOL1)) {
+            DEBOUNCE;
+            num ^= BIT5;
+            WAITFORRELESE(BKPIN, BKPCOL1);            // wait for user to release
+        } else if(!(BKPIN & BKPCOL2)) {
+            DEBOUNCE;
+            num ^= BIT6;
+            WAITFORRELESE(BKPIN, BKPCOL2);            // wait for user to release
+        } else if(!(BKPIN & BKPCOL3)) {
+            DEBOUNCE;
+            num ^= BIT7;
+            WAITFORRELESE(BKPIN, BKPCOL3);            // wait for user to release
+        } else {
+                                                 // nothing pressed
+        }
+        BKPOUT ^= BKPROW1;                        // toggle row1 high
+        break;
+
+    case(2):
+        BKPOUT ^= BKPROW2;                        // toggle row2 low
+        if(!(BKPIN & BKPCOL0)) {
+            DEBOUNCE;
+            num ^= BIT8;
+            WAITFORRELESE(BKPIN, BKPCOL0);            // wait for user to release
+        } else if(!(BKPIN & BKPCOL1)) {
+            DEBOUNCE;
+            num ^= BIT9;
+            WAITFORRELESE(BKPIN, BKPCOL1);            // wait for user to release
+        } else if(!(BKPIN & BKPCOL2)) {
+            DEBOUNCE;
+            num ^= BITA;
+            WAITFORRELESE(BKPIN, BKPCOL2);            // wait for user to release
+        } else if(!(BKPIN & BKPCOL3)) {
+            DEBOUNCE;
+            num ^= BITB;
+            WAITFORRELESE(BKPIN, BKPCOL3);            // wait for user to release
+        } else {
+                                                 // nothing pressed
+        }
+        BKPOUT ^= BKPROW2;                        // toggle row2 high
+        break;
+
+    case(3):
+        BKPOUT ^= BKPROW3;                        // toggle row3 low
+        if(!(BKPIN & BKPCOL0)) {
+            DEBOUNCE;
+            num ^= BITC;
+            WAITFORRELESE(BKPIN, BKPCOL0);            // wait for user to release
+        } else if(!(BKPIN & BKPCOL1)) {
+            DEBOUNCE;
+            num ^= BITD;
+            WAITFORRELESE(BKPIN, BKPCOL1);            // wait for user to release
+        } else if(!(BKPIN & BKPCOL2)) {
+            DEBOUNCE;
+            num ^= BITE;
+            WAITFORRELESE(BKPIN, BKPCOL2);            // wait for user to release
+        } else if(!(BKPIN & BKPCOL3)) {
+            DEBOUNCE;
+            num ^= BITF;
+            WAITFORRELESE(BKPIN, BKPCOL3);            // wait for user to release
+        } else {
+                                                 // nothing pressed
+        }
+        BKPOUT ^= BKPROW3;                        // toggle row3 high
+        break;
+    } // end switch(row)
+
+    row++;
+    if(row > 4) {
+        row = 0;
+    }
+    return num;
+} // end keyPollBIN()
