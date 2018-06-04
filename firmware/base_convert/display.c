@@ -8,6 +8,7 @@
 #include <msp430.h>
 #include <stdint.h>
 #include "display.h"
+#include "button.h"
 
 void dispSetup() {
     // Setup pins for HEX, DEC, and BIN displays
@@ -186,32 +187,36 @@ void dispUpdate(uint16_t num) {
 
     switch(digit) {
         case 0:
-            D0PORT  &= ~D0PIN;              // set digit 0 active
+            D0PORT  &= ~D0PIN;                  // set digit 0 active
             SEGPORT |= dispSegments(num_b3);
 
-            NPORT   &= ~N3PIN;              // set nibble 3 active
+            NPORT   &= ~N3PIN;                  // set nibble 3 active
             BPORT   |= dispBin(num_b3);
             break;
         case 1:
-            D1PORT  &= ~D1PIN;              // set digit 1 active
+            D1PORT  &= ~D1PIN;                  // set digit 1 active
             SEGPORT |= dispSegments(num_b2);
 
-            NPORT   &= ~N2PIN;              // set nibble 3 active
+            NPORT   &= ~N2PIN;                  // set nibble 3 active
             BPORT   |= dispBin(num_b2);
             break;
         case 2:
             D2PORT  &= ~D2PIN;
             SEGPORT |= dispSegments(num_b1);
 
-            NPORT   &= ~N1PIN;              // set nibble 3 active
+            NPORT   &= ~N1PIN;                  // set nibble 3 active
             BPORT   |= dispBin(num_b1);
             break;
         case 3:
             D3PORT  &= ~D3PIN;
             SEGPORT |= dispSegments(num_b0);
 
-            NPORT   &= ~N0PIN;              // set nibble 3 active
+            NPORT   &= ~N0PIN;                  // set nibble 3 active
             BPORT   |= dispBin(num_b0);
+
+            if (modeGet() == HEXMODE) {
+                SEGPORT |= SEG_DP;              // indicate that we are in hex input
+            }
             break;
         case 4:
             D4PORT &= ~D4PIN;
@@ -236,16 +241,20 @@ void dispUpdate(uint16_t num) {
         case 9:
             D9PORT &= ~D9PIN;
             SEGPORT |= dispSegments(num_1);
+
+            if (modeGet() == DECMODE) {
+                SEGPORT |= SEG_DP;              // indicate that we are in dec input
+            }
             break;
 
         default:
-            // should never get here
+                                                // should never get here
             break;
     } // end switch
 
-    digit++;                                // increment to update the next digit
+    digit++;                                    // increment to update the next digit
 
-    if (digit > DIGIT_MAX) {                // roll over when we reach the max digit
+    if (digit > DIGIT_MAX) {                    // roll over when we reach the max digit
         digit = 0;
     }
 }
