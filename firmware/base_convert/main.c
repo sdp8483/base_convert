@@ -10,8 +10,6 @@
 #include "display.h"
 #include "button.h"
 
-volatile uint16_t num = 0xba5e;                 // this is the number that is being displayed, what it is all about
-
 void main(void) {
     WDTCTL = WDTPW | WDTHOLD;                   // Stop watchdog timer
 
@@ -28,6 +26,8 @@ void main(void) {
     TA0CCTL0 |= CCIE;                           // TACCR0 interrupt enabled
     TA0CCR0 = 1190;                             // 1190 should interrupt at ~840Hz
     TA0CTL = TASSEL__SMCLK | MC__UP;            // SMCLK, UP mode
+
+    uint16_t num = 0xba5e;                      // this is the number that is being displayed, what it is all about
 
     for (;;){
         __bis_SR_register(LPM3_bits | GIE);     // Enter LPM3 w/ interrupt
@@ -49,6 +49,9 @@ void main(void) {
         case BINMODE:
             num = keyPollBIN(num);              // new BIN input?
             break;
+
+        case NOMODE:
+            num = 0xFFFF;                       // no mode, display test?
 
         default:                                // should never get here
             break;
@@ -75,9 +78,7 @@ void __attribute__ ((interrupt(TIMER0_A0_VECTOR))) Timer_A (void)
     __bic_SR_register_on_exit(LPM3_bits);       // Exit LPM3
 }
 
-/**
- * WDT interrupt service routine
- */
+// WDT interrupt service routine
 #if defined(__TI_COMPILER_VERSION__) || defined(__IAR_SYSTEMS_ICC__)
 #pragma vector = WDT_VECTOR
 __interrupt void WDT_ISR(void)

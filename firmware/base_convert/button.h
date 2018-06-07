@@ -63,7 +63,7 @@ void modeSetup(void);                           // setup input pins for mode sli
 void clearSetup(void);                          // setup input pin for clear button
 void keySetup(void);                            // setup DEC/HEX keypad
 static void WDT_startDebounce(void);            // from TI Low_Power_Keypad example
-static void WDT_waitForRelease(void);           // wait for button to be relesed delay
+static void WDT_waitForRelease(void);           // wait for button to be released delay
 uint8_t modeGet(void);                          // get current position of slide switch
 uint16_t clearPoll(uint16_t num);               // check if clear button was pressed
 uint16_t keyPollHEX(uint16_t num);              // check keypad input, update num if necessary, Hex input mode

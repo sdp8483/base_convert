@@ -1,10 +1,10 @@
 ******************************************************************************
                   MSP430 Linker PC v18.1.1                     
 ******************************************************************************
->> Linked Mon Jun  4 17:19:51 2018
+>> Linked Wed Jun  6 23:16:52 2018
 
 OUTPUT FILE NAME:   <base_convert.out>
-ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 0000d0c6
+ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 0000d106
 
 
 MEMORY CONFIGURATION
@@ -15,8 +15,8 @@ MEMORY CONFIGURATION
   PERIPHERALS_8BIT      00000010   000000f0  00000000  000000f0  RWIX
   PERIPHERALS_16BIT     00000100   00000100  00000000  00000100  RWIX
   INFOA                 00001800   00000200  00000000  00000200  RWIX
-  RAM                   00002000   00000800  000000b4  0000074c  RWIX
-  FRAM                  0000c400   00003b80  00000d9c  00002de4  RWIX
+  RAM                   00002000   00000800  000000b1  0000074f  RWIX
+  FRAM                  0000c400   00003b80  00000dc8  00002db8  RWIX
   JTAGSIGNATURE         0000ff80   00000004  00000004  00000000  RWIX  ffff 
   BSLSIGNATURE          0000ff84   00000004  00000004  00000000  RWIX  ffff 
   INT00                 0000ff88   00000002  00000000  00000002  RWIX
@@ -89,63 +89,62 @@ section   page    origin      length       input sections
 .TI.persistent 
 *          0    0000c400    00000000     UNINITIALIZED
 
-.cinit     0    0000c400    0000001a     
-                  0000c400    00000009     (.cinit..data.load) [load image, compression = lzss]
-                  0000c409    00000001     --HOLE-- [fill = 0]
-                  0000c40a    00000008     (__TI_handler_table)
-                  0000c412    00000008     (__TI_cinit_table)
+.cinit     0    0000c400    00000018     
+                  0000c400    00000008     (__TI_handler_table)
+                  0000c408    00000007     (.cinit..data.load) [load image, compression = lzss]
+                  0000c40f    00000001     --HOLE-- [fill = 0]
+                  0000c410    00000008     (__TI_cinit_table)
 
-.pinit     0    0000c41a    00000000     UNINITIALIZED
+.pinit     0    0000c418    00000000     UNINITIALIZED
 
-.binit     0    0000c41a    00000000     
+.binit     0    0000c418    00000000     
 
 .init_array 
-*          0    0000c41a    00000000     UNINITIALIZED
+*          0    0000c418    00000000     UNINITIALIZED
 
 .mspabi.exidx 
-*          0    0000c41a    00000000     UNINITIALIZED
+*          0    0000c418    00000000     UNINITIALIZED
 
 .mspabi.extab 
-*          0    0000c41a    00000000     UNINITIALIZED
+*          0    0000c418    00000000     UNINITIALIZED
 
-.const     0    0000c41a    00000000     UNINITIALIZED
+.const     0    0000c418    00000000     UNINITIALIZED
 
-.text      0    0000c41a    00000d82     
-                  0000c41a    00000210     button.obj (.text:keyPollHEX)
-                  0000c62a    000001fe     display.obj (.text:dispUpdate)
-                  0000c828    000001f4     button.obj (.text:keyPollBIN)
-                  0000ca1c    000001a4     button.obj (.text:keyPollDEC)
-                  0000cbc0    000000ee     rts430x_lc_sd_eabi.lib : copy_decompress_lzss.c.obj (.text:decompress:lzss:__TI_decompress_lzss)
-                  0000ccae    000000b6     display.obj (.text:dispSegments)
-                  0000cd64    000000b2     display.obj (.text:dispBin)
-                  0000ce16    00000098     main.obj (.text:main)
-                  0000ceae    00000084     display.obj (.text:dispSetup)
-                  0000cf32    0000006a     rts430x_lc_sd_eabi.lib : autoinit.c.obj (.text:__TI_auto_init_nobinit_nopinit_hold_wdt:__TI_auto_init_nobinit_nopinit_hold_wdt)
-                  0000cf9c    00000046     display.obj (.text:dispBlank)
-                  0000cfe2    00000040     rts430x_lc_sd_eabi.lib : cpy_util.asm.obj (.text:__memcpy_far)
-                  0000d022    0000003e     button.obj (.text:keySetup)
-                  0000d060    0000003c     rts430x_lc_sd_eabi.lib : copy_decompress_none.c.obj (.text:decompress:none:__TI_decompress_none)
-                  0000d09c    0000002a     button.obj (.text:modeGet)
-                  0000d0c6    0000001c     rts430x_lc_sd_eabi.lib : boot.c.obj (.text:_isr:_c_int00_noargs)
-                  0000d0e2    00000016     button.obj (.text:clearPoll)
-                  0000d0f8    00000016     rts430x_lc_sd_eabi.lib : div16u.asm.obj (.text)
-                  0000d10e    00000014     button.obj (.text:WDT_startDebounce)
-                  0000d122    00000014     button.obj (.text:WDT_waitForRelease)
-                  0000d136    00000014     button.obj (.text:modeSetup)
-                  0000d14a    00000014     rts430x_lc_sd_eabi.lib : mult16.asm.obj (.text)
-                  0000d15e    0000000e     main.obj (.text:_isr:Timer_A)
-                  0000d16c    0000000e     main.obj (.text:_isr:WDT_ISR)
-                  0000d17a    0000000e     button.obj (.text:clearSetup)
-                  0000d188    00000008     rts430x_lc_sd_eabi.lib : isr_trap.asm.obj (.text:_isr:__TI_ISR_TRAP)
-                  0000d190    00000006                            : exit.c.obj (.text:abort)
-                  0000d196    00000004                            : pre_init.c.obj (.text:_system_pre_init)
-                  0000d19a    00000002                            : startup.c.obj (.text:_system_post_cinit)
+.text      0    0000c418    00000db0     
+                  0000c418    00000210     button.obj (.text:keyPollHEX)
+                  0000c628    000001fe     display.obj (.text:dispUpdate)
+                  0000c826    000001f4     button.obj (.text:keyPollBIN)
+                  0000ca1a    00000192     button.obj (.text:keyPollDEC)
+                  0000cbac    000000ee     rts430x_lc_sd_eabi.lib : copy_decompress_lzss.c.obj (.text:decompress:lzss:__TI_decompress_lzss)
+                  0000cc9a    000000b6     display.obj (.text:dispSegments)
+                  0000cd50    000000b2     display.obj (.text:dispBin)
+                  0000ce02    00000094     main.obj (.text:main)
+                  0000ce96    00000084     display.obj (.text:dispSetup)
+                  0000cf1a    0000006a     rts430x_lc_sd_eabi.lib : autoinit.c.obj (.text:__TI_auto_init_nobinit_nopinit_hold_wdt:__TI_auto_init_nobinit_nopinit_hold_wdt)
+                  0000cf84    00000046     display.obj (.text:dispBlank)
+                  0000cfca    00000040     rts430x_lc_sd_eabi.lib : cpy_util.asm.obj (.text:__memcpy_far)
+                  0000d00a    0000003e     button.obj (.text:keySetup)
+                  0000d048    0000003c     rts430x_lc_sd_eabi.lib : copy_decompress_none.c.obj (.text:decompress:none:__TI_decompress_none)
+                  0000d084    00000032     func.obj (.text:decSafeShift)
+                  0000d0b6    0000002a     button.obj (.text:modeGet)
+                  0000d0e0    00000026     rts430x_lc_sd_eabi.lib : mult32.asm.obj (.text)
+                  0000d106    0000001c                            : boot.c.obj (.text:_isr:_c_int00_noargs)
+                  0000d122    00000016     button.obj (.text:clearPoll)
+                  0000d138    00000016     rts430x_lc_sd_eabi.lib : div16u.asm.obj (.text)
+                  0000d14e    00000014     button.obj (.text:WDT_startDebounce)
+                  0000d162    00000014     button.obj (.text:WDT_waitForRelease)
+                  0000d176    00000014     button.obj (.text:modeSetup)
+                  0000d18a    0000000e     main.obj (.text:_isr:Timer_A)
+                  0000d198    0000000e     main.obj (.text:_isr:WDT_ISR)
+                  0000d1a6    0000000e     button.obj (.text:clearSetup)
+                  0000d1b4    00000008     rts430x_lc_sd_eabi.lib : isr_trap.asm.obj (.text:_isr:__TI_ISR_TRAP)
+                  0000d1bc    00000006                            : exit.c.obj (.text:abort)
+                  0000d1c2    00000004                            : pre_init.c.obj (.text:_system_pre_init)
+                  0000d1c6    00000002                            : startup.c.obj (.text:_system_post_cinit)
 
-.data      0    00002000    00000014     UNINITIALIZED
+.data      0    00002000    00000011     UNINITIALIZED
                   00002000    0000000e     display.obj (.data)
                   0000200e    00000003     button.obj (.data)
-                  00002011    00000001     --HOLE--
-                  00002012    00000002     main.obj (.data)
 
 .stack     0    00002760    000000a0     UNINITIALIZED
                   00002760    00000002     rts430x_lc_sd_eabi.lib : boot.c.obj (.stack)
@@ -211,20 +210,21 @@ MODULE SUMMARY
        Module                       code   ro data   rw data
        ------                       ----   -------   -------
     .\
-       button.obj                   1648   0         3      
+       button.obj                   1630   0         3      
        display.obj                  1072   0         14     
-       main.obj                     180    4         2      
+       main.obj                     176    4         0      
+       func.obj                     50     0         0      
     +--+----------------------------+------+---------+---------+
-       Total:                       2900   4         19     
+       Total:                       2928   4         17     
                                                             
     C:\ti\ccsv8\tools\compiler\ti-cgt-msp430_18.1.1.LTS\lib\rts430x_lc_sd_eabi.lib
        copy_decompress_lzss.c.obj   238    0         0      
        autoinit.c.obj               106    0         0      
        cpy_util.asm.obj             64     0         0      
        copy_decompress_none.c.obj   60     0         0      
+       mult32.asm.obj               38     0         0      
        boot.c.obj                   28     2         0      
        div16u.asm.obj               22     0         0      
-       mult16.asm.obj               20     0         0      
        isr_trap.asm.obj             8      0         0      
        exit.c.obj                   6      0         0      
        pre_init.c.obj               4      0         0      
@@ -242,23 +242,23 @@ MODULE SUMMARY
        int58.asm.obj                0      2         0      
        startup.c.obj                2      0         0      
     +--+----------------------------+------+---------+---------+
-       Total:                       558    26        0      
+       Total:                       576    26        0      
                                                             
        Stack:                       0      0         160    
-       Linker Generated:            0      25        0      
+       Linker Generated:            0      23        0      
     +--+----------------------------+------+---------+---------+
-       Grand Total:                 3458   55        179    
+       Grand Total:                 3504   53        177    
 
 
 LINKER GENERATED COPY TABLES
 
-__TI_cinit_table @ 0000c412 records: 1, size/record: 8, table size: 8
-	.data: load addr=0000c400, load size=00000009 bytes, run addr=00002000, run size=00000014 bytes, compression=lzss
+__TI_cinit_table @ 0000c410 records: 1, size/record: 8, table size: 8
+	.data: load addr=0000c408, load size=00000007 bytes, run addr=00002000, run size=00000011 bytes, compression=lzss
 
 
 LINKER GENERATED HANDLER TABLE
 
-__TI_handler_table @ 0000c40a records: 2, size/record: 4, table size: 8
+__TI_handler_table @ 0000c400 records: 2, size/record: 4, table size: 8
 	index: 0, handler: __TI_decompress_lzss
 	index: 1, handler: __TI_decompress_none
 
@@ -345,7 +345,7 @@ address   name
 00000672  BAKMEM9                                
 00000673  BAKMEM9_H                              
 00000672  BAKMEM9_L                              
-0000d190  C$$EXIT                                
+0000d1bc  C$$EXIT                                
 000002ee  CAPTIO0CTL                             
 000002ef  CAPTIO0CTL_H                           
 000002ee  CAPTIO0CTL_L                           
@@ -693,7 +693,7 @@ address   name
 00000360  TA1EX0                                 
 0000036e  TA1IV                                  
 00000350  TA1R                                   
-0000d15e  Timer_A                                
+0000d18a  Timer_A                                
 00000510  UCA0ABCTL                              
 00000506  UCA0BRW                                
 00000507  UCA0BRW_H                              
@@ -776,17 +776,17 @@ address   name
 000001cc  WDTCTL                                 
 000001cd  WDTCTL_H                               
 000001cc  WDTCTL_L                               
-0000d16c  WDT_ISR                                
+0000d198  WDT_ISR                                
 00002800  __STACK_END                            
 000000a0  __STACK_SIZE                           
-0000c412  __TI_CINIT_Base                        
-0000c41a  __TI_CINIT_Limit                       
-0000c40a  __TI_Handler_Table_Base                
-0000c412  __TI_Handler_Table_Limit               
-0000d188  __TI_ISR_TRAP                          
-0000cf32  __TI_auto_init_nobinit_nopinit_hold_wdt
-0000cbc0  __TI_decompress_lzss                   
-0000d060  __TI_decompress_none                   
+0000c410  __TI_CINIT_Base                        
+0000c418  __TI_CINIT_Limit                       
+0000c400  __TI_Handler_Table_Base                
+0000c408  __TI_Handler_Table_Limit               
+0000d1b4  __TI_ISR_TRAP                          
+0000cf1a  __TI_auto_init_nobinit_nopinit_hold_wdt
+0000cbac  __TI_decompress_lzss                   
+0000d048  __TI_decompress_none                   
 0000ffe2  __TI_int45                             
 0000ffe4  __TI_int46                             
 0000ffe6  __TI_int47                             
@@ -805,32 +805,32 @@ ffffffff  __TI_pprof_out_hndl
 ffffffff  __TI_prof_data_size                    
 ffffffff  __TI_prof_data_start                   
 ffffffff  __c_args__                             
-0000cfe2  __memcpy_far                           
-0000d0f8  __mspabi_divu                          
-0000d14a  __mspabi_mpyi                          
-0000d14a  __mspabi_mpyi_sw                       
-0000d0f8  __mspabi_remu                          
-0000d0c6  _c_int00_noargs                        
+0000cfca  __memcpy_far                           
+0000d138  __mspabi_divu                          
+0000d0e0  __mspabi_mpyl                          
+0000d0e0  __mspabi_mpyl_sw                       
+0000d138  __mspabi_remu                          
+0000d106  _c_int00_noargs                        
 0000fffe  _reset_vector                          
 00002760  _stack                                 
-0000d19a  _system_post_cinit                     
-0000d196  _system_pre_init                       
-0000d190  abort                                  
-0000d0e2  clearPoll                              
-0000d17a  clearSetup                             
-0000cd64  dispBin                                
-0000cf9c  dispBlank                              
-0000ccae  dispSegments                           
-0000ceae  dispSetup                              
-0000c62a  dispUpdate                             
-0000c828  keyPollBIN                             
-0000ca1c  keyPollDEC                             
-0000c41a  keyPollHEX                             
-0000d022  keySetup                               
-0000ce16  main                                   
-0000d09c  modeGet                                
-0000d136  modeSetup                              
-00002012  num                                    
+0000d1c6  _system_post_cinit                     
+0000d1c2  _system_pre_init                       
+0000d1bc  abort                                  
+0000d122  clearPoll                              
+0000d1a6  clearSetup                             
+0000d084  decSafeShift                           
+0000cd50  dispBin                                
+0000cf84  dispBlank                              
+0000cc9a  dispSegments                           
+0000ce96  dispSetup                              
+0000c628  dispUpdate                             
+0000c826  keyPollBIN                             
+0000ca1a  keyPollDEC                             
+0000c418  keyPollHEX                             
+0000d00a  keySetup                               
+0000ce02  main                                   
+0000d0b6  modeGet                                
+0000d176  modeSetup                              
 
 
 GLOBAL SYMBOLS: SORTED BY Symbol Address 
@@ -1345,43 +1345,43 @@ address   name
 0000071e  ADCIV                                  
 0000071e  ADCIV_L                                
 0000071f  ADCIV_H                                
-00002012  num                                    
 00002760  _stack                                 
 00002800  __STACK_END                            
-0000c40a  __TI_Handler_Table_Base                
-0000c412  __TI_CINIT_Base                        
-0000c412  __TI_Handler_Table_Limit               
-0000c41a  __TI_CINIT_Limit                       
-0000c41a  keyPollHEX                             
-0000c62a  dispUpdate                             
-0000c828  keyPollBIN                             
-0000ca1c  keyPollDEC                             
-0000cbc0  __TI_decompress_lzss                   
-0000ccae  dispSegments                           
-0000cd64  dispBin                                
-0000ce16  main                                   
-0000ceae  dispSetup                              
-0000cf32  __TI_auto_init_nobinit_nopinit_hold_wdt
-0000cf9c  dispBlank                              
-0000cfe2  __memcpy_far                           
-0000d022  keySetup                               
-0000d060  __TI_decompress_none                   
-0000d09c  modeGet                                
-0000d0c6  _c_int00_noargs                        
-0000d0e2  clearPoll                              
-0000d0f8  __mspabi_divu                          
-0000d0f8  __mspabi_remu                          
-0000d136  modeSetup                              
-0000d14a  __mspabi_mpyi                          
-0000d14a  __mspabi_mpyi_sw                       
-0000d15e  Timer_A                                
-0000d16c  WDT_ISR                                
-0000d17a  clearSetup                             
-0000d188  __TI_ISR_TRAP                          
-0000d190  C$$EXIT                                
-0000d190  abort                                  
-0000d196  _system_pre_init                       
-0000d19a  _system_post_cinit                     
+0000c400  __TI_Handler_Table_Base                
+0000c408  __TI_Handler_Table_Limit               
+0000c410  __TI_CINIT_Base                        
+0000c418  __TI_CINIT_Limit                       
+0000c418  keyPollHEX                             
+0000c628  dispUpdate                             
+0000c826  keyPollBIN                             
+0000ca1a  keyPollDEC                             
+0000cbac  __TI_decompress_lzss                   
+0000cc9a  dispSegments                           
+0000cd50  dispBin                                
+0000ce02  main                                   
+0000ce96  dispSetup                              
+0000cf1a  __TI_auto_init_nobinit_nopinit_hold_wdt
+0000cf84  dispBlank                              
+0000cfca  __memcpy_far                           
+0000d00a  keySetup                               
+0000d048  __TI_decompress_none                   
+0000d084  decSafeShift                           
+0000d0b6  modeGet                                
+0000d0e0  __mspabi_mpyl                          
+0000d0e0  __mspabi_mpyl_sw                       
+0000d106  _c_int00_noargs                        
+0000d122  clearPoll                              
+0000d138  __mspabi_divu                          
+0000d138  __mspabi_remu                          
+0000d176  modeSetup                              
+0000d18a  Timer_A                                
+0000d198  WDT_ISR                                
+0000d1a6  clearSetup                             
+0000d1b4  __TI_ISR_TRAP                          
+0000d1bc  C$$EXIT                                
+0000d1bc  abort                                  
+0000d1c2  _system_pre_init                       
+0000d1c6  _system_post_cinit                     
 0000ffe2  __TI_int45                             
 0000ffe4  __TI_int46                             
 0000ffe6  __TI_int47                             

@@ -11,31 +11,37 @@ CMD_SRCS += \
 C_SRCS += \
 ../button.c \
 ../display.c \
+../func.c \
 ../main.c 
 
 C_DEPS += \
 ./button.d \
 ./display.d \
+./func.d \
 ./main.d 
 
 OBJS += \
 ./button.obj \
 ./display.obj \
+./func.obj \
 ./main.obj 
 
 OBJS__QUOTED += \
 "button.obj" \
 "display.obj" \
+"func.obj" \
 "main.obj" 
 
 C_DEPS__QUOTED += \
 "button.d" \
 "display.d" \
+"func.d" \
 "main.d" 
 
 C_SRCS__QUOTED += \
 "../button.c" \
 "../display.c" \
+"../func.c" \
 "../main.c" 
 
 

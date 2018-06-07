@@ -1,1 +1,1 @@
-"./button.obj" "./display.obj" "./main.obj" "../lnk_msp430fr4133.cmd" -llibc.a 
+"./button.obj" "./display.obj" "./func.obj" "./main.obj" "../lnk_msp430fr4133.cmd" -llibc.a 
