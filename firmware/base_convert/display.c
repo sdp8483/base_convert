@@ -13,26 +13,26 @@
 void dispSetup() {
     // Setup pins for HEX, DEC, and BIN displays
     // Initialize pins for 4 digit 7 segment common anode display
-    // setup digit pins, digit pins are active low
-    D0PORT |= D0PIN;                            // Pull pin high first
+    // setup digit pins, digit pins are active high
+    D0PORT &= ~D0PIN;                           // Pull pin low first
     D0DIR  |= D0PIN;                            // Set pin as output
-    D1PORT |= D1PIN;
+    D1PORT &= ~D1PIN;
     D1DIR  |= D1PIN;
-    D2PORT |= D2PIN;
+    D2PORT &= ~D2PIN;
     D2DIR  |= D2PIN;
-    D3PORT |= D3PIN;
+    D3PORT &= ~D3PIN;
     D3DIR  |= D3PIN;
-    D4PORT |= D4PIN;
+    D4PORT &= ~D4PIN;
     D4DIR  |= D4PIN;
-    D5PORT |= D5PIN;
+    D5PORT &= ~D5PIN;
     D5DIR  |= D5PIN;
-    D6PORT |= D6PIN;
+    D6PORT &= ~D6PIN;
     D6DIR  |= D6PIN;
-    D7PORT |= D7PIN;
+    D7PORT &= ~D7PIN;
     D7DIR  |= D7PIN;
-    D8PORT |= D8PIN;
+    D8PORT &= ~D8PIN;
     D8DIR  |= D8PIN;
-    D9PORT |= D9PIN;
+    D9PORT &= ~D9PIN;
     D9DIR  |= D9PIN;
 
     // setup segment pins, segment pins are active high
@@ -40,8 +40,8 @@ void dispSetup() {
     SEGDIR |= ALLSEG;                           // set pins as output
 
     // Initialize pins for binary LED display
-    // setup nibble pins, nibble pins are active low
-    NPORT  |= N0PIN + N1PIN + N2PIN + N3PIN;    // pull pins high first
+    // setup nibble pins, nibble pins are active high
+    NPORT  &= ~(N0PIN + N1PIN + N2PIN + N3PIN); // pull pins low first
     NDIR   |= N0PIN + N1PIN + N2PIN + N3PIN;    // set pins as output
 
     // setup bit pins, bit pins are active high
@@ -51,23 +51,23 @@ void dispSetup() {
 
 void dispBlank() {
     // Set pin so that the display is off
-    // turn off digits, digits are active low
-    D0PORT |= D0PIN;
-    D1PORT |= D1PIN;
-    D2PORT |= D2PIN;
-    D3PORT |= D3PIN;
-    D4PORT |= D4PIN;
-    D5PORT |= D5PIN;
-    D6PORT |= D6PIN;
-    D7PORT |= D7PIN;
-    D8PORT |= D8PIN;
-    D9PORT |= D9PIN;
+    // turn off digits, digits are active high
+    D0PORT &= ~D0PIN;
+    D1PORT &= ~D1PIN;
+    D2PORT &= ~D2PIN;
+    D3PORT &= ~D3PIN;
+    D4PORT &= ~D4PIN;
+    D5PORT &= ~D5PIN;
+    D6PORT &= ~D6PIN;
+    D7PORT &= ~D7PIN;
+    D8PORT &= ~D8PIN;
+    D9PORT &= ~D9PIN;
 
     // turn off segments, segments are active high
     SEGPORT &= ~(ALLSEG);
 
-    // turn off nibbles, nibbles are active low
-    NPORT  |= N0PIN + N1PIN + N2PIN + N3PIN;
+    // turn off nibbles, nibbles are active high
+    NPORT  &= ~(N0PIN + N1PIN + N2PIN + N3PIN);
 
     // turn off bits, bits are active high
     BPORT  &= ~(B3PIN + B2PIN + B1PIN + B0PIN);
@@ -187,31 +187,31 @@ void dispUpdate(uint16_t num) {
 
     switch(digit) {
         case 0:
-            D0PORT  &= ~D0PIN;                  // set digit 0 active
+            D0PORT  |= D0PIN;                  // set digit 0 active
             SEGPORT |= dispSegments(num_b3);
 
-            NPORT   &= ~N3PIN;                  // set nibble 3 active
+            NPORT   |= N3PIN;                  // set nibble 3 active
             BPORT   |= dispBin(num_b3);
             break;
         case 1:
-            D1PORT  &= ~D1PIN;                  // set digit 1 active
+            D1PORT  |= D1PIN;                  // set digit 1 active
             SEGPORT |= dispSegments(num_b2);
 
-            NPORT   &= ~N2PIN;                  // set nibble 3 active
+            NPORT   |= N2PIN;                  // set nibble 3 active
             BPORT   |= dispBin(num_b2);
             break;
         case 2:
-            D2PORT  &= ~D2PIN;
+            D2PORT  |= D2PIN;
             SEGPORT |= dispSegments(num_b1);
 
-            NPORT   &= ~N1PIN;                  // set nibble 3 active
+            NPORT   |= N1PIN;                  // set nibble 3 active
             BPORT   |= dispBin(num_b1);
             break;
         case 3:
-            D3PORT  &= ~D3PIN;
+            D3PORT  |= D3PIN;
             SEGPORT |= dispSegments(num_b0);
 
-            NPORT   &= ~N0PIN;                  // set nibble 3 active
+            NPORT   |= N0PIN;                  // set nibble 3 active
             BPORT   |= dispBin(num_b0);
 
             if (modeGet() == HEXMODE) {
@@ -219,27 +219,27 @@ void dispUpdate(uint16_t num) {
             }
             break;
         case 4:
-            D4PORT &= ~D4PIN;
+            D4PORT |= D4PIN;
             SEGPORT |= dispSegments(num_100000);
             break;
         case 5:
-            D5PORT &= ~D5PIN;
+            D5PORT |= D5PIN;
             SEGPORT |= dispSegments(num_10000);
             break;
         case 6:
-            D6PORT &= ~D6PIN;
+            D6PORT |= D6PIN;
             SEGPORT |= dispSegments(num_1000);
             break;
         case 7:
-            D7PORT &= ~D7PIN;
+            D7PORT |= D7PIN;
             SEGPORT |= dispSegments(num_100);
             break;
         case 8:
-            D8PORT &= ~D8PIN;
+            D8PORT |= D8PIN;
             SEGPORT |= dispSegments(num_10);
             break;
         case 9:
-            D9PORT &= ~D9PIN;
+            D9PORT |= D9PIN;
             SEGPORT |= dispSegments(num_1);
 
             if (modeGet() == DECMODE) {
