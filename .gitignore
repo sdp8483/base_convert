@@ -58,7 +58,7 @@ _autosave-*
 *.hex
 
 # Eclipse artifacts
-*/.metadata*
-*/.jxbrowser-data*
-*RemoteSystemsTempFiles*
+*firmware/.metadata
+*firmware.jxbrowser-data
+*firmware/RemoteSystemsTempFiles
 *Debug*
