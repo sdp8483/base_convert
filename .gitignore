@@ -64,4 +64,6 @@ firmware/.jxbrowser-data/Local Storage/
 firmware/.jxbrowser-data/Local Storage - EXT/
 firmware/.metadata/
 firmware/.metadata/.plugins
+firmware/.metadata/**/*.xlm
+firmware/.metadata/**/*.txt
 firmware/RemoteSystemsTempFiles
