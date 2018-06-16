@@ -66,4 +66,8 @@ firmware/.metadata/
 firmware/.metadata/.plugins
 firmware/.metadata/**/*.xlm
 firmware/.metadata/**/*.txt
+firmware/.metadata/**/*.log
+firmware/.metadata/**/*.markers
+firmware/.metadata/**/*.tree
+firmware/.metadata/**/*.*
 firmware/RemoteSystemsTempFiles
