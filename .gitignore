@@ -57,6 +57,10 @@ Release/*
 *.hex
 
 # Eclipse artifacts
+firmware/.jxbrowser-data/
 firmware/.jxbrowser-data/Cache/
-firmware/.metadata/*/*
+firmware/.jxbrowser-data/GPUCache/
+firmware/.jxbrowser-data/Local Storage/
+firmware/.jxbrowser-data/Local Storage - EXT/
+firmware/.metadata/
 firmware/RemoteSystemsTempFiles
