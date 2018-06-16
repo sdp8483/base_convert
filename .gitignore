@@ -21,11 +21,11 @@ _autosave-*
 *.csv
 
 # Code Composer Studio Stuff
-*\Debug*
-*\Release*
+*/Debug*
+*/Release*
 *.xdhelp*
-*\.config*
-*\.launches*
+*/.config*
+*/.launches*
 
 # Object files
 *.o
@@ -58,7 +58,7 @@ _autosave-*
 *.hex
 
 # Eclipse artifacts
-*\.metadata*
-*\.jxbrowser-data*
+*/.metadata*
+*/.jxbrowser-data*
 *RemoteSystemsTempFiles*
 *Debug*
