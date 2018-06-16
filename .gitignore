@@ -70,4 +70,5 @@ firmware/.metadata/**/*.log
 firmware/.metadata/**/*.markers
 firmware/.metadata/**/*.tree
 firmware/.metadata/**/*.*
+firmware/.metadata/*/*/*/*/*
 firmware/RemoteSystemsTempFiles
