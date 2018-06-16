@@ -63,4 +63,5 @@ firmware/.jxbrowser-data/GPUCache/
 firmware/.jxbrowser-data/Local Storage/
 firmware/.jxbrowser-data/Local Storage - EXT/
 firmware/.metadata/
+firmware/.metadata/.plugins
 firmware/RemoteSystemsTempFiles
