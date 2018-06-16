@@ -57,7 +57,4 @@ Release/*
 *.hex
 
 # Eclipse artifacts
-**/.metadata/*
-firmware/.jxbrowser-data/*
-firmware/RemoteSystemsTempFiles/*
-Debug/*
+firmware/.jxbrowser-data/Cache/data_*
