@@ -19,3 +19,45 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# Code Composer Studio Stuff
+*\Debug*
+*\Release*
+*.xdhelp*
+*\.config*
+*\.launches*
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Eclipse artifacts
+*.metadata*
+*RemoteSystemsTempFiles*
+*Debug*
