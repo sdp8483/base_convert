@@ -58,5 +58,5 @@ Release/*
 
 # Eclipse artifacts
 firmware/.jxbrowser-data/Cache/
-firmware/.metadata/**
+firmware/.metadata/*/*
 firmware/RemoteSystemsTempFiles
