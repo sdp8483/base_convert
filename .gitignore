@@ -19,3 +19,13 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+#Code Composer Studio files
+/firmware/.jxbrowser-data/**
+/firmware/.metadata/**
+/firmware/RemoteSystemsTempFiles
+**/.launches/
+**/.config/
+**/Debug/
+**/Release/
+*.xdchelp
