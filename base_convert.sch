@@ -197,34 +197,42 @@ $EndComp
 $Comp
 L R R1
 U 1 1 5AF2F1FC
-P -1000 2100
-F 0 "R1" V -920 2100 50  0000 C CNN
-F 1 "20k" V -1000 2100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V -1070 2100 50  0001 C CNN
-F 3 "" H -1000 2100 50  0001 C CNN
-	1    -1000 2100
+P 7500 1100
+F 0 "R1" V 7580 1100 50  0000 C CNN
+F 1 "102k" V 7400 1100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 7430 1100 50  0001 C CNN
+F 3 "" H 7500 1100 50  0001 C CNN
+F 4 "NONE" H 7500 1100 60  0001 C CNN "Manufacture"
+F 5 "NONE" H 7500 1100 60  0001 C CNN "Mfg Part Number"
+F 6 "NONE" H 7500 1100 60  0001 C CNN "Package"
+F 7 "NONE" H 7500 1100 60  0001 C CNN "Description"
+	1    7500 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R2
 U 1 1 5AF2FAFB
-P -1000 2500
-F 0 "R2" V -920 2500 50  0000 C CNN
-F 1 "20k" V -1000 2500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V -1070 2500 50  0001 C CNN
-F 3 "" H -1000 2500 50  0001 C CNN
-	1    -1000 2500
+P 7500 1500
+F 0 "R2" V 7580 1500 50  0000 C CNN
+F 1 "25.5k" V 7400 1500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 7430 1500 50  0001 C CNN
+F 3 "" H 7500 1500 50  0001 C CNN
+F 4 "NONE" H 7500 1500 60  0001 C CNN "Manufacture"
+F 5 "NONE" H 7500 1500 60  0001 C CNN "Mfg Part Number"
+F 6 "NONE" H 7500 1500 60  0001 C CNN "Package"
+F 7 "NONE" H 7500 1500 60  0001 C CNN "Description"
+	1    7500 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR7
 U 1 1 5AF3048A
-P -1000 2700
-F 0 "#PWR7" H -1000 2450 50  0001 C CNN
-F 1 "GND" H -1000 2550 50  0000 C CNN
-F 2 "" H -1000 2700 50  0001 C CNN
-F 3 "" H -1000 2700 50  0001 C CNN
-	1    -1000 2700
+P 7500 1700
+F 0 "#PWR7" H 7500 1450 50  0001 C CNN
+F 1 "GND" H 7500 1550 50  0000 C CNN
+F 2 "" H 7500 1700 50  0001 C CNN
+F 3 "" H 7500 1700 50  0001 C CNN
+	1    7500 1700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -277,7 +285,7 @@ Text Label 9050 6150 0    60   ~ 0
 HEX_INPUT
 Text Label 9050 6550 0    60   ~ 0
 BIN_INPUT
-Text Label -600 2300 2    60   ~ 0
+Text Label 7900 1300 2    60   ~ 0
 BATT_V
 Text Label 3700 4150 2    60   ~ 0
 SBWTDIO
@@ -368,12 +376,12 @@ $EndComp
 $Comp
 L VCC #PWR?
 U 1 1 5B28B1DA
-P -1000 1950
-F 0 "#PWR?" H -1000 1800 50  0001 C CNN
-F 1 "VCC" H -1000 2100 50  0000 C CNN
-F 2 "" H -1000 1950 50  0001 C CNN
-F 3 "" H -1000 1950 50  0001 C CNN
-	1    -1000 1950
+P 7500 950
+F 0 "#PWR?" H 7500 800 50  0001 C CNN
+F 1 "VCC" H 7500 1100 50  0000 C CNN
+F 2 "" H 7500 950 50  0001 C CNN
+F 3 "" H 7500 950 50  0001 C CNN
+	1    7500 950 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -455,9 +463,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 1600 1750 1400
 Wire Wire Line
-	4450 3000 4750 3000
-Wire Wire Line
-	4750 3000 5050 3000
+	4450 3000 5050 3000
 Wire Wire Line
 	4450 3000 4450 3050
 Wire Wire Line
@@ -465,9 +471,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 3350 4450 3400
 Wire Wire Line
-	4450 3400 4750 3400
-Wire Wire Line
-	4750 3400 5050 3400
+	4450 3400 5050 3400
 Wire Wire Line
 	1000 1100 1550 1100
 Wire Wire Line
@@ -477,13 +481,11 @@ Wire Wire Line
 Wire Wire Line
 	10200 6250 9950 6250
 Wire Wire Line
-	-1000 2700 -1000 2650
+	7500 1700 7500 1650
 Wire Wire Line
-	-1000 2250 -1000 2300
+	7500 1250 7500 1350
 Wire Wire Line
-	-1000 2300 -1000 2350
-Wire Wire Line
-	-1000 2300 -600 2300
+	7500 1300 7900 1300
 Wire Wire Line
 	3300 4350 3450 4350
 Wire Wire Line
@@ -619,7 +621,7 @@ Wire Wire Line
 Connection ~ 4750 3000
 Connection ~ 4750 3400
 Connection ~ 4450 3000
-Connection ~ -1000 2300
+Connection ~ 7500 1300
 Connection ~ 3250 1000
 Connection ~ 3250 1200
 Wire Wire Line
@@ -635,16 +637,12 @@ Wire Wire Line
 Wire Wire Line
 	5150 900  5150 950 
 Wire Wire Line
-	4400 1400 4450 1400
-Wire Wire Line
-	4450 1400 4500 1400
+	4400 1400 4500 1400
 Wire Wire Line
 	4450 1450 4450 1400
 Connection ~ 4450 1400
 Wire Wire Line
-	3250 1000 3250 1200
-Wire Wire Line
-	3250 1200 3250 1400
+	3250 1000 3250 1400
 Wire Wire Line
 	3300 4050 3300 3950
 Wire Wire Line
@@ -664,15 +662,9 @@ Wire Notes Line
 Wire Notes Line
 	2950 3700 3900 3700
 Wire Wire Line
-	3400 1000 3250 1000
+	3400 1000 3100 1000
 Wire Wire Line
-	3250 1000 3100 1000
-Wire Wire Line
-	3400 900  3750 900 
-Wire Wire Line
-	3750 900  3900 900 
-Wire Wire Line
-	3900 900  3950 900 
+	3400 900  3950 900 
 Wire Notes Line
 	3600 550  3600 1800
 Wire Notes Line
@@ -728,9 +720,7 @@ Wire Notes Line
 Wire Notes Line
 	2650 650  3500 650 
 Wire Wire Line
-	3400 850  3400 900 
-Wire Wire Line
-	3400 900  3400 1000
+	3400 850  3400 1000
 Connection ~ 3400 900 
 Connection ~ 4450 3400
 Wire Wire Line
@@ -747,4 +737,22 @@ Wire Wire Line
 	3800 4150 3800 4300
 Wire Wire Line
 	3800 4300 5050 4300
+Text Notes 7700 1150 0    50   ~ 0
+MSP430 Internal Vref = 1.5V\nVhigh = 4 x 1.5V -> 6V\nVlow = 4 X 1V -> 4V\n5:1 Voltage Divider
+Text Notes 7350 750  0    60   ~ 0
+Battery Voltage Monitoring
+Wire Notes Line
+	7350 650  7350 1900
+Wire Notes Line
+	7350 1900 8850 1900
+Wire Notes Line
+	8850 1900 8850 650 
+Wire Notes Line
+	8850 650  7350 650 
+Wire Notes Line
+	7350 750  8850 750 
+Text Label 4700 4800 0    60   ~ 0
+BATT_V
+Wire Wire Line
+	4700 4800 5050 4800
 $EndSCHEMATC
