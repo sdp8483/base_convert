@@ -67,7 +67,7 @@ P 3100 2950
 F 0 "U1" H 5200 3350 60  0000 C CNN
 F 1 "MSP430FR2033IPMR" H 5200 3250 60  0000 C CNN
 F 2 "Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm" H 5200 3190 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/msp430fr4131.pdf" H 3100 2950 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/msp430fr2032.pdf" H 3100 2950 60  0001 C CNN
 F 4 "Texas Instruments" H 5200 3450 50  0001 C CNN "Manufacture"
 F 5 "MSP430FR4133IPMR" H 5200 3450 50  0001 C CNN "Mfg Part Number"
 F 6 "64-LQFP (10x10)" H 5200 3450 50  0001 C CNN "Package"
