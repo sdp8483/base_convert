@@ -29,11 +29,11 @@ P 5650 3000
 F 0 "SW20" H 5700 3100 50  0000 L CNN
 F 1 "4" H 5650 2750 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 5650 3200 50  0001 C CNN
-F 3 "" H 5650 3200 50  0001 C CNN
-F 4 "NONE" H 5650 3000 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 5650 3000 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 5650 3000 60  0001 C CNN "Package"
-F 7 "NONE" H 5650 3000 60  0001 C CNN "Description"
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 5650 3200 50  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 5650 3000 60  0001 C CNN "Description"
+F 5 "C&K" H 5650 3000 60  0001 C CNN "Manufacture"
+F 6 "PTS645SK95SMTR92LFS" H 5650 3000 60  0001 C CNN "Mfg Part Number"
+F 7 "6mm SMT" H 5650 3000 60  0001 C CNN "Package"
 	1    5650 3000
 	1    0    0    -1  
 $EndComp
@@ -44,11 +44,11 @@ P 4850 3000
 F 0 "SW24" H 4900 3100 50  0000 L CNN
 F 1 "5" H 4850 2750 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 4850 3200 50  0001 C CNN
-F 3 "" H 4850 3200 50  0001 C CNN
-F 4 "NONE" H 4850 3000 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 4850 3000 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 4850 3000 60  0001 C CNN "Package"
-F 7 "NONE" H 4850 3000 60  0001 C CNN "Description"
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 4850 3200 50  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 4850 3000 60  0001 C CNN "Description"
+F 5 "C&K" H 4850 3000 60  0001 C CNN "Manufacture"
+F 6 "PTS645SK95SMTR92LFS" H 4850 3000 60  0001 C CNN "Mfg Part Number"
+F 7 "6mm SMT" H 4850 3000 60  0001 C CNN "Package"
 	1    4850 3000
 	1    0    0    -1  
 $EndComp
@@ -59,11 +59,11 @@ P 4050 3000
 F 0 "SW28" H 4100 3100 50  0000 L CNN
 F 1 "6" H 4050 2750 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 4050 3200 50  0001 C CNN
-F 3 "" H 4050 3200 50  0001 C CNN
-F 4 "NONE" H 4050 3000 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 4050 3000 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 4050 3000 60  0001 C CNN "Package"
-F 7 "NONE" H 4050 3000 60  0001 C CNN "Description"
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 4050 3200 50  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 4050 3000 60  0001 C CNN "Description"
+F 5 "C&K" H 4050 3000 60  0001 C CNN "Manufacture"
+F 6 "PTS645SK95SMTR92LFS" H 4050 3000 60  0001 C CNN "Mfg Part Number"
+F 7 "6mm SMT" H 4050 3000 60  0001 C CNN "Package"
 	1    4050 3000
 	1    0    0    -1  
 $EndComp
@@ -74,11 +74,11 @@ P 6450 3000
 F 0 "SW22" H 6500 3100 50  0000 L CNN
 F 1 "C" H 6450 2750 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 6450 3200 50  0001 C CNN
-F 3 "" H 6450 3200 50  0001 C CNN
-F 4 "NONE" H 6450 3000 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 6450 3000 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 6450 3000 60  0001 C CNN "Package"
-F 7 "NONE" H 6450 3000 60  0001 C CNN "Description"
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 6450 3200 50  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 6450 3000 60  0001 C CNN "Description"
+F 5 "C&K" H 6450 3000 60  0001 C CNN "Manufacture"
+F 6 "PTS645SK95SMTR92LFS" H 6450 3000 60  0001 C CNN "Mfg Part Number"
+F 7 "6mm SMT" H 6450 3000 60  0001 C CNN "Package"
 	1    6450 3000
 	1    0    0    -1  
 $EndComp
@@ -89,11 +89,11 @@ P 6450 2350
 F 0 "SW33" H 6500 2450 50  0000 L CNN
 F 1 "B" H 6450 2100 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 6450 2550 50  0001 C CNN
-F 3 "" H 6450 2550 50  0001 C CNN
-F 4 "NONE" H 6450 2350 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 6450 2350 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 6450 2350 60  0001 C CNN "Package"
-F 7 "NONE" H 6450 2350 60  0001 C CNN "Description"
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 6450 2550 50  0001 C CNN
+F 4 "C&K" H 6450 2350 60  0001 C CNN "Manufacture"
+F 5 "PTS645SK95SMTR92LFS" H 6450 2350 60  0001 C CNN "Mfg Part Number"
+F 6 "6mm SMT" H 6450 2350 60  0001 C CNN "Package"
+F 7 "SWITCH TACTILE SPST-NO 0.05A 12V" H 6450 2350 60  0001 C CNN "Description"
 	1    6450 2350
 	1    0    0    -1  
 $EndComp
@@ -104,11 +104,11 @@ P 5650 2350
 F 0 "SW23" H 5700 2450 50  0000 L CNN
 F 1 "1" H 5650 2100 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 5650 2550 50  0001 C CNN
-F 3 "" H 5650 2550 50  0001 C CNN
-F 4 "NONE" H 5650 2350 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 5650 2350 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 5650 2350 60  0001 C CNN "Package"
-F 7 "NONE" H 5650 2350 60  0001 C CNN "Description"
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 5650 2550 50  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 5650 2350 60  0001 C CNN "Description"
+F 5 "C&K" H 5650 2350 60  0001 C CNN "Manufacture"
+F 6 "PTS645SK95SMTR92LFS" H 5650 2350 60  0001 C CNN "Mfg Part Number"
+F 7 "6mm SMT" H 5650 2350 60  0001 C CNN "Package"
 	1    5650 2350
 	1    0    0    -1  
 $EndComp
@@ -119,11 +119,11 @@ P 4850 2350
 F 0 "SW27" H 4900 2450 50  0000 L CNN
 F 1 "2" H 4850 2100 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 4850 2550 50  0001 C CNN
-F 3 "" H 4850 2550 50  0001 C CNN
-F 4 "NONE" H 4850 2350 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 4850 2350 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 4850 2350 60  0001 C CNN "Package"
-F 7 "NONE" H 4850 2350 60  0001 C CNN "Description"
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 4850 2550 50  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 4850 2350 60  0001 C CNN "Description"
+F 5 "C&K" H 4850 2350 60  0001 C CNN "Manufacture"
+F 6 "PTS645SK95SMTR92LFS" H 4850 2350 60  0001 C CNN "Mfg Part Number"
+F 7 "6mm SMT" H 4850 2350 60  0001 C CNN "Package"
 	1    4850 2350
 	1    0    0    -1  
 $EndComp
@@ -134,11 +134,11 @@ P 4050 2350
 F 0 "SW31" H 4100 2450 50  0000 L CNN
 F 1 "3" H 4050 2100 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 4050 2550 50  0001 C CNN
-F 3 "" H 4050 2550 50  0001 C CNN
-F 4 "NONE" H 4050 2350 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 4050 2350 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 4050 2350 60  0001 C CNN "Package"
-F 7 "NONE" H 4050 2350 60  0001 C CNN "Description"
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 4050 2550 50  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 4050 2350 60  0001 C CNN "Description"
+F 5 "C&K" H 4050 2350 60  0001 C CNN "Manufacture"
+F 6 "PTS645SK95SMTR92LFS" H 4050 2350 60  0001 C CNN "Mfg Part Number"
+F 7 "6mm SMT" H 4050 2350 60  0001 C CNN "Package"
 	1    4050 2350
 	1    0    0    -1  
 $EndComp
@@ -149,11 +149,11 @@ P 4850 4300
 F 0 "SW19" H 4900 4400 50  0000 L CNN
 F 1 "0" H 4850 4050 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 4850 4500 50  0001 C CNN
-F 3 "" H 4850 4500 50  0001 C CNN
-F 4 "NONE" H 4850 4300 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 4850 4300 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 4850 4300 60  0001 C CNN "Package"
-F 7 "NONE" H 4850 4300 60  0001 C CNN "Description"
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 4850 4500 50  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 4850 4300 60  0001 C CNN "Description"
+F 5 "C&K" H 4850 4300 60  0001 C CNN "Manufacture"
+F 6 "PTS645SK95SMTR92LFS" H 4850 4300 60  0001 C CNN "Mfg Part Number"
+F 7 "6mm SMT" H 4850 4300 60  0001 C CNN "Package"
 	1    4850 4300
 	1    0    0    -1  
 $EndComp
@@ -164,11 +164,11 @@ P 5650 4300
 F 0 "SW29" H 5700 4400 50  0000 L CNN
 F 1 "A" H 5650 4050 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 5650 4500 50  0001 C CNN
-F 3 "" H 5650 4500 50  0001 C CNN
-F 4 "NONE" H 5650 4300 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 5650 4300 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 5650 4300 60  0001 C CNN "Package"
-F 7 "NONE" H 5650 4300 60  0001 C CNN "Description"
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 5650 4500 50  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 5650 4300 60  0001 C CNN "Description"
+F 5 "C&K" H 5650 4300 60  0001 C CNN "Manufacture"
+F 6 "PTS645SK95SMTR92LFS" H 5650 4300 60  0001 C CNN "Mfg Part Number"
+F 7 "6mm SMT" H 5650 4300 60  0001 C CNN "Package"
 	1    5650 4300
 	1    0    0    -1  
 $EndComp
@@ -179,11 +179,11 @@ P 6450 4300
 F 0 "SW30" H 6500 4400 50  0000 L CNN
 F 1 "E" H 6450 4050 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 6450 4500 50  0001 C CNN
-F 3 "" H 6450 4500 50  0001 C CNN
-F 4 "NONE" H 6450 4300 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 6450 4300 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 6450 4300 60  0001 C CNN "Package"
-F 7 "NONE" H 6450 4300 60  0001 C CNN "Description"
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 6450 4500 50  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 6450 4300 60  0001 C CNN "Description"
+F 5 "C&K" H 6450 4300 60  0001 C CNN "Manufacture"
+F 6 "PTS645SK95SMTR92LFS" H 6450 4300 60  0001 C CNN "Mfg Part Number"
+F 7 "6mm SMT" H 6450 4300 60  0001 C CNN "Package"
 	1    6450 4300
 	1    0    0    -1  
 $EndComp
@@ -194,11 +194,11 @@ P 4050 4300
 F 0 "SW34" H 4100 4400 50  0000 L CNN
 F 1 "F" H 4050 4050 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 4050 4500 50  0001 C CNN
-F 3 "" H 4050 4500 50  0001 C CNN
-F 4 "NONE" H 4050 4300 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 4050 4300 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 4050 4300 60  0001 C CNN "Package"
-F 7 "NONE" H 4050 4300 60  0001 C CNN "Description"
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 4050 4500 50  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 4050 4300 60  0001 C CNN "Description"
+F 5 "C&K" H 4050 4300 60  0001 C CNN "Manufacture"
+F 6 "PTS645SK95SMTR92LFS" H 4050 4300 60  0001 C CNN "Mfg Part Number"
+F 7 "6mm SMT" H 4050 4300 60  0001 C CNN "Package"
 	1    4050 4300
 	1    0    0    -1  
 $EndComp
@@ -209,11 +209,11 @@ P 4850 3650
 F 0 "SW21" H 4900 3750 50  0000 L CNN
 F 1 "8" H 4850 3400 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 4850 3850 50  0001 C CNN
-F 3 "" H 4850 3850 50  0001 C CNN
-F 4 "NONE" H 4850 3650 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 4850 3650 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 4850 3650 60  0001 C CNN "Package"
-F 7 "NONE" H 4850 3650 60  0001 C CNN "Description"
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 4850 3850 50  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 4850 3650 60  0001 C CNN "Description"
+F 5 "C&K" H 4850 3650 60  0001 C CNN "Manufacture"
+F 6 "PTS645SK95SMTR92LFS" H 4850 3650 60  0001 C CNN "Mfg Part Number"
+F 7 "6mm SMT" H 4850 3650 60  0001 C CNN "Package"
 	1    4850 3650
 	1    0    0    -1  
 $EndComp
@@ -224,11 +224,11 @@ P 4050 3650
 F 0 "SW25" H 4100 3750 50  0000 L CNN
 F 1 "9" H 4050 3400 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 4050 3850 50  0001 C CNN
-F 3 "" H 4050 3850 50  0001 C CNN
-F 4 "NONE" H 4050 3650 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 4050 3650 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 4050 3650 60  0001 C CNN "Package"
-F 7 "NONE" H 4050 3650 60  0001 C CNN "Description"
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 4050 3850 50  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 4050 3650 60  0001 C CNN "Description"
+F 5 "C&K" H 4050 3650 60  0001 C CNN "Manufacture"
+F 6 "PTS645SK95SMTR92LFS" H 4050 3650 60  0001 C CNN "Mfg Part Number"
+F 7 "6mm SMT" H 4050 3650 60  0001 C CNN "Package"
 	1    4050 3650
 	1    0    0    -1  
 $EndComp
@@ -239,11 +239,11 @@ P 5650 3650
 F 0 "SW32" H 5700 3750 50  0000 L CNN
 F 1 "7" H 5650 3400 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 5650 3850 50  0001 C CNN
-F 3 "" H 5650 3850 50  0001 C CNN
-F 4 "NONE" H 5650 3650 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 5650 3650 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 5650 3650 60  0001 C CNN "Package"
-F 7 "NONE" H 5650 3650 60  0001 C CNN "Description"
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 5650 3850 50  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 5650 3650 60  0001 C CNN "Description"
+F 5 "C&K" H 5650 3650 60  0001 C CNN "Manufacture"
+F 6 "PTS645SK95SMTR92LFS" H 5650 3650 60  0001 C CNN "Mfg Part Number"
+F 7 "6mm SMT" H 5650 3650 60  0001 C CNN "Package"
 	1    5650 3650
 	1    0    0    -1  
 $EndComp
@@ -254,12 +254,38 @@ P 6450 3650
 F 0 "SW26" H 6500 3750 50  0000 L CNN
 F 1 "D" H 6450 3400 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 6450 3850 50  0001 C CNN
-F 3 "" H 6450 3850 50  0001 C CNN
-F 4 "NONE" H 6450 3650 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 6450 3650 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 6450 3650 60  0001 C CNN "Package"
-F 7 "NONE" H 6450 3650 60  0001 C CNN "Description"
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 6450 3850 50  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 6450 3650 60  0001 C CNN "Description"
+F 5 "C&K" H 6450 3650 60  0001 C CNN "Manufacture"
+F 6 "PTS645SK95SMTR92LFS" H 6450 3650 60  0001 C CNN "Mfg Part Number"
+F 7 "6mm SMT" H 6450 3650 60  0001 C CNN "Package"
 	1    6450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_Dual2 SW1
+U 1 1 5B265DDD
+P 6450 1700
+F 0 "SW1" H 6500 1800 50  0000 L CNN
+F 1 "CLEAR" H 6450 1450 50  0000 C CNN
+F 2 "" H 6450 1900 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 6450 1900 50  0001 C CNN
+F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 6450 1700 60  0001 C CNN "Description"
+F 5 "C&K" H 6450 1700 60  0001 C CNN "Manufacture"
+F 6 "PTS645SK95SMTR92LFS" H 6450 1700 60  0001 C CNN "Mfg Part Number"
+F 7 "6mm SMT" H 6450 1700 60  0001 C CNN "Package"
+	1    6450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR37
+U 1 1 5B266457
+P 6100 1900
+F 0 "#PWR37" H 6100 1650 50  0001 C CNN
+F 1 "GND" H 6100 1750 50  0000 C CNN
+F 2 "" H 6100 1900 50  0001 C CNN
+F 3 "" H 6100 1900 50  0001 C CNN
+	1    6100 1900
 	1    0    0    -1  
 $EndComp
 Text Notes 3750 2050 0    60   ~ 0
@@ -280,6 +306,8 @@ Text HLabel 5350 4900 3    60   Input ~ 0
 COL2
 Text HLabel 6150 4900 3    60   Input ~ 0
 COL3
+Text HLabel 7600 1700 2    60   Input ~ 0
+CLEAR
 Wire Wire Line
 	4250 2350 4250 2150
 Wire Wire Line
@@ -358,6 +386,14 @@ Wire Wire Line
 	4650 3650 4550 3650
 Wire Wire Line
 	4650 4300 4550 4300
+Wire Wire Line
+	4250 3450 7600 3450
+Wire Wire Line
+	6100 1900 6100 1700
+Wire Wire Line
+	6100 1700 6250 1700
+Wire Wire Line
+	7600 1700 6650 1700
 Connection ~ 6650 2150
 Connection ~ 5850 2150
 Connection ~ 5050 2150
@@ -381,41 +417,5 @@ Connection ~ 5350 3000
 Connection ~ 4550 3000
 Connection ~ 4550 3650
 Connection ~ 4550 4300
-Wire Wire Line
-	4250 3450 7600 3450
 Connection ~ 6650 3450
-$Comp
-L SW_Push_Dual2 SW?
-U 1 1 5B265DDD
-P 6450 1700
-F 0 "SW?" H 6500 1800 50  0000 L CNN
-F 1 "CLEAR" H 6450 1450 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_TH_Tactile_Omron_B3F-10xx" H 6450 1900 50  0001 C CNN
-F 3 "" H 6450 1900 50  0001 C CNN
-F 4 "NONE" H 6450 1700 60  0001 C CNN "Manufacture"
-F 5 "NONE" H 6450 1700 60  0001 C CNN "Mfg Part Number"
-F 6 "NONE" H 6450 1700 60  0001 C CNN "Package"
-F 7 "NONE" H 6450 1700 60  0001 C CNN "Description"
-	1    6450 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5B266457
-P 6100 1900
-F 0 "#PWR?" H 6100 1650 50  0001 C CNN
-F 1 "GND" H 6100 1750 50  0000 C CNN
-F 2 "" H 6100 1900 50  0001 C CNN
-F 3 "" H 6100 1900 50  0001 C CNN
-	1    6100 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 1900 6100 1700
-Wire Wire Line
-	6100 1700 6250 1700
-Text HLabel 7600 1700 2    60   Input ~ 0
-CLEAR
-Wire Wire Line
-	7600 1700 6650 1700
 $EndSCHEMATC
