@@ -714,10 +714,10 @@ F 0 "DS2" H 6100 1600 60  0000 C CNN
 F 1 "LTD-4608JR" H 5400 2600 60  0000 C CNN
 F 2 "Lite-On:Display_Lite-On_LTD-4608JR" H 5200 2175 60  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTD-4608JR.pdf" H 5200 2175 60  0001 C CNN
-F 4 "Lite-On Inc." H 6100 1700 50  0001 C CNN "Manufacture"
-F 5 "LTD-4608JR" H 6100 1700 50  0001 C CNN "Mfg Part Number"
-F 6 "10-DIP" H 5400 2100 60  0001 C CNN "Package"
-F 7 "LED 7-SEG .40\" 2DGT SUPER RED CA" H 5400 2100 60  0001 C CNN "Description"
+F 4 "LED 7-SEG .40\" 2DGT SUPER RED CA" H 5400 2100 60  0001 C CNN "Description"
+F 5 "Lite-On Inc." H 6100 1700 50  0001 C CNN "Manufacture"
+F 6 "LTD-4608JR" H 6100 1700 50  0001 C CNN "Mfg Part Number"
+F 7 "10-DIP" H 5400 2100 60  0001 C CNN "Package"
 	1    5400 2100
 	1    0    0    -1  
 $EndComp
@@ -759,10 +759,10 @@ F 0 "DS3" H 6100 2750 60  0000 C CNN
 F 1 "LTD-4608JR" H 5400 3750 60  0000 C CNN
 F 2 "Lite-On:Display_Lite-On_LTD-4608JR" H 5200 3325 60  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTD-4608JR.pdf" H 5200 3325 60  0001 C CNN
-F 4 "Lite-On Inc." H 6100 2850 50  0001 C CNN "Manufacture"
-F 5 "LTD-4608JR" H 6100 2850 50  0001 C CNN "Mfg Part Number"
-F 6 "10-DIP" H 5400 3250 60  0001 C CNN "Package"
-F 7 "LED 7-SEG .40\" 2DGT SUPER RED CA" H 5400 3250 60  0001 C CNN "Description"
+F 4 "LED 7-SEG .40\" 2DGT SUPER RED CA" H 5400 3250 60  0001 C CNN "Description"
+F 5 "Lite-On Inc." H 6100 2850 50  0001 C CNN "Manufacture"
+F 6 "LTD-4608JR" H 6100 2850 50  0001 C CNN "Mfg Part Number"
+F 7 "10-DIP" H 5400 3250 60  0001 C CNN "Package"
 	1    5400 3250
 	1    0    0    -1  
 $EndComp

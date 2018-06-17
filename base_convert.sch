@@ -123,7 +123,11 @@ P 1750 1200
 F 0 "Q1" H 1950 1250 50  0000 L CNN
 F 1 "Q_PMOS_GSD" H 1950 1150 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 1950 1300 50  0001 C CNN
-F 3 "" H 1750 1200 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/64004/si2323dds.pdf" H 1750 1200 50  0001 C CNN
+F 4 "Vishay Siliconix" H 1950 1350 50  0001 C CNN "Manufacture"
+F 5 "SI2323DDS-T1-GE3" H 1950 1350 50  0001 C CNN "Mfg Part Number"
+F 6 "SOT-23" H 1950 1350 50  0001 C CNN "Package"
+F 7 "MOSFET P-CH 20V 5.3A SOT-23" H 1950 1350 50  0001 C CNN "Description"
 	1    1750 1200
 	0    -1   -1   0   
 $EndComp
@@ -300,10 +304,6 @@ F 0 "J2" H 2150 2800 50  0000 C CNN
 F 1 "Extra" H 2150 2300 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 2150 2600 50  0001 C CNN
 F 3 "" H 2150 2600 50  0001 C CNN
-F 4 "NONE" H 2150 2600 60  0001 C CNN "Description"
-F 5 "NONE" H 2150 2600 60  0001 C CNN "Manufacture"
-F 6 "NONE" H 2150 2600 60  0001 C CNN "Mfg Part Number"
-F 7 "NONE" H 2150 2600 60  0001 C CNN "Package"
 	1    2150 2600
 	-1   0    0    -1  
 $EndComp
