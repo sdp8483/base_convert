@@ -244,17 +244,6 @@ F 3 "" H 3700 3900 50  0001 C CNN
 	1    3700 3900
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR4
-U 1 1 5AFB7D7E
-P -250 3300
-F 0 "#PWR4" H -250 3050 50  0001 C CNN
-F 1 "GND" H -250 3150 50  0000 C CNN
-F 2 "" H -250 3300 50  0001 C CNN
-F 3 "" H -250 3300 50  0001 C CNN
-	1    -250 3300
-	1    0    0    -1  
-$EndComp
 Text Label 9050 6350 0    60   ~ 0
 DEC_INPUT
 Text Label 9050 6150 0    60   ~ 0
@@ -267,12 +256,6 @@ Text Label 3700 4150 2    60   ~ 0
 SBWTDIO
 Text Label 3700 4250 2    60   ~ 0
 SBWTCK
-Text Label -50  2950 2    60   ~ 0
-P4_0
-Text Label -50  3050 2    60   ~ 0
-P8_3
-Text Label -50  3150 2    60   ~ 0
-P8_2
 NoConn ~ 3100 800 
 NoConn ~ 9550 5950
 $Comp
@@ -411,17 +394,6 @@ F 2 "" H 4450 3000 50  0001 C CNN
 F 3 "" H 4450 3000 50  0001 C CNN
 	1    4450 3000
 	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x04 J2
-U 1 1 5AFB5A51
-P -500 3050
-F 0 "J2" H -500 3250 50  0000 C CNN
-F 1 "Extra" H -500 2750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H -500 3050 50  0001 C CNN
-F 3 "" H -500 3050 50  0001 C CNN
-	1    -500 3050
-	-1   0    0    -1  
 $EndComp
 $Comp
 L MSP430FR2033IPMR U?
@@ -582,16 +554,6 @@ Wire Wire Line
 	9550 6150 8100 6150
 Wire Wire Line
 	8100 5900 7750 5900
-Wire Wire Line
-	-50  2950 -300 2950
-Wire Wire Line
-	-50  3050 -300 3050
-Wire Wire Line
-	-50  3150 -300 3150
-Wire Wire Line
-	-300 3250 -250 3250
-Wire Wire Line
-	-250 3250 -250 3300
 Wire Wire Line
 	4250 4900 5050 4900
 Connection ~ 4750 3000
