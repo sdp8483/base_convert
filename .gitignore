@@ -75,3 +75,10 @@ firmware/RemoteSystemsTempFiles
 *.map
 *.out
 *.obj
+firmware/base_convert/Debug/base_convert.map
+firmware/base_convert/Debug/base_convert.out
+firmware/base_convert/Debug/blink.obj
+firmware/base_convert/Debug/button.obj
+firmware/base_convert/Debug/display.obj
+firmware/base_convert/Debug/func.obj
+firmware/base_convert/Debug/main.obj
