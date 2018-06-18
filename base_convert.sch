@@ -1,14 +1,15 @@
 EESchema Schematic File Version 2
+LIBS:base_convert-cache
 LIBS:Display_LiteOn
 LIBS:MSP430
 LIBS:Switch_CK
 LIBS:Switch_Generic
-LIBS:base_convert-cache
 LIBS:Device
 LIBS:LED
 LIBS:power
 LIBS:Switch
 LIBS:Vreg-TI
+LIBS:Regulator_Microchip
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
@@ -266,21 +267,6 @@ F 1 "VCC" H 3700 4050 50  0000 C CNN
 F 2 "" H 3700 3900 50  0001 C CNN
 F 3 "" H 3700 3900 50  0001 C CNN
 	1    3700 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L TPS782 U1
-U 1 1 5B28097F
-P 4450 900
-F 0 "U1" H 4700 550 60  0000 C CNN
-F 1 "TPS78233DDCR" H 4450 1000 60  0000 C CNN
-F 2 "" H 4450 900 60  0001 C CNN
-F 3 "" H 4450 900 60  0001 C CNN
-F 4 "IC MCU 16BIT 15.5KB FRAM 64LQFP" H 4700 650 50  0001 C CNN "Description"
-F 5 "Texas Instruments" H 4700 650 50  0001 C CNN "Manufacture"
-F 6 "MSP430FR4133IPMR" H 4700 650 50  0001 C CNN "Mfg Part Number"
-F 7 "64-LQFP (10x10)" H 4700 650 50  0001 C CNN "Package"
-	1    4450 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -605,10 +591,6 @@ Wire Wire Line
 Wire Wire Line
 	5150 900  5150 950 
 Wire Wire Line
-	4400 1400 4500 1400
-Wire Wire Line
-	4450 1450 4450 1400
-Wire Wire Line
 	3250 1000 3250 1400
 Wire Wire Line
 	3300 4050 3300 3950
@@ -716,9 +698,23 @@ Connection ~ 3250 1000
 Connection ~ 3250 1200
 Connection ~ 3750 900 
 Connection ~ 3900 900 
-Connection ~ 4450 1400
 Connection ~ 3400 900 
 Connection ~ 4450 3400
 NoConn ~ 3100 800 
 NoConn ~ 9550 5950
+$Comp
+L MIC5317 U?
+U 1 1 5B283B2B
+P 4450 900
+F 0 "U?" H 4700 500 60  0000 C CNN
+F 1 "MIC5317-3.3YM5-TR" H 4450 1000 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 4450 900 60  0001 C CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579427" H 4450 900 60  0001 C CNN
+F 4 "Microchip Technology" H 4450 900 60  0001 C CNN "Manufacture"
+F 5 "MIC5317-3.3YM5-TR" H 4450 900 60  0001 C CNN "Mfg Part Number"
+F 6 "SOT23-5" H 4450 900 60  0001 C CNN "Package"
+F 7 "IC REG LINEAR 3.3V 150MA SOT23-5" H 4450 900 60  0001 C CNN "Description"
+	1    4450 900 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

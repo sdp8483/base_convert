@@ -1,14 +1,15 @@
 EESchema Schematic File Version 2
+LIBS:base_convert-cache
 LIBS:Display_LiteOn
 LIBS:MSP430
 LIBS:Switch_CK
 LIBS:Switch_Generic
-LIBS:base_convert-cache
 LIBS:Device
 LIBS:LED
 LIBS:power
 LIBS:Switch
 LIBS:Vreg-TI
+LIBS:Regulator_Microchip
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500

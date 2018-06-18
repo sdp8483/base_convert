@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC5317
+D IC REG LINEAR 150MA SOT23-5
+$ENDCMP
+#
+#End Doc Library

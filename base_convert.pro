@@ -1,4 +1,4 @@
-update=6/17/2018 8:48:48 PM
+update=6/18/2018 4:39:16 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,19 +33,20 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=lib_sch/Display_LiteOn
-LibName2=lib_sch/MSP430
-LibName3=lib_sch/Switch_CK
-LibName4=lib_sch/Switch_Generic
-LibName5=lib_sch/base_convert-cache
+LibName1=base_convert-cache
+LibName2=lib_sch/Display_LiteOn
+LibName3=lib_sch/MSP430
+LibName4=lib_sch/Switch_CK
+LibName5=lib_sch/Switch_Generic
 LibName6=kicad-symbols/Device
 LibName7=kicad-symbols/LED
 LibName8=kicad-symbols/power
 LibName9=kicad-symbols/Switch
 LibName10=lib_sch/Vreg-TI
-[general]
-version=1
+LibName11=lib_sch/Regulator_Microchip
