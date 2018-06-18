@@ -1,4 +1,4 @@
-update=6/17/2018 2:10:19 PM
+update=6/17/2018 8:48:48 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,8 +33,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -49,3 +47,5 @@ LibName7=kicad-symbols/LED
 LibName8=kicad-symbols/power
 LibName9=kicad-symbols/Switch
 LibName10=lib_sch/Vreg-TI
+[general]
+version=1

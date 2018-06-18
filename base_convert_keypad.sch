@@ -13,7 +13,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 4
+Sheet 3 4
 Title "Base Converter"
 Date ""
 Rev ""
@@ -279,10 +279,10 @@ F 7 "6mm SMT" H 6450 1700 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR37
+L GND #PWR23
 U 1 1 5B266457
 P 6100 1900
-F 0 "#PWR37" H 6100 1650 50  0001 C CNN
+F 0 "#PWR23" H 6100 1650 50  0001 C CNN
 F 1 "GND" H 6100 1750 50  0000 C CNN
 F 2 "" H 6100 1900 50  0001 C CNN
 F 3 "" H 6100 1900 50  0001 C CNN
