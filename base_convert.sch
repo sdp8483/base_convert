@@ -362,11 +362,11 @@ P 3550 3950
 F 0 "JP1" H 3550 4030 50  0000 C CNN
 F 1 "VTARG_EN" H 3560 3890 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206" H 3550 3950 50  0001 C CNN
-F 3 "" H 3550 3950 50  0001 C CNN
-F 4 "NONE" H 3550 3950 60  0001 C CNN "Description"
-F 5 "NONE" H 3550 3950 60  0001 C CNN "Manufacture"
-F 6 "NONE" H 3550 3950 60  0001 C CNN "Mfg Part Number"
-F 7 "NONE" H 3550 3950 60  0001 C CNN "Package"
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 3550 3950 50  0001 C CNN
+F 4 "Yageo" H 3550 3950 60  0001 C CNN "Manufacture"
+F 5 "RC1206JR-070RL" H 3550 3950 60  0001 C CNN "Mfg Part Number"
+F 6 "1206" H 3550 3950 60  0001 C CNN "Package"
+F 7 "RES SMD 0 OHM JUMPER 1/4W 1206" H 3550 3950 60  0001 C CNN "Description"
 	1    3550 3950
 	1    0    0    -1  
 $EndComp
