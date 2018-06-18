@@ -148,7 +148,11 @@ P 4450 3200
 F 0 "C1" H 4475 3300 50  0000 L CNN
 F 1 "10uF" H 4475 3100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4488 3050 50  0001 C CNN
-F 3 "" H 4450 3200 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A106KQFNNNG.jsp" H 4450 3200 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4450 3200 60  0001 C CNN "Manufacture"
+F 5 "CL21A106KQFNNNG" H 4450 3200 60  0001 C CNN "Mfg Part Number"
+F 6 "0805" H 4450 3200 60  0001 C CNN "Package"
+F 7 "CAP CER 10UF 6.3V X5R 0805" H 4450 3200 60  0001 C CNN "Description"
 	1    4450 3200
 	1    0    0    -1  
 $EndComp
@@ -159,7 +163,11 @@ P 4750 3200
 F 0 "C2" H 4775 3300 50  0000 L CNN
 F 1 "100nF" H 4775 3100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4788 3050 50  0001 C CNN
-F 3 "" H 4750 3200 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104KOANNNC.jsp" H 4750 3200 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4750 3200 60  0001 C CNN "Manufacture"
+F 5 "CL21B104KOANNNC" H 4750 3200 60  0001 C CNN "Mfg Part Number"
+F 6 "0805" H 4750 3200 60  0001 C CNN "Package"
+F 7 "CAP CER 0.1UF 16V X7R 0805" H 4750 3200 60  0001 C CNN "Description"
 	1    4750 3200
 	1    0    0    -1  
 $EndComp
@@ -276,12 +284,12 @@ U 1 1 5B284652
 P 3750 1100
 F 0 "C3" H 3775 1200 50  0000 L CNN
 F 1 "1uF" H 3775 1000 50  0000 L CNN
-F 2 "" H 3788 950 50  0001 C CNN
-F 3 "" H 3750 1100 50  0001 C CNN
-F 4 "NONE" H 3750 1100 60  0001 C CNN "Description"
-F 5 "NONE" H 3750 1100 60  0001 C CNN "Manufacture"
-F 6 "NONE" H 3750 1100 60  0001 C CNN "Mfg Part Number"
-F 7 "NONE" H 3750 1100 60  0001 C CNN "Package"
+F 2 "Capacitors_SMD:C_0805" H 3788 950 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp" H 3750 1100 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 3750 1100 60  0001 C CNN "Manufacture"
+F 5 "CL21B105KOFNNNG" H 3750 1100 60  0001 C CNN "Mfg Part Number"
+F 6 "0805" H 3750 1100 60  0001 C CNN "Package"
+F 7 "CAP CER 1UF 16V X7R 0805" H 3750 1100 60  0001 C CNN "Description"
 	1    3750 1100
 	1    0    0    -1  
 $EndComp
@@ -305,21 +313,6 @@ F 1 "GND" H 4450 1300 50  0000 C CNN
 F 2 "" H 4450 1450 50  0001 C CNN
 F 3 "" H 4450 1450 50  0001 C CNN
 	1    4450 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C4
-U 1 1 5B2862C1
-P 5150 1100
-F 0 "C4" H 5175 1200 50  0000 L CNN
-F 1 "1uF" H 5175 1000 50  0000 L CNN
-F 2 "" H 5188 950 50  0001 C CNN
-F 3 "" H 5150 1100 50  0001 C CNN
-F 4 "NONE" H 5150 1100 60  0001 C CNN "Description"
-F 5 "NONE" H 5150 1100 60  0001 C CNN "Manufacture"
-F 6 "NONE" H 5150 1100 60  0001 C CNN "Mfg Part Number"
-F 7 "NONE" H 5150 1100 60  0001 C CNN "Package"
-	1    5150 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -793,4 +786,19 @@ Wire Wire Line
 Wire Wire Line
 	3300 6950 3450 6950
 Connection ~ 3450 6950
+$Comp
+L C C4
+U 1 1 5B28CF1A
+P 5150 1100
+F 0 "C4" H 5175 1200 50  0000 L CNN
+F 1 "1uF" H 5175 1000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5188 950 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp" H 5150 1100 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 5150 1100 60  0001 C CNN "Manufacture"
+F 5 "CL21B105KOFNNNG" H 5150 1100 60  0001 C CNN "Mfg Part Number"
+F 6 "0805" H 5150 1100 60  0001 C CNN "Package"
+F 7 "CAP CER 1UF 16V X7R 0805" H 5150 1100 60  0001 C CNN "Description"
+	1    5150 1100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
