@@ -860,14 +860,6 @@ Text Label 4100 1750 0    60   ~ 0
 HEX3
 Text Label 4100 1850 0    60   ~ 0
 HEX4
-Text Label 2300 1150 2    60   ~ 0
-HEX1
-Text Label 2300 1850 2    60   ~ 0
-HEX2
-Text Label 2300 2550 2    60   ~ 0
-HEX3
-Text Label 2300 3250 2    60   ~ 0
-HEX4
 Text Label 4100 2900 0    60   ~ 0
 DEC1
 Text Label 4100 3000 0    60   ~ 0
@@ -903,23 +895,7 @@ F
 Text Label 8450 5500 0    60   ~ 0
 G
 Text HLabel 1100 950  0    60   Input ~ 0
-~HEX1
-Text HLabel 1100 1650 0    60   Input ~ 0
-~HEX2
-Text HLabel 1100 2350 0    60   Input ~ 0
-~HEX3
-Text HLabel 1100 3050 0    60   Input ~ 0
-~HEX4
-Text HLabel 1100 3750 0    60   Input ~ 0
-~DEC1
-Text HLabel 1100 4450 0    60   Input ~ 0
-~DEC2
-Text HLabel 1100 5150 0    60   Input ~ 0
-~DEC3
-Text HLabel 1100 5850 0    60   Input ~ 0
-~DEC4
-Text HLabel 1100 6550 0    60   Input ~ 0
-~DEC5
+~DIGIT0
 Text HLabel 9700 1000 2    60   Input ~ 0
 SEG-A
 Text HLabel 9700 1800 2    60   Input ~ 0
@@ -936,8 +912,6 @@ Text HLabel 9700 5800 2    60   Input ~ 0
 SEG-G
 Text Label 2300 7450 2    60   ~ 0
 DEC6
-Text HLabel 1100 7250 0    60   Input ~ 0
-~DEC6
 Text Label 4100 5100 0    60   ~ 0
 DEC6
 Text Label 6500 700  2    60   ~ 0
@@ -1386,4 +1360,30 @@ Entry Wire Line
 	6550 5700 6650 5600
 Entry Wire Line
 	8350 6200 8450 6300
+Text HLabel 1100 1650 0    60   Input ~ 0
+~DIGIT1
+Text HLabel 1100 2350 0    60   Input ~ 0
+~DIGIT2
+Text HLabel 1100 3050 0    60   Input ~ 0
+~DIGIT3
+Text HLabel 1100 3750 0    60   Input ~ 0
+~DIGIT4
+Text HLabel 1100 4450 0    60   Input ~ 0
+~DIGIT5
+Text HLabel 1100 5150 0    60   Input ~ 0
+~DIGIT6
+Text HLabel 1100 5850 0    60   Input ~ 0
+~DIGIT7
+Text HLabel 1100 6550 0    60   Input ~ 0
+~DIGIT8
+Text HLabel 1100 7250 0    60   Input ~ 0
+~DIGIT9
+Text Label 2300 3250 2    60   ~ 0
+HEX4
+Text Label 2300 2550 2    60   ~ 0
+HEX3
+Text Label 2300 1850 2    60   ~ 0
+HEX2
+Text Label 2300 1150 2    60   ~ 0
+HEX1
 $EndSCHEMATC
