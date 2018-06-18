@@ -62,7 +62,11 @@ P 8750 700
 F 0 "R12" V 8830 700 50  0000 C CNN
 F 1 "150" V 8750 700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8680 700 50  0001 C CNN
-F 3 "" H 8750 700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8750 700 50  0001 C CNN
+F 4 "RES SMD 150 OHM 5% 1/10W 0603" H 8830 800 50  0001 C CNN "Description"
+F 5 "Yageo" H 8830 800 50  0001 C CNN "Manufacture"
+F 6 "RC0603JR-07150RL" H 8830 800 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 8830 800 50  0001 C CNN "Package"
 	1    8750 700 
 	0    1    1    0   
 $EndComp
@@ -72,8 +76,12 @@ U 1 1 5AEA81FB
 P 1250 950
 F 0 "R3" V 1330 950 50  0000 C CNN
 F 1 "4.7k" V 1250 950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1180 950 50  0001 C CNN
-F 3 "" H 1250 950 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 1180 950 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 1250 950 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 1330 1050 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 1330 1050 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 1330 1050 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 1330 1050 50  0001 C CNN "Package"
 	1    1250 950 
 	0    1    1    0   
 $EndComp
@@ -83,8 +91,12 @@ U 1 1 5AEA8202
 P 9550 1000
 F 0 "R19" V 9630 1000 50  0000 C CNN
 F 1 "4.7k" V 9550 1000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9480 1000 50  0001 C CNN
-F 3 "" H 9550 1000 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 9480 1000 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 9550 1000 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 9630 1100 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 9630 1100 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 9630 1100 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 9630 1100 50  0001 C CNN "Package"
 	1    9550 1000
 	0    1    1    0   
 $EndComp
@@ -120,8 +132,12 @@ U 1 1 5AEAC95D
 P 1250 1650
 F 0 "R4" V 1330 1650 50  0000 C CNN
 F 1 "4.7k" V 1250 1650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1180 1650 50  0001 C CNN
-F 3 "" H 1250 1650 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 1180 1650 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 1250 1650 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 1330 1750 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 1330 1750 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 1330 1750 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 1330 1750 50  0001 C CNN "Package"
 	1    1250 1650
 	0    1    1    0   
 $EndComp
@@ -157,8 +173,12 @@ U 1 1 5AEACA9B
 P 1250 2350
 F 0 "R5" V 1330 2350 50  0000 C CNN
 F 1 "4.7k" V 1250 2350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1180 2350 50  0001 C CNN
-F 3 "" H 1250 2350 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 1180 2350 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 1250 2350 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 1330 2450 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 1330 2450 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 1330 2450 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 1330 2450 50  0001 C CNN "Package"
 	1    1250 2350
 	0    1    1    0   
 $EndComp
@@ -194,8 +214,12 @@ U 1 1 5AEACAB3
 P 1250 3050
 F 0 "R6" V 1330 3050 50  0000 C CNN
 F 1 "4.7k" V 1250 3050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1180 3050 50  0001 C CNN
-F 3 "" H 1250 3050 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 1180 3050 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 1250 3050 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 1330 3150 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 1330 3150 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 1330 3150 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 1330 3150 50  0001 C CNN "Package"
 	1    1250 3050
 	0    1    1    0   
 $EndComp
@@ -231,8 +255,12 @@ U 1 1 5AEB1188
 P 1250 3750
 F 0 "R7" V 1330 3750 50  0000 C CNN
 F 1 "4.7k" V 1250 3750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1180 3750 50  0001 C CNN
-F 3 "" H 1250 3750 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 1180 3750 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 1250 3750 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 1330 3850 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 1330 3850 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 1330 3850 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 1330 3850 50  0001 C CNN "Package"
 	1    1250 3750
 	0    1    1    0   
 $EndComp
@@ -268,8 +296,12 @@ U 1 1 5AEB11A2
 P 1250 4450
 F 0 "R8" V 1330 4450 50  0000 C CNN
 F 1 "4.7k" V 1250 4450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1180 4450 50  0001 C CNN
-F 3 "" H 1250 4450 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 1180 4450 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 1250 4450 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 1330 4550 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 1330 4550 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 1330 4550 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 1330 4550 50  0001 C CNN "Package"
 	1    1250 4450
 	0    1    1    0   
 $EndComp
@@ -305,8 +337,12 @@ U 1 1 5AEB11BC
 P 1250 5150
 F 0 "R9" V 1330 5150 50  0000 C CNN
 F 1 "4.7k" V 1250 5150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1180 5150 50  0001 C CNN
-F 3 "" H 1250 5150 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 1180 5150 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 1250 5150 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 1330 5250 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 1330 5250 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 1330 5250 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 1330 5250 50  0001 C CNN "Package"
 	1    1250 5150
 	0    1    1    0   
 $EndComp
@@ -342,8 +378,12 @@ U 1 1 5AEB11D6
 P 1250 5850
 F 0 "R10" V 1330 5850 50  0000 C CNN
 F 1 "4.7k" V 1250 5850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1180 5850 50  0001 C CNN
-F 3 "" H 1250 5850 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 1180 5850 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 1250 5850 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 1330 5950 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 1330 5950 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 1330 5950 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 1330 5950 50  0001 C CNN "Package"
 	1    1250 5850
 	0    1    1    0   
 $EndComp
@@ -379,8 +419,12 @@ U 1 1 5AEB1791
 P 1250 6550
 F 0 "R11" V 1330 6550 50  0000 C CNN
 F 1 "4.7k" V 1250 6550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1180 6550 50  0001 C CNN
-F 3 "" H 1250 6550 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 1180 6550 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 1250 6550 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 1330 6650 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 1330 6650 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 1330 6650 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 1330 6650 50  0001 C CNN "Package"
 	1    1250 6550
 	0    1    1    0   
 $EndComp
@@ -428,7 +472,11 @@ P 8750 1500
 F 0 "R13" V 8830 1500 50  0000 C CNN
 F 1 "150" V 8750 1500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8680 1500 50  0001 C CNN
-F 3 "" H 8750 1500 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8750 1500 50  0001 C CNN
+F 4 "RES SMD 150 OHM 5% 1/10W 0603" H 8830 1600 50  0001 C CNN "Description"
+F 5 "Yageo" H 8830 1600 50  0001 C CNN "Manufacture"
+F 6 "RC0603JR-07150RL" H 8830 1600 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 8830 1600 50  0001 C CNN "Package"
 	1    8750 1500
 	0    1    1    0   
 $EndComp
@@ -438,8 +486,12 @@ U 1 1 5AEB9882
 P 9550 1800
 F 0 "R20" V 9630 1800 50  0000 C CNN
 F 1 "4.7k" V 9550 1800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9480 1800 50  0001 C CNN
-F 3 "" H 9550 1800 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 9480 1800 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 9550 1800 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 9630 1900 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 9630 1900 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 9630 1900 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 9630 1900 50  0001 C CNN "Package"
 	1    9550 1800
 	0    1    1    0   
 $EndComp
@@ -476,7 +528,11 @@ P 8750 2300
 F 0 "R14" V 8830 2300 50  0000 C CNN
 F 1 "150" V 8750 2300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8680 2300 50  0001 C CNN
-F 3 "" H 8750 2300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8750 2300 50  0001 C CNN
+F 4 "RES SMD 150 OHM 5% 1/10W 0603" H 8830 2400 50  0001 C CNN "Description"
+F 5 "Yageo" H 8830 2400 50  0001 C CNN "Manufacture"
+F 6 "RC0603JR-07150RL" H 8830 2400 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 8830 2400 50  0001 C CNN "Package"
 	1    8750 2300
 	0    1    1    0   
 $EndComp
@@ -486,8 +542,12 @@ U 1 1 5AEB9B07
 P 9550 2600
 F 0 "R21" V 9630 2600 50  0000 C CNN
 F 1 "4.7k" V 9550 2600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9480 2600 50  0001 C CNN
-F 3 "" H 9550 2600 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 9480 2600 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 9550 2600 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 9630 2700 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 9630 2700 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 9630 2700 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 9630 2700 50  0001 C CNN "Package"
 	1    9550 2600
 	0    1    1    0   
 $EndComp
@@ -524,7 +584,11 @@ P 8750 3100
 F 0 "R15" V 8830 3100 50  0000 C CNN
 F 1 "150" V 8750 3100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8680 3100 50  0001 C CNN
-F 3 "" H 8750 3100 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8750 3100 50  0001 C CNN
+F 4 "RES SMD 150 OHM 5% 1/10W 0603" H 8830 3200 50  0001 C CNN "Description"
+F 5 "Yageo" H 8830 3200 50  0001 C CNN "Manufacture"
+F 6 "RC0603JR-07150RL" H 8830 3200 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 8830 3200 50  0001 C CNN "Package"
 	1    8750 3100
 	0    1    1    0   
 $EndComp
@@ -534,8 +598,12 @@ U 1 1 5AEB9B2B
 P 9550 3400
 F 0 "R22" V 9630 3400 50  0000 C CNN
 F 1 "4.7k" V 9550 3400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9480 3400 50  0001 C CNN
-F 3 "" H 9550 3400 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 9480 3400 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 9550 3400 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 9630 3500 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 9630 3500 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 9630 3500 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 9630 3500 50  0001 C CNN "Package"
 	1    9550 3400
 	0    1    1    0   
 $EndComp
@@ -572,7 +640,11 @@ P 8750 3900
 F 0 "R16" V 8830 3900 50  0000 C CNN
 F 1 "150" V 8750 3900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8680 3900 50  0001 C CNN
-F 3 "" H 8750 3900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8750 3900 50  0001 C CNN
+F 4 "RES SMD 150 OHM 5% 1/10W 0603" H 8830 4000 50  0001 C CNN "Description"
+F 5 "Yageo" H 8830 4000 50  0001 C CNN "Manufacture"
+F 6 "RC0603JR-07150RL" H 8830 4000 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 8830 4000 50  0001 C CNN "Package"
 	1    8750 3900
 	0    1    1    0   
 $EndComp
@@ -582,8 +654,12 @@ U 1 1 5AEB9F75
 P 9550 4200
 F 0 "R23" V 9630 4200 50  0000 C CNN
 F 1 "4.7k" V 9550 4200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9480 4200 50  0001 C CNN
-F 3 "" H 9550 4200 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 9480 4200 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 9550 4200 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 9630 4300 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 9630 4300 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 9630 4300 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 9630 4300 50  0001 C CNN "Package"
 	1    9550 4200
 	0    1    1    0   
 $EndComp
@@ -620,7 +696,11 @@ P 8750 4700
 F 0 "R17" V 8830 4700 50  0000 C CNN
 F 1 "150" V 8750 4700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8680 4700 50  0001 C CNN
-F 3 "" H 8750 4700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8750 4700 50  0001 C CNN
+F 4 "RES SMD 150 OHM 5% 1/10W 0603" H 8830 4800 50  0001 C CNN "Description"
+F 5 "Yageo" H 8830 4800 50  0001 C CNN "Manufacture"
+F 6 "RC0603JR-07150RL" H 8830 4800 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 8830 4800 50  0001 C CNN "Package"
 	1    8750 4700
 	0    1    1    0   
 $EndComp
@@ -630,8 +710,12 @@ U 1 1 5AEB9F99
 P 9550 5000
 F 0 "R24" V 9630 5000 50  0000 C CNN
 F 1 "4.7k" V 9550 5000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9480 5000 50  0001 C CNN
-F 3 "" H 9550 5000 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 9480 5000 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 9550 5000 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 9630 5100 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 9630 5100 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 9630 5100 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 9630 5100 50  0001 C CNN "Package"
 	1    9550 5000
 	0    1    1    0   
 $EndComp
@@ -668,7 +752,11 @@ P 8750 5500
 F 0 "R18" V 8830 5500 50  0000 C CNN
 F 1 "150" V 8750 5500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8680 5500 50  0001 C CNN
-F 3 "" H 8750 5500 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8750 5500 50  0001 C CNN
+F 4 "RES SMD 150 OHM 5% 1/10W 0603" H 8830 5600 50  0001 C CNN "Description"
+F 5 "Yageo" H 8830 5600 50  0001 C CNN "Manufacture"
+F 6 "RC0603JR-07150RL" H 8830 5600 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 8830 5600 50  0001 C CNN "Package"
 	1    8750 5500
 	0    1    1    0   
 $EndComp
@@ -678,8 +766,12 @@ U 1 1 5AEB9FBD
 P 9550 5800
 F 0 "R25" V 9630 5800 50  0000 C CNN
 F 1 "4.7k" V 9550 5800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9480 5800 50  0001 C CNN
-F 3 "" H 9550 5800 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 9480 5800 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 9550 5800 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 9630 5900 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 9630 5900 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 9630 5900 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 9630 5900 50  0001 C CNN "Package"
 	1    9550 5800
 	0    1    1    0   
 $EndComp
@@ -790,8 +882,12 @@ U 1 1 5AF53093
 P 1250 7250
 F 0 "R38" V 1330 7250 50  0000 C CNN
 F 1 "4.7k" V 1250 7250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1180 7250 50  0001 C CNN
-F 3 "" H 1250 7250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 1180 7250 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 1250 7250 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 1330 7350 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 1330 7350 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 1330 7350 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 1330 7350 50  0001 C CNN "Package"
 	1    1250 7250
 	0    1    1    0   
 $EndComp
@@ -828,7 +924,11 @@ P 8750 6300
 F 0 "R39" V 8830 6300 50  0000 C CNN
 F 1 "150" V 8750 6300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8680 6300 50  0001 C CNN
-F 3 "" H 8750 6300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8750 6300 50  0001 C CNN
+F 4 "RES SMD 150 OHM 5% 1/10W 0603" H 8830 6400 50  0001 C CNN "Description"
+F 5 "Yageo" H 8830 6400 50  0001 C CNN "Manufacture"
+F 6 "RC0603JR-07150RL" H 8830 6400 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 8830 6400 50  0001 C CNN "Package"
 	1    8750 6300
 	0    1    1    0   
 $EndComp
@@ -838,8 +938,12 @@ U 1 1 5AF56968
 P 9550 6600
 F 0 "R40" V 9630 6600 50  0000 C CNN
 F 1 "4.7k" V 9550 6600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9480 6600 50  0001 C CNN
-F 3 "" H 9550 6600 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 9480 6600 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 9550 6600 50  0001 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 9630 6700 50  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 9630 6700 50  0001 C CNN "Manufacture"
+F 6 "ERJ-3GEYJ472V" H 9630 6700 50  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 9630 6700 50  0001 C CNN "Package"
 	1    9550 6600
 	0    1    1    0   
 $EndComp

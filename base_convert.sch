@@ -81,53 +81,53 @@ $EndSheet
 $Comp
 L Battery BT1
 U 1 1 5AEC3A00
-P 1000 1350
-F 0 "BT1" H 1100 1450 50  0000 L CNN
-F 1 "4 Cell AA Battery Holder" V 850 1400 50  0000 C CNN
-F 2 "MPD:BC4AAPC" V 1000 1410 50  0001 C CNN
-F 3 "http://www.memoryprotectiondevices.com/datasheets/BC4AAPC-datasheet.pdf" V 1000 1410 50  0001 C CNN
-F 4 "HOLDER BATT 4-AA CELLS PC MNT" H 1000 1350 60  0001 C CNN "Description"
-F 5 "MPD (Memory Protection Devices)" H 1000 1350 60  0001 C CNN "Manufacture"
-F 6 "BC4AAPC" H 1000 1350 60  0001 C CNN "Mfg Part Number"
-F 7 "PC Pin" H 1000 1350 60  0001 C CNN "Package"
-	1    1000 1350
+P 800 1350
+F 0 "BT1" H 900 1450 50  0000 L CNN
+F 1 "4 Cell AA Battery Holder" V 650 1400 50  0000 C CNN
+F 2 "MPD:BC4AAPC" V 800 1410 50  0001 C CNN
+F 3 "http://www.memoryprotectiondevices.com/datasheets/BC4AAPC-datasheet.pdf" V 800 1410 50  0001 C CNN
+F 4 "HOLDER BATT 4-AA CELLS PC MNT" H 800 1350 60  0001 C CNN "Description"
+F 5 "MPD (Memory Protection Devices)" H 800 1350 60  0001 C CNN "Manufacture"
+F 6 "BC4AAPC" H 800 1350 60  0001 C CNN "Mfg Part Number"
+F 7 "PC Pin" H 800 1350 60  0001 C CNN "Package"
+	1    800  1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR01
 U 1 1 5AEC3D6F
-P 1000 1600
-F 0 "#PWR01" H 1000 1350 50  0001 C CNN
-F 1 "GND" H 1000 1450 50  0000 C CNN
-F 2 "" H 1000 1600 50  0001 C CNN
-F 3 "" H 1000 1600 50  0001 C CNN
-	1    1000 1600
+P 800 1600
+F 0 "#PWR01" H 800 1350 50  0001 C CNN
+F 1 "GND" H 800 1450 50  0000 C CNN
+F 2 "" H 800 1600 50  0001 C CNN
+F 3 "" H 800 1600 50  0001 C CNN
+	1    800  1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Q_PMOS_GSD Q1
 U 1 1 5AEC4CC5
-P 1750 1200
-F 0 "Q1" V 1700 1100 50  0000 R CNN
-F 1 "Q_PMOS_GSD" V 1975 1200 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 1950 1300 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/64004/si2323dds.pdf" H 1750 1200 50  0001 C CNN
-F 4 "MOSFET P-CH 20V 5.3A SOT-23" H 1950 1350 50  0001 C CNN "Description"
-F 5 "Vishay Siliconix" H 1950 1350 50  0001 C CNN "Manufacture"
-F 6 "SI2323DDS-T1-GE3" H 1950 1350 50  0001 C CNN "Mfg Part Number"
-F 7 "SOT-23" H 1950 1350 50  0001 C CNN "Package"
-	1    1750 1200
+P 1550 1200
+F 0 "Q1" V 1500 1100 50  0000 R CNN
+F 1 "Q_PMOS_GSD" V 1775 1200 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 1750 1300 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/64004/si2323dds.pdf" H 1550 1200 50  0001 C CNN
+F 4 "MOSFET P-CH 20V 5.3A SOT-23" H 1750 1350 50  0001 C CNN "Description"
+F 5 "Vishay Siliconix" H 1750 1350 50  0001 C CNN "Manufacture"
+F 6 "SI2323DDS-T1-GE3" H 1750 1350 50  0001 C CNN "Mfg Part Number"
+F 7 "SOT-23" H 1750 1350 50  0001 C CNN "Package"
+	1    1550 1200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR02
 U 1 1 5AEC5CE6
-P 1750 1600
-F 0 "#PWR02" H 1750 1350 50  0001 C CNN
-F 1 "GND" H 1750 1450 50  0000 C CNN
-F 2 "" H 1750 1600 50  0001 C CNN
-F 3 "" H 1750 1600 50  0001 C CNN
-	1    1750 1600
+P 1550 1600
+F 0 "#PWR02" H 1550 1350 50  0001 C CNN
+F 1 "GND" H 1550 1450 50  0000 C CNN
+F 2 "" H 1550 1600 50  0001 C CNN
+F 3 "" H 1550 1600 50  0001 C CNN
+	1    1550 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -149,10 +149,10 @@ F 0 "C1" H 4475 3300 50  0000 L CNN
 F 1 "10uF" H 4475 3100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4488 3050 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A106KQFNNNG.jsp" H 4450 3200 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 4450 3200 60  0001 C CNN "Manufacture"
-F 5 "CL21A106KQFNNNG" H 4450 3200 60  0001 C CNN "Mfg Part Number"
-F 6 "0805" H 4450 3200 60  0001 C CNN "Package"
-F 7 "CAP CER 10UF 6.3V X5R 0805" H 4450 3200 60  0001 C CNN "Description"
+F 4 "CAP CER 10UF 6.3V X5R 0805" H 4450 3200 60  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics" H 4450 3200 60  0001 C CNN "Manufacture"
+F 6 "CL21A106KQFNNNG" H 4450 3200 60  0001 C CNN "Mfg Part Number"
+F 7 "0805" H 4450 3200 60  0001 C CNN "Package"
 	1    4450 3200
 	1    0    0    -1  
 $EndComp
@@ -164,22 +164,26 @@ F 0 "C2" H 4775 3300 50  0000 L CNN
 F 1 "100nF" H 4775 3100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4788 3050 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104KOANNNC.jsp" H 4750 3200 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 4750 3200 60  0001 C CNN "Manufacture"
-F 5 "CL21B104KOANNNC" H 4750 3200 60  0001 C CNN "Mfg Part Number"
-F 6 "0805" H 4750 3200 60  0001 C CNN "Package"
-F 7 "CAP CER 0.1UF 16V X7R 0805" H 4750 3200 60  0001 C CNN "Description"
+F 4 "CAP CER 0.1UF 16V X7R 0805" H 4750 3200 60  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics" H 4750 3200 60  0001 C CNN "Manufacture"
+F 6 "CL21B104KOANNNC" H 4750 3200 60  0001 C CNN "Mfg Part Number"
+F 7 "0805" H 4750 3200 60  0001 C CNN "Package"
 	1    4750 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L SS-24E06-TG5P SW2
 U 2 1 5AF1B232
-P 2900 1100
-F 0 "SW2" H 2900 1470 50  0000 C CNN
-F 1 "SELECT" H 2900 700 50  0000 C CNN
-F 2 "Switch_CK:DP4T_SS-24E06-TG5P" H 2900 1300 50  0001 C CNN
-F 3 "" H 2900 1300 50  0001 C CNN
-	2    2900 1100
+P 2700 1100
+F 0 "SW2" H 2700 1470 50  0000 C CNN
+F 1 "SELECT" H 2700 700 50  0000 C CNN
+F 2 "Switch_CK:DP4T_SS-24E06-TG5P" H 2700 1300 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/C&K/SS-24E06-TG_5_(P).pdf" H 2700 1300 50  0001 C CNN
+F 4 "SWITCH SLIDE DP4T 300MA 30V" H 2700 1570 50  0001 C CNN "Description"
+F 5 "C&K" H 2700 1570 50  0001 C CNN "Manufacture"
+F 6 "SS-24E06-TG 5 (P)" H 2700 1570 50  0001 C CNN "Mfg Part Number"
+F 7 "PC Pin" H 2700 1570 50  0001 C CNN "Package"
+	2    2700 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -189,7 +193,11 @@ P 9750 6250
 F 0 "SW2" H 9750 6620 50  0000 C CNN
 F 1 "SELECT" H 9750 5850 50  0000 C CNN
 F 2 "Switch_CK:DP4T_SS-24E06-TG5P" H 9750 6450 50  0001 C CNN
-F 3 "" H 9750 6450 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/C&K/SS-24E06-TG_5_(P).pdf" H 9750 6450 50  0001 C CNN
+F 4 "SWITCH SLIDE DP4T 300MA 30V" H 9750 6720 50  0001 C CNN "Description"
+F 5 "C&K" H 9750 6720 50  0001 C CNN "Manufacture"
+F 6 "SS-24E06-TG 5 (P)" H 9750 6720 50  0001 C CNN "Mfg Part Number"
+F 7 "PC Pin" H 9750 6720 50  0001 C CNN "Package"
 	1    9750 6250
 	-1   0    0    -1  
 $EndComp
@@ -207,42 +215,42 @@ $EndComp
 $Comp
 L R R1
 U 1 1 5AF2F1FC
-P 950 2300
-F 0 "R1" V 1030 2300 50  0000 C CNN
-F 1 "102k" V 850 2300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 880 2300 50  0001 C CNN
-F 3 "" H 950 2300 50  0001 C CNN
-F 4 "NONE" H 950 2300 60  0001 C CNN "Description"
-F 5 "NONE" H 950 2300 60  0001 C CNN "Manufacture"
-F 6 "NONE" H 950 2300 60  0001 C CNN "Mfg Part Number"
-F 7 "NONE" H 950 2300 60  0001 C CNN "Package"
-	1    950  2300
+P 750 2350
+F 0 "R1" V 830 2350 50  0000 C CNN
+F 1 "102k" V 650 2350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 680 2350 50  0001 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g.pdf" H 750 2350 50  0001 C CNN
+F 4 "RES SMD 102K OHM 1% 1/10W 0603" H 750 2350 60  0001 C CNN "Description"
+F 5 "Rohm Semiconductor" H 750 2350 60  0001 C CNN "Manufacture"
+F 6 "MCR03ERTF1023" H 750 2350 60  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 750 2350 60  0001 C CNN "Package"
+	1    750  2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R2
 U 1 1 5AF2FAFB
-P 950 2700
-F 0 "R2" V 1030 2700 50  0000 C CNN
-F 1 "25.5k" V 850 2700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 880 2700 50  0001 C CNN
-F 3 "" H 950 2700 50  0001 C CNN
-F 4 "NONE" H 950 2700 60  0001 C CNN "Description"
-F 5 "NONE" H 950 2700 60  0001 C CNN "Manufacture"
-F 6 "NONE" H 950 2700 60  0001 C CNN "Mfg Part Number"
-F 7 "NONE" H 950 2700 60  0001 C CNN "Package"
-	1    950  2700
+P 750 2750
+F 0 "R2" V 830 2750 50  0000 C CNN
+F 1 "25.5k" V 650 2750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 680 2750 50  0001 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr_g.pdf" H 750 2750 50  0001 C CNN
+F 4 "RES SMD 25.5K OHM 1% 1/10W 0603" H 750 2750 60  0001 C CNN "Description"
+F 5 "Rohm Semiconductor" H 750 2750 60  0001 C CNN "Manufacture"
+F 6 "MCR03ERTF2552" H 750 2750 60  0001 C CNN "Mfg Part Number"
+F 7 "0603" H 750 2750 60  0001 C CNN "Package"
+	1    750  2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR05
 U 1 1 5AF3048A
-P 950 2900
-F 0 "#PWR05" H 950 2650 50  0001 C CNN
-F 1 "GND" H 950 2750 50  0000 C CNN
-F 2 "" H 950 2900 50  0001 C CNN
-F 3 "" H 950 2900 50  0001 C CNN
-	1    950  2900
+P 750 2950
+F 0 "#PWR05" H 750 2700 50  0001 C CNN
+F 1 "GND" H 750 2800 50  0000 C CNN
+F 2 "" H 750 2950 50  0001 C CNN
+F 3 "" H 750 2950 50  0001 C CNN
+	1    750  2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -281,71 +289,71 @@ $EndComp
 $Comp
 L C C3
 U 1 1 5B284652
-P 3750 1100
-F 0 "C3" H 3775 1200 50  0000 L CNN
-F 1 "1uF" H 3775 1000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 3788 950 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp" H 3750 1100 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 3750 1100 60  0001 C CNN "Manufacture"
-F 5 "CL21B105KOFNNNG" H 3750 1100 60  0001 C CNN "Mfg Part Number"
-F 6 "0805" H 3750 1100 60  0001 C CNN "Package"
-F 7 "CAP CER 1UF 16V X7R 0805" H 3750 1100 60  0001 C CNN "Description"
-	1    3750 1100
+P 3550 1100
+F 0 "C3" H 3575 1200 50  0000 L CNN
+F 1 "1uF" H 3575 1000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3588 950 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp" H 3550 1100 50  0001 C CNN
+F 4 "CAP CER 1UF 16V X7R 0805" H 3550 1100 60  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics" H 3550 1100 60  0001 C CNN "Manufacture"
+F 6 "CL21B105KOFNNNG" H 3550 1100 60  0001 C CNN "Mfg Part Number"
+F 7 "0805" H 3550 1100 60  0001 C CNN "Package"
+	1    3550 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR08
 U 1 1 5B285DA8
-P 3750 1250
-F 0 "#PWR08" H 3750 1000 50  0001 C CNN
-F 1 "GND" H 3750 1100 50  0000 C CNN
-F 2 "" H 3750 1250 50  0001 C CNN
-F 3 "" H 3750 1250 50  0001 C CNN
-	1    3750 1250
+P 3550 1250
+F 0 "#PWR08" H 3550 1000 50  0001 C CNN
+F 1 "GND" H 3550 1100 50  0000 C CNN
+F 2 "" H 3550 1250 50  0001 C CNN
+F 3 "" H 3550 1250 50  0001 C CNN
+	1    3550 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR09
 U 1 1 5B285FB6
-P 4450 1450
-F 0 "#PWR09" H 4450 1200 50  0001 C CNN
-F 1 "GND" H 4450 1300 50  0000 C CNN
-F 2 "" H 4450 1450 50  0001 C CNN
-F 3 "" H 4450 1450 50  0001 C CNN
-	1    4450 1450
+P 4250 1450
+F 0 "#PWR09" H 4250 1200 50  0001 C CNN
+F 1 "GND" H 4250 1300 50  0000 C CNN
+F 2 "" H 4250 1450 50  0001 C CNN
+F 3 "" H 4250 1450 50  0001 C CNN
+	1    4250 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR010
 U 1 1 5B286569
-P 5150 1250
-F 0 "#PWR010" H 5150 1000 50  0001 C CNN
-F 1 "GND" H 5150 1100 50  0000 C CNN
-F 2 "" H 5150 1250 50  0001 C CNN
-F 3 "" H 5150 1250 50  0001 C CNN
-	1    5150 1250
+P 4950 1250
+F 0 "#PWR010" H 4950 1000 50  0001 C CNN
+F 1 "GND" H 4950 1100 50  0000 C CNN
+F 2 "" H 4950 1250 50  0001 C CNN
+F 3 "" H 4950 1250 50  0001 C CNN
+	1    4950 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR011
 U 1 1 5B28B1DA
-P 950 2150
-F 0 "#PWR011" H 950 2000 50  0001 C CNN
-F 1 "VCC" H 950 2300 50  0000 C CNN
-F 2 "" H 950 2150 50  0001 C CNN
-F 3 "" H 950 2150 50  0001 C CNN
-	1    950  2150
+P 750 2200
+F 0 "#PWR011" H 750 2050 50  0001 C CNN
+F 1 "VCC" H 750 2350 50  0000 C CNN
+F 2 "" H 750 2200 50  0001 C CNN
+F 3 "" H 750 2200 50  0001 C CNN
+	1    750  2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3V3 #PWR012
 U 1 1 5B28D631
-P 5150 900
-F 0 "#PWR012" H 5150 750 50  0001 C CNN
-F 1 "+3V3" H 5150 1040 50  0000 C CNN
-F 2 "" H 5150 900 50  0001 C CNN
-F 3 "" H 5150 900 50  0001 C CNN
-	1    5150 900 
+P 4950 900
+F 0 "#PWR012" H 4950 750 50  0001 C CNN
+F 1 "+3V3" H 4950 1040 50  0000 C CNN
+F 2 "" H 4950 900 50  0001 C CNN
+F 3 "" H 4950 900 50  0001 C CNN
+	1    4950 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -356,22 +364,22 @@ F 0 "JP1" H 3550 4030 50  0000 C CNN
 F 1 "VTARG_EN" H 3560 3890 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206" H 3550 3950 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 3550 3950 50  0001 C CNN
-F 4 "Yageo" H 3550 3950 60  0001 C CNN "Manufacture"
-F 5 "RC1206JR-070RL" H 3550 3950 60  0001 C CNN "Mfg Part Number"
-F 6 "1206" H 3550 3950 60  0001 C CNN "Package"
-F 7 "RES SMD 0 OHM JUMPER 1/4W 1206" H 3550 3950 60  0001 C CNN "Description"
+F 4 "RES SMD 0 OHM JUMPER 1/4W 1206" H 3550 3950 60  0001 C CNN "Description"
+F 5 "Yageo" H 3550 3950 60  0001 C CNN "Manufacture"
+F 6 "RC1206JR-070RL" H 3550 3950 60  0001 C CNN "Mfg Part Number"
+F 7 "1206" H 3550 3950 60  0001 C CNN "Package"
 	1    3550 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR013
 U 1 1 5B29E8A8
-P 3400 850
-F 0 "#PWR013" H 3400 700 50  0001 C CNN
-F 1 "VCC" H 3400 1000 50  0000 C CNN
-F 2 "" H 3400 850 50  0001 C CNN
-F 3 "" H 3400 850 50  0001 C CNN
-	1    3400 850 
+P 3200 850
+F 0 "#PWR013" H 3200 700 50  0001 C CNN
+F 1 "VCC" H 3200 1000 50  0000 C CNN
+F 2 "" H 3200 850 50  0001 C CNN
+F 3 "" H 3200 850 50  0001 C CNN
+	1    3200 850 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -392,8 +400,64 @@ P 5050 3000
 F 0 "U2" H 7400 -250 60  0000 C CNN
 F 1 "MSP430FR2033IPMR" H 6400 3050 60  0000 C CNN
 F 2 "Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm" H 6400 3150 60  0001 C CNN
-F 3 "" H 5050 3000 60  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/msp430fr2032.pdf" H 5050 3000 60  0001 C CNN
+F 4 "Texas Instruments" H 7400 -150 50  0001 C CNN "Manufacture"
+F 5 "MSP430FR2033IPMR" H 7400 -150 50  0001 C CNN "Mfg Part Number"
+F 6 "64LQFP" H 7400 -150 50  0001 C CNN "Package"
+F 7 "IC MCU 16BIT 15.5KB FRAM 64LQFP" H 7400 -150 50  0001 C CNN "Description"
 	1    5050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MIC5317 U1
+U 1 1 5B283B2B
+P 4250 900
+F 0 "U1" H 4500 500 60  0000 C CNN
+F 1 "MIC5317-3.3YM5-TR" H 4250 1000 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 4250 900 60  0001 C CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579427" H 4250 900 60  0001 C CNN
+F 4 "IC REG LINEAR 3.3V 150MA SOT23-5" H 4250 900 60  0001 C CNN "Description"
+F 5 "Microchip Technology" H 4250 900 60  0001 C CNN "Manufacture"
+F 6 "MIC5317-3.3YM5-TR" H 4250 900 60  0001 C CNN "Mfg Part Number"
+F 7 "SOT23-5" H 4250 900 60  0001 C CNN "Package"
+	1    4250 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x10 J2
+U 1 1 5B285C9A
+P 3100 6450
+F 0 "J2" H 3100 6950 50  0000 C CNN
+F 1 "DEBUG" H 3100 5850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 3100 6450 50  0001 C CNN
+F 3 "" H 3100 6450 50  0001 C CNN
+	1    3100 6450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 5B2882B1
+P 3450 7100
+F 0 "#PWR015" H 3450 6850 50  0001 C CNN
+F 1 "GND" H 3450 6950 50  0000 C CNN
+F 2 "" H 3450 7100 50  0001 C CNN
+F 3 "" H 3450 7100 50  0001 C CNN
+	1    3450 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 5B28CF1A
+P 4950 1100
+F 0 "C4" H 4975 1200 50  0000 L CNN
+F 1 "1uF" H 4975 1000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4988 950 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp" H 4950 1100 50  0001 C CNN
+F 4 "CAP CER 1UF 16V X7R 0805" H 4950 1100 60  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics" H 4950 1100 60  0001 C CNN "Manufacture"
+F 6 "CL21B105KOFNNNG" H 4950 1100 60  0001 C CNN "Mfg Part Number"
+F 7 "0805" H 4950 1100 60  0001 C CNN "Package"
+	1    4950 1100
 	1    0    0    -1  
 $EndComp
 Text Label 9050 6350 0    60   ~ 0
@@ -402,7 +466,7 @@ Text Label 9050 6150 0    60   ~ 0
 HEX_INPUT
 Text Label 9050 6550 0    60   ~ 0
 BIN_INPUT
-Text Label 1350 2500 2    60   ~ 0
+Text Label 1150 2550 2    60   ~ 0
 BATT_V
 Text Label 3700 4150 2    60   ~ 0
 SBWTDIO
@@ -410,24 +474,24 @@ Text Label 3700 4250 2    60   ~ 0
 SBWTCK
 Text Notes 2950 3700 0    60   ~ 0
 Programmind Header
-Text Notes 3600 650  0    60   ~ 0
+Text Notes 3400 650  0    60   ~ 0
 3.3V LDO Voltage Regulator
 Text Notes 9050 5850 0    60   ~ 0
 Input Mode Selector
-Text Notes 800  650  0    60   ~ 0
+Text Notes 600  650  0    60   ~ 0
 Power Input with Polarity Protection
-Text Notes 2650 650  0    60   ~ 0
+Text Notes 2450 650  0    60   ~ 0
 Power Switch
-Text Notes 1150 2350 0    50   ~ 0
+Text Notes 950  2400 0    50   ~ 0
 MSP430 Internal Vref = 1.5V\nVhigh = 4 x 1.5V -> 6V\nVlow = 4 X 1V -> 4V\n5:1 Voltage Divider
-Text Notes 800  1950 0    60   ~ 0
+Text Notes 600  2000 0    60   ~ 0
 Battery Voltage Monitoring
 Text Label 4700 4800 0    60   ~ 0
 BATT_V
 Wire Wire Line
-	1000 1550 1000 1600
+	800  1550 800  1600
 Wire Wire Line
-	1750 1600 1750 1400
+	1550 1600 1550 1400
 Wire Wire Line
 	4450 3000 5050 3000
 Wire Wire Line
@@ -439,25 +503,25 @@ Wire Wire Line
 Wire Wire Line
 	4450 3400 5050 3400
 Wire Wire Line
-	1000 1100 1550 1100
+	800  1100 1350 1100
 Wire Wire Line
-	3250 1400 3100 1400
+	3050 1400 2900 1400
 Wire Wire Line
 	10200 6500 10200 6250
 Wire Wire Line
 	10200 6250 9950 6250
 Wire Wire Line
-	950  2900 950  2850
+	750  2950 750  2900
 Wire Wire Line
-	950  2450 950  2550
+	750  2500 750  2600
 Wire Wire Line
-	950  2500 1350 2500
+	750  2550 1150 2550
 Wire Wire Line
 	3300 4350 3450 4350
 Wire Wire Line
 	3450 4350 3450 4500
 Wire Wire Line
-	1000 1150 1000 1100
+	800  1150 800  1100
 Wire Wire Line
 	7750 3800 9050 3800
 Wire Wire Line
@@ -559,7 +623,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 4500 7750 4500
 Wire Wire Line
-	3100 1200 3250 1200
+	2900 1200 3050 1200
 Wire Wire Line
 	9550 6550 7900 6550
 Wire Wire Line
@@ -575,17 +639,17 @@ Wire Wire Line
 Wire Wire Line
 	4250 4900 5050 4900
 Wire Wire Line
-	3750 900  3750 950 
+	3550 900  3550 950 
 Wire Wire Line
-	3950 1100 3900 1100
+	3750 1100 3700 1100
 Wire Wire Line
-	3900 1100 3900 900 
+	3700 1100 3700 900 
 Wire Wire Line
-	4950 900  5150 900 
+	4750 900  4950 900 
 Wire Wire Line
-	5150 900  5150 950 
+	4950 900  4950 950 
 Wire Wire Line
-	3250 1000 3250 1400
+	3050 1000 3050 1400
 Wire Wire Line
 	3300 4050 3300 3950
 Wire Wire Line
@@ -605,19 +669,19 @@ Wire Notes Line
 Wire Notes Line
 	2950 3700 3900 3700
 Wire Wire Line
-	3400 1000 3100 1000
+	3200 1000 2900 1000
 Wire Wire Line
-	3400 900  3950 900 
+	3200 900  3750 900 
 Wire Notes Line
-	3600 550  3600 1800
+	3400 550  3400 1800
 Wire Notes Line
-	3600 1800 5350 1800
+	3400 1800 5150 1800
 Wire Notes Line
-	5350 1800 5350 550 
+	5150 1800 5150 550 
 Wire Notes Line
-	5350 550  3600 550 
+	5150 550  3400 550 
 Wire Notes Line
-	3600 650  5350 650 
+	3400 650  5150 650 
 Wire Wire Line
 	7900 6550 7900 6100
 Wire Wire Line
@@ -635,29 +699,29 @@ Wire Notes Line
 Wire Notes Line
 	9050 5850 10300 5850
 Wire Notes Line
-	800  550  800  1800
+	600  550  600  1800
 Wire Notes Line
-	800  1800 2550 1800
+	600  1800 2350 1800
 Wire Notes Line
-	2550 1800 2550 550 
+	2350 1800 2350 550 
 Wire Notes Line
-	2550 550  800  550 
+	2350 550  600  550 
 Wire Notes Line
-	800  650  2550 650 
+	600  650  2350 650 
 Wire Wire Line
-	2700 1100 1950 1100
+	2500 1100 1750 1100
 Wire Notes Line
-	2650 550  2650 1800
+	2450 550  2450 1800
 Wire Notes Line
-	2650 1800 3500 1800
+	2450 1800 3300 1800
 Wire Notes Line
-	3500 1800 3500 550 
+	3300 1800 3300 550 
 Wire Notes Line
-	3500 550  2650 550 
+	3300 550  2450 550 
 Wire Notes Line
-	2650 650  3500 650 
+	2450 650  3300 650 
 Wire Wire Line
-	3400 850  3400 1000
+	3200 850  3200 1000
 Wire Wire Line
 	4750 3400 4750 3350
 Wire Wire Line
@@ -673,55 +737,17 @@ Wire Wire Line
 Wire Wire Line
 	3800 4300 5050 4300
 Wire Notes Line
-	800  1850 800  3100
+	600  1900 600  3150
 Wire Notes Line
-	800  3100 2300 3100
+	600  3150 2100 3150
 Wire Notes Line
-	2300 3100 2300 1850
+	2100 3150 2100 1900
 Wire Notes Line
-	2300 1850 800  1850
+	2100 1900 600  1900
 Wire Notes Line
-	800  1950 2300 1950
+	600  2000 2100 2000
 Wire Wire Line
 	4700 4800 5050 4800
-Connection ~ 4750 3000
-Connection ~ 4750 3400
-Connection ~ 4450 3000
-Connection ~ 950  2500
-Connection ~ 3250 1000
-Connection ~ 3250 1200
-Connection ~ 3750 900 
-Connection ~ 3900 900 
-Connection ~ 3400 900 
-Connection ~ 4450 3400
-NoConn ~ 3100 800 
-NoConn ~ 9550 5950
-$Comp
-L MIC5317 U1
-U 1 1 5B283B2B
-P 4450 900
-F 0 "U1" H 4700 500 60  0000 C CNN
-F 1 "MIC5317-3.3YM5-TR" H 4450 1000 60  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 4450 900 60  0001 C CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579427" H 4450 900 60  0001 C CNN
-F 4 "Microchip Technology" H 4450 900 60  0001 C CNN "Manufacture"
-F 5 "MIC5317-3.3YM5-TR" H 4450 900 60  0001 C CNN "Mfg Part Number"
-F 6 "SOT23-5" H 4450 900 60  0001 C CNN "Package"
-F 7 "IC REG LINEAR 3.3V 150MA SOT23-5" H 4450 900 60  0001 C CNN "Description"
-	1    4450 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x10 J2
-U 1 1 5B285C9A
-P 3100 6450
-F 0 "J2" H 3100 6950 50  0000 C CNN
-F 1 "DEBUG" H 3100 5850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 3100 6450 50  0001 C CNN
-F 3 "" H 3100 6450 50  0001 C CNN
-	1    3100 6450
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	3300 6050 4350 6050
 Wire Wire Line
@@ -768,37 +794,23 @@ Wire Wire Line
 	3300 6750 5050 6750
 Wire Wire Line
 	5050 6750 5050 6500
-$Comp
-L GND #PWR015
-U 1 1 5B2882B1
-P 3450 7100
-F 0 "#PWR015" H 3450 6850 50  0001 C CNN
-F 1 "GND" H 3450 6950 50  0000 C CNN
-F 2 "" H 3450 7100 50  0001 C CNN
-F 3 "" H 3450 7100 50  0001 C CNN
-	1    3450 7100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3450 7100 3450 6850
 Wire Wire Line
 	3450 6850 3300 6850
 Wire Wire Line
 	3300 6950 3450 6950
+Connection ~ 4750 3000
+Connection ~ 4750 3400
+Connection ~ 4450 3000
+Connection ~ 750  2550
+Connection ~ 3050 1000
+Connection ~ 3050 1200
+Connection ~ 3550 900 
+Connection ~ 3700 900 
+Connection ~ 3200 900 
+Connection ~ 4450 3400
 Connection ~ 3450 6950
-$Comp
-L C C4
-U 1 1 5B28CF1A
-P 5150 1100
-F 0 "C4" H 5175 1200 50  0000 L CNN
-F 1 "1uF" H 5175 1000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 5188 950 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp" H 5150 1100 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 5150 1100 60  0001 C CNN "Manufacture"
-F 5 "CL21B105KOFNNNG" H 5150 1100 60  0001 C CNN "Mfg Part Number"
-F 6 "0805" H 5150 1100 60  0001 C CNN "Package"
-F 7 "CAP CER 1UF 16V X7R 0805" H 5150 1100 60  0001 C CNN "Description"
-	1    5150 1100
-	1    0    0    -1  
-$EndComp
+NoConn ~ 2900 800 
+NoConn ~ 9550 5950
 $EndSCHEMATC
