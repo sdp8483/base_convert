@@ -76,6 +76,8 @@
 #define HEX_D   SEG_B + SEG_C + SEG_D + SEG_E + SEG_G
 #define HEX_E   SEG_A + SEG_D + SEG_E + SEG_F + SEG_G
 #define HEX_F   SEG_A + SEG_E + SEG_F + SEG_G
+#define BATT_L  SEG_D + SEG_E + SEG_F
+#define BATT_H  SEG_B + SEG_C + SEG_E + SEG_F + SEG_G
 
 // BIN display nibble defines
 #define NDIR    P7DIR

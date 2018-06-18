@@ -168,7 +168,7 @@ void dispUpdate(uint16_t num) {
     static uint8_t num_100 = 0;                 // hundreds place
     static uint8_t num_1000 = 0;                // thousands place
     static uint8_t num_10000 = 0;               // ten thousands place
-    static uint8_t num_100000 = 0;              // 100 thousands place
+    //tatic uint8_t num_100000 = 0;              // 100 thousands place
 
     if (num != num_old) {                       // has num changed?
         num_old = num;
@@ -181,7 +181,7 @@ void dispUpdate(uint16_t num) {
         num_100 = (num/100) % 10;
         num_1000 = (num/1000) % 10;
         num_10000 = (num/10000) % 10;
-        num_100000 = (num/100000) % 10;
+        //num_100000 = (num/100000) % 10;
 
     }
 
@@ -220,7 +220,7 @@ void dispUpdate(uint16_t num) {
             break;
         case 4:
             D4PORT |= D4PIN;
-            SEGPORT |= dispSegments(num_100000);
+            //SEGPORT |= dispSegments(num_100000);
             break;
         case 5:
             D5PORT |= D5PIN;
