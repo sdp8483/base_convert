@@ -1,4 +1,4 @@
-update=6/18/2018 4:39:16 PM
+update=6/18/2018 4:43:19 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -50,3 +50,4 @@ LibName8=kicad-symbols/power
 LibName9=kicad-symbols/Switch
 LibName10=lib_sch/Vreg-TI
 LibName11=lib_sch/Regulator_Microchip
+LibName12=kicad-symbols/Connector_Generic
