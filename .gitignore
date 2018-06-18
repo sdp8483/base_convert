@@ -72,3 +72,6 @@ firmware/.metadata/**/*.tree
 firmware/.metadata/**/*.*
 firmware/.metadata/*/*/*/*/*
 firmware/RemoteSystemsTempFiles
+*.map
+*.out
+*.obj
