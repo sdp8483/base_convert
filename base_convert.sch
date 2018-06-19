@@ -16,9 +16,9 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 4
-Title "Base Converter"
-Date ""
-Rev ""
+Title "Base Convert"
+Date "2018-06-18"
+Rev "A"
 Comp "Perry Leumas"
 Comment1 ""
 Comment2 ""

@@ -16,10 +16,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Base Convert Binary Display"
+Date "2018-06-18"
+Rev "A"
+Comp "Perry Leumas"
 Comment1 ""
 Comment2 ""
 Comment3 ""
