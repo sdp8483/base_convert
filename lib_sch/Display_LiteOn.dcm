@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LTD-2601WC
+D LED 7-SEG 2DIGIT RED LC 0.28" CA
+K 7-SEG display segment LED
+$ENDCMP
+#
 $CMP LTD-4608JR
 D LED 7-SEG .40" 2DGT SUPER RED CA
 K 7-SEG display segment LED
