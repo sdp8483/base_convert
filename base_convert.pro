@@ -1,4 +1,4 @@
-update=6/18/2018 4:43:19 PM
+update=6/20/2018 8:30:15 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -44,10 +44,11 @@ LibName2=lib_sch/Display_LiteOn
 LibName3=lib_sch/MSP430
 LibName4=lib_sch/Switch_CK
 LibName5=lib_sch/Switch_Generic
-LibName6=kicad-symbols/Device
-LibName7=kicad-symbols/LED
-LibName8=kicad-symbols/power
-LibName9=kicad-symbols/Switch
-LibName10=lib_sch/Vreg-TI
-LibName11=lib_sch/Regulator_Microchip
+LibName6=lib_sch/Regulator_Microchip
+LibName7=lib_sch/Vreg-TI
+LibName8=kicad-symbols/Device
+LibName9=kicad-symbols/LED
+LibName10=kicad-symbols/power
+LibName11=kicad-symbols/Switch
 LibName12=kicad-symbols/Connector_Generic
+LibName13=lib_sch/MPD_BatteryClip
