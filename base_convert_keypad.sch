@@ -4,13 +4,14 @@ LIBS:Display_LiteOn
 LIBS:MSP430
 LIBS:Switch_CK
 LIBS:Switch_Generic
+LIBS:Regulator_Microchip
+LIBS:Vreg-TI
 LIBS:Device
 LIBS:LED
 LIBS:power
 LIBS:Switch
-LIBS:Vreg-TI
-LIBS:Regulator_Microchip
 LIBS:Connector_Generic
+LIBS:MPD_BatteryClip
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
@@ -281,10 +282,10 @@ F 7 "SMT" H 6450 1700 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR24
+L GND #PWR024
 U 1 1 5B266457
 P 6100 1900
-F 0 "#PWR24" H 6100 1650 50  0001 C CNN
+F 0 "#PWR024" H 6100 1650 50  0001 C CNN
 F 1 "GND" H 6100 1750 50  0000 C CNN
 F 2 "" H 6100 1900 50  0001 C CNN
 F 3 "" H 6100 1900 50  0001 C CNN
