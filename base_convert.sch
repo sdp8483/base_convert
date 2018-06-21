@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:base_convert-cache
 LIBS:Display_LiteOn
 LIBS:MSP430
 LIBS:Switch_CK
@@ -12,13 +11,14 @@ LIBS:power
 LIBS:Switch
 LIBS:Connector_Generic
 LIBS:MPD_BatteryClip
+LIBS:base_convert-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 4
 Title "Base Convert"
-Date "2018-06-18"
+Date "2018-06-20"
 Rev "A"
 Comp "Perry Leumas"
 Comment1 ""
@@ -492,7 +492,9 @@ BATT_V
 Wire Wire Line
 	1900 1600 1900 1400
 Wire Wire Line
-	4450 3000 5050 3000
+	4450 3000 4750 3000
+Wire Wire Line
+	4750 3000 5050 3000
 Wire Wire Line
 	4450 3000 4450 3050
 Wire Wire Line
@@ -500,7 +502,9 @@ Wire Wire Line
 Wire Wire Line
 	4450 3350 4450 3400
 Wire Wire Line
-	4450 3400 5050 3400
+	4450 3400 4750 3400
+Wire Wire Line
+	4750 3400 5050 3400
 Wire Wire Line
 	3400 1400 3250 1400
 Wire Wire Line
@@ -510,7 +514,9 @@ Wire Wire Line
 Wire Wire Line
 	750  2950 750  2900
 Wire Wire Line
-	750  2500 750  2600
+	750  2500 750  2550
+Wire Wire Line
+	750  2550 750  2600
 Wire Wire Line
 	750  2550 1150 2550
 Wire Wire Line
@@ -638,13 +644,15 @@ Wire Wire Line
 Wire Wire Line
 	4100 1100 4050 1100
 Wire Wire Line
-	4050 900  4050 1100
+	4050 1100 4050 900 
 Wire Wire Line
 	5100 900  5300 900 
 Wire Wire Line
 	5300 900  5300 950 
 Wire Wire Line
-	3400 1000 3400 1400
+	3400 1000 3400 1200
+Wire Wire Line
+	3400 1200 3400 1400
 Wire Wire Line
 	3300 4050 3300 3950
 Wire Wire Line
@@ -664,9 +672,15 @@ Wire Notes Line
 Wire Notes Line
 	2950 3700 3900 3700
 Wire Wire Line
-	3550 1000 3250 1000
+	3550 1000 3400 1000
 Wire Wire Line
-	3550 900  4100 900 
+	3400 1000 3250 1000
+Wire Wire Line
+	3550 900  3900 900 
+Wire Wire Line
+	3900 900  4050 900 
+Wire Wire Line
+	4050 900  4100 900 
 Wire Notes Line
 	3750 550  3750 1800
 Wire Notes Line
@@ -716,7 +730,9 @@ Wire Notes Line
 Wire Notes Line
 	2800 650  3650 650 
 Wire Wire Line
-	3550 850  3550 1000
+	3550 850  3550 900 
+Wire Wire Line
+	3550 900  3550 1000
 Wire Wire Line
 	4750 3400 4750 3350
 Wire Wire Line
@@ -790,7 +806,9 @@ Wire Wire Line
 Wire Wire Line
 	5050 6750 5050 6500
 Wire Wire Line
-	3450 6850 3450 7100
+	3450 6850 3450 6950
+Wire Wire Line
+	3450 6950 3450 7100
 Wire Wire Line
 	3450 6850 3300 6850
 Wire Wire Line
@@ -847,4 +865,73 @@ Wire Notes Line
 	950  1200 1100 1200
 Text Notes 650  1750 0    50   ~ 0
 Battery Clip Wire \nto JST Connector
+NoConn ~ 5050 3600
+NoConn ~ 5050 3700
+NoConn ~ 5050 3800
+NoConn ~ 5050 3900
+NoConn ~ 5050 4000
+NoConn ~ 5050 4100
+NoConn ~ 5050 4200
+NoConn ~ 5050 4500
+NoConn ~ 5050 4600
+NoConn ~ 5050 4700
+NoConn ~ 7750 5600
+NoConn ~ 7750 5700
+NoConn ~ 7750 5800
+$Comp
+L PWR_FLAG #FLG016
+U 1 1 5B2BCABB
+P 750 7750
+F 0 "#FLG016" H 750 7825 50  0001 C CNN
+F 1 "PWR_FLAG" H 750 7900 50  0000 C CNN
+F 2 "" H 750 7750 50  0001 C CNN
+F 3 "" H 750 7750 50  0001 C CNN
+	1    750  7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 5B2BCBCF
+P 750 7750
+F 0 "#PWR017" H 750 7500 50  0001 C CNN
+F 1 "GND" H 750 7600 50  0000 C CNN
+F 2 "" H 750 7750 50  0001 C CNN
+F 3 "" H 750 7750 50  0001 C CNN
+	1    750  7750
+	1    0    0    -1  
+$EndComp
+Text Notes 550  7500 0    60   ~ 0
+Make ERC Happy
+Wire Notes Line
+	550  7400 550  7950
+Wire Notes Line
+	550  7950 1450 7950
+Wire Notes Line
+	1450 7950 1450 7400
+Wire Notes Line
+	1450 7400 550  7400
+Wire Notes Line
+	550  7500 1450 7500
+$Comp
+L VCC #PWR018
+U 1 1 5B2C495B
+P 1200 7750
+F 0 "#PWR018" H 1200 7600 50  0001 C CNN
+F 1 "VCC" H 1200 7900 50  0000 C CNN
+F 2 "" H 1200 7750 50  0001 C CNN
+F 3 "" H 1200 7750 50  0001 C CNN
+	1    1200 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG019
+U 1 1 5B2C4DB7
+P 1200 7750
+F 0 "#FLG019" H 1200 7825 50  0001 C CNN
+F 1 "PWR_FLAG" H 1200 7900 50  0000 C CNN
+F 2 "" H 1200 7750 50  0001 C CNN
+F 3 "" H 1200 7750 50  0001 C CNN
+	1    1200 7750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

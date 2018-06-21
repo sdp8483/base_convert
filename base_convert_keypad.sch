@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:base_convert-cache
 LIBS:Display_LiteOn
 LIBS:MSP430
 LIBS:Switch_CK
@@ -12,6 +11,7 @@ LIBS:power
 LIBS:Switch
 LIBS:Connector_Generic
 LIBS:MPD_BatteryClip
+LIBS:base_convert-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
@@ -282,10 +282,10 @@ F 7 "SMT" H 6450 1700 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L GND #PWR028
 U 1 1 5B266457
 P 6100 1900
-F 0 "#PWR024" H 6100 1650 50  0001 C CNN
+F 0 "#PWR028" H 6100 1650 50  0001 C CNN
 F 1 "GND" H 6100 1750 50  0000 C CNN
 F 2 "" H 6100 1900 50  0001 C CNN
 F 3 "" H 6100 1900 50  0001 C CNN
@@ -422,4 +422,38 @@ Connection ~ 4550 3000
 Connection ~ 4550 3650
 Connection ~ 4550 4300
 Connection ~ 6650 3450
+NoConn ~ 6650 1900
+NoConn ~ 6250 1900
+NoConn ~ 6250 2550
+NoConn ~ 6650 2550
+NoConn ~ 5850 2550
+NoConn ~ 5450 2550
+NoConn ~ 5050 2550
+NoConn ~ 4650 2550
+NoConn ~ 4250 2550
+NoConn ~ 3850 2550
+NoConn ~ 3850 3200
+NoConn ~ 4250 3200
+NoConn ~ 4650 3200
+NoConn ~ 5050 3200
+NoConn ~ 5450 3200
+NoConn ~ 5850 3200
+NoConn ~ 5850 3850
+NoConn ~ 5450 3850
+NoConn ~ 5050 3850
+NoConn ~ 4650 3850
+NoConn ~ 4250 3850
+NoConn ~ 3850 3850
+NoConn ~ 3850 4500
+NoConn ~ 4250 4500
+NoConn ~ 4650 4500
+NoConn ~ 5050 4500
+NoConn ~ 5450 4500
+NoConn ~ 5850 4500
+NoConn ~ 6250 4500
+NoConn ~ 6650 4500
+NoConn ~ 6650 3850
+NoConn ~ 6250 3850
+NoConn ~ 6250 3200
+NoConn ~ 6650 3200
 $EndSCHEMATC
