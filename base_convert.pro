@@ -1,4 +1,4 @@
-update=6/20/2018 8:49:09 PM
+update=6/21/2018 10:49:52 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,8 +33,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -52,3 +50,5 @@ LibName10=kicad-symbols/Switch
 LibName11=kicad-symbols/Connector_Generic
 LibName12=lib_sch/MPD_BatteryClip
 LibName13=base_convert-cache
+[general]
+version=1
