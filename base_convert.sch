@@ -425,28 +425,6 @@ F 7 "IC REG LINEAR 3.3V 150MA SOT23-5" H 4600 900 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x10 J2
-U 1 1 5B285C9A
-P 3100 6450
-F 0 "J2" H 3100 6950 50  0000 C CNN
-F 1 "DEBUG" H 3100 5850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 3100 6450 50  0001 C CNN
-F 3 "" H 3100 6450 50  0001 C CNN
-	1    3100 6450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L GND #PWR015
-U 1 1 5B2882B1
-P 3450 7100
-F 0 "#PWR015" H 3450 6850 50  0001 C CNN
-F 1 "GND" H 3450 6950 50  0000 C CNN
-F 2 "" H 3450 7100 50  0001 C CNN
-F 3 "" H 3450 7100 50  0001 C CNN
-	1    3450 7100
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C4
 U 1 1 5B28CF1A
 P 5300 1100
@@ -492,9 +470,7 @@ BATT_V
 Wire Wire Line
 	1900 1600 1900 1400
 Wire Wire Line
-	4450 3000 4750 3000
-Wire Wire Line
-	4750 3000 5050 3000
+	4450 3000 5050 3000
 Wire Wire Line
 	4450 3000 4450 3050
 Wire Wire Line
@@ -502,9 +478,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 3350 4450 3400
 Wire Wire Line
-	4450 3400 4750 3400
-Wire Wire Line
-	4750 3400 5050 3400
+	4450 3400 5050 3400
 Wire Wire Line
 	3400 1400 3250 1400
 Wire Wire Line
@@ -514,9 +488,7 @@ Wire Wire Line
 Wire Wire Line
 	750  2950 750  2900
 Wire Wire Line
-	750  2500 750  2550
-Wire Wire Line
-	750  2550 750  2600
+	750  2500 750  2600
 Wire Wire Line
 	750  2550 1150 2550
 Wire Wire Line
@@ -650,9 +622,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 900  5300 950 
 Wire Wire Line
-	3400 1000 3400 1200
-Wire Wire Line
-	3400 1200 3400 1400
+	3400 1000 3400 1400
 Wire Wire Line
 	3300 4050 3300 3950
 Wire Wire Line
@@ -672,15 +642,9 @@ Wire Notes Line
 Wire Notes Line
 	2950 3700 3900 3700
 Wire Wire Line
-	3550 1000 3400 1000
+	3550 1000 3250 1000
 Wire Wire Line
-	3400 1000 3250 1000
-Wire Wire Line
-	3550 900  3900 900 
-Wire Wire Line
-	3900 900  4050 900 
-Wire Wire Line
-	4050 900  4100 900 
+	3550 900  4100 900 
 Wire Notes Line
 	3750 550  3750 1800
 Wire Notes Line
@@ -730,9 +694,7 @@ Wire Notes Line
 Wire Notes Line
 	2800 650  3650 650 
 Wire Wire Line
-	3550 850  3550 900 
-Wire Wire Line
-	3550 900  3550 1000
+	3550 850  3550 1000
 Wire Wire Line
 	4750 3400 4750 3350
 Wire Wire Line
@@ -759,60 +721,6 @@ Wire Notes Line
 	600  2000 2100 2000
 Wire Wire Line
 	4700 4800 5050 4800
-Wire Wire Line
-	3300 6050 4350 6050
-Wire Wire Line
-	4350 6050 4350 5800
-Wire Wire Line
-	4350 5800 5050 5800
-Wire Wire Line
-	3300 6150 4450 6150
-Wire Wire Line
-	4450 6150 4450 5900
-Wire Wire Line
-	4450 5900 5050 5900
-Wire Wire Line
-	5050 6000 4550 6000
-Wire Wire Line
-	4550 6000 4550 6250
-Wire Wire Line
-	4550 6250 3300 6250
-Wire Wire Line
-	3300 6350 4650 6350
-Wire Wire Line
-	4650 6350 4650 6100
-Wire Wire Line
-	4650 6100 5050 6100
-Wire Wire Line
-	5050 6200 4750 6200
-Wire Wire Line
-	4750 6200 4750 6450
-Wire Wire Line
-	4750 6450 3300 6450
-Wire Wire Line
-	3300 6550 4850 6550
-Wire Wire Line
-	4850 6550 4850 6300
-Wire Wire Line
-	4850 6300 5050 6300
-Wire Wire Line
-	5050 6400 4950 6400
-Wire Wire Line
-	4950 6400 4950 6650
-Wire Wire Line
-	4950 6650 3300 6650
-Wire Wire Line
-	3300 6750 5050 6750
-Wire Wire Line
-	5050 6750 5050 6500
-Wire Wire Line
-	3450 6850 3450 6950
-Wire Wire Line
-	3450 6950 3450 7100
-Wire Wire Line
-	3450 6850 3300 6850
-Wire Wire Line
-	3300 6950 3450 6950
 Connection ~ 4750 3000
 Connection ~ 4750 3400
 Connection ~ 4450 3000
@@ -823,7 +731,6 @@ Connection ~ 3900 900
 Connection ~ 4050 900 
 Connection ~ 3550 900 
 Connection ~ 4450 3400
-Connection ~ 3450 6950
 NoConn ~ 3250 800 
 NoConn ~ 9550 5950
 $Comp
@@ -934,4 +841,12 @@ F 3 "" H 1200 7750 50  0001 C CNN
 	1    1200 7750
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5050 5800
+NoConn ~ 5050 5900
+NoConn ~ 5050 6000
+NoConn ~ 5050 6100
+NoConn ~ 5050 6200
+NoConn ~ 5050 6300
+NoConn ~ 5050 6400
+NoConn ~ 5050 6500
 $EndSCHEMATC
