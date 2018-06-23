@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7)
+(kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
     (links 237)
     (no_connects 203)
-    (area 53.324999 49.994999 146.675001 150.005001)
+    (area 51.731429 49.604999 259.890476 171.87)
     (thickness 1.6)
     (drawings 12)
     (tracks 177)
@@ -4482,6 +4482,11 @@
     (pad 11 thru_hole circle (at -4.9 -1.25) (size 1.6 1.6) (drill 0.95) (layers *.Cu *.Mask)
       (net 50 /HEX_INPUT))
     (pad 12 thru_hole circle (at -7.4 -1.25) (size 1.6 1.6) (drill 0.95) (layers *.Cu *.Mask))
+    (model ${KIPRJMOD}/3d_models/Switch_CK.3dshapes/SlideSwitch_DP4T_SS-24E06-TG-5-P.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Switch_CK:CK_PTS645_6mm_SMD (layer F.Cu) (tedit 5B283D18) (tstamp 5B28F327)
