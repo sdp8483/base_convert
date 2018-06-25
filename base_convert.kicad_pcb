@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 237)
     (no_connects 203)
-    (area 51.731429 49.604999 259.890476 171.87)
+    (area 53.324999 49.994999 146.675001 150.005001)
     (thickness 1.6)
     (drawings 12)
     (tracks 177)
@@ -1596,6 +1596,11 @@
       (net 58 "/7 Segment Displays/HEX1"))
     (pad 10 thru_hole circle (at -5.08 -3.81) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 13 "/7 Segment Displays/F"))
+    (model ${KIPRJMOD}/3d_models/Display_LiteOn.3dshapes/Display_LiteOn_LTD-2601WC.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Lite-On:Display_Lite-On_LTD-2601WC (layer F.Cu) (tedit 5B28D79A) (tstamp 5B28F0DF)
@@ -1649,6 +1654,11 @@
       (net 60 "/7 Segment Displays/HEX3"))
     (pad 10 thru_hole circle (at -5.08 -3.81) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 13 "/7 Segment Displays/F"))
+    (model ${KIPRJMOD}/3d_models/Display_LiteOn.3dshapes/Display_LiteOn_LTD-2601WC.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Lite-On:Display_Lite-On_LTD-2601WC (layer F.Cu) (tedit 5B28D79A) (tstamp 5B28F0FF)
@@ -1702,6 +1712,11 @@
       (net 62 "/7 Segment Displays/DEC1"))
     (pad 10 thru_hole circle (at -5.08 -3.81) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 13 "/7 Segment Displays/F"))
+    (model ${KIPRJMOD}/3d_models/Display_LiteOn.3dshapes/Display_LiteOn_LTD-2601WC.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Lite-On:Display_Lite-On_LTD-2601WC (layer F.Cu) (tedit 5B28D79A) (tstamp 5B28F11F)
@@ -1755,6 +1770,11 @@
       (net 64 "/7 Segment Displays/DEC3"))
     (pad 10 thru_hole circle (at -5.08 -3.81) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 13 "/7 Segment Displays/F"))
+    (model ${KIPRJMOD}/3d_models/Display_LiteOn.3dshapes/Display_LiteOn_LTD-2601WC.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Lite-On:Display_Lite-On_LTD-2601WC (layer F.Cu) (tedit 5B28D79A) (tstamp 5B28F13F)
@@ -1808,6 +1828,11 @@
       (net 66 "/7 Segment Displays/DEC5"))
     (pad 10 thru_hole circle (at -5.08 -3.81) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 13 "/7 Segment Displays/F"))
+    (model ${KIPRJMOD}/3d_models/Display_LiteOn.3dshapes/Display_LiteOn_LTD-2601WC.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 5B28F147)
