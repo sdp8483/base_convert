@@ -3,7 +3,7 @@
   (general
     (links 237)
     (no_connects 203)
-    (area 53.324999 49.994999 146.675001 150.005001)
+    (area 51.731429 49.604999 259.890476 171.87)
     (thickness 1.6)
     (drawings 12)
     (tracks 177)
@@ -5366,6 +5366,11 @@
     (fp_line (start 20 24.9) (end 20 14.9) (layer B.SilkS) (width 0.15))
     (pad "" np_thru_hole circle (at 0 -27.5 90) (size 2.9 2.9) (drill 2.9) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 0 27.5 90) (size 2.9 2.9) (drill 2.9) (layers *.Cu *.Mask))
+    (model ${KIPRJMOD}/3d_models/Battery_MPD.3dshapes/BatteryHolder_BC4AAW001.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (gr_line (start 141.67 55) (end 58.33 55) (layer Dwgs.User) (width 0.01))
