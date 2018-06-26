@@ -87,10 +87,10 @@ F 0 "BT1" H 800 1350 50  0000 C CNN
 F 1 "4 Cell AA Battery Clip" V 650 1200 50  0000 C CNN
 F 2 "MPD:BC4AAW" V 800 1210 50  0001 C CNN
 F 3 "http://www.memoryprotectiondevices.com/datasheets/BC4AAW-datasheet.pdf" V 800 1210 50  0001 C CNN
-F 4 "MPD (Memory Protection Devices)" H 800 1150 60  0001 C CNN "Manufacture"
-F 5 "BC4AAW" H 800 1150 60  0001 C CNN "Mfg Part Number"
-F 6 "Wire" H 800 1150 60  0001 C CNN "Package"
-F 7 "HOLDER BATT 4-AA CELLS WIRE LDS" H 800 1150 60  0001 C CNN "Description"
+F 4 "HOLDER BATT 4-AA CELLS WIRE LDS" H 800 1150 60  0001 C CNN "Description"
+F 5 "MPD (Memory Protection Devices)" H 800 1150 60  0001 C CNN "Manufacture"
+F 6 "BC4AAW" H 800 1150 60  0001 C CNN "Mfg Part Number"
+F 7 "Wire" H 800 1150 60  0001 C CNN "Package"
 	1    800  1150
 	1    0    0    -1  
 $EndComp
@@ -402,10 +402,10 @@ F 0 "U2" H 7400 -650 60  0000 C CNN
 F 1 "MSP430FR2033IPMR" H 6400 3050 60  0000 C CNN
 F 2 "Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm" H 6400 3150 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/msp430fr2032.pdf" H 5050 3000 60  0001 C CNN
-F 4 "Texas Instruments" H 7400 -150 50  0001 C CNN "Manufacture"
-F 5 "MSP430FR2033IPMR" H 7400 -150 50  0001 C CNN "Mfg Part Number"
-F 6 "64LQFP" H 7400 -150 50  0001 C CNN "Package"
-F 7 "IC MCU 16BIT 15.5KB FRAM 64LQFP" H 7400 -150 50  0001 C CNN "Description"
+F 4 "IC MCU 16BIT 15.5KB FRAM 64LQFP" H 7400 -150 50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 7400 -150 50  0001 C CNN "Manufacture"
+F 6 "MSP430FR2033IPMR" H 7400 -150 50  0001 C CNN "Mfg Part Number"
+F 7 "64LQFP" H 7400 -150 50  0001 C CNN "Package"
 	1    5050 3000
 	1    0    0    -1  
 $EndComp
@@ -417,10 +417,10 @@ F 0 "U1" H 4850 500 60  0000 C CNN
 F 1 "MIC5317-3.3YM5-TR" H 4600 1000 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 4600 900 60  0001 C CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579427" H 4600 900 60  0001 C CNN
-F 4 "Microchip Technology" H 4600 900 60  0001 C CNN "Manufacture"
-F 5 "MIC5317-3.3YM5-TR" H 4600 900 60  0001 C CNN "Mfg Part Number"
-F 6 "SOT23-5" H 4600 900 60  0001 C CNN "Package"
-F 7 "IC REG LINEAR 3.3V 150MA SOT23-5" H 4600 900 60  0001 C CNN "Description"
+F 4 "IC REG LINEAR 3.3V 150MA SOT23-5" H 4600 900 60  0001 C CNN "Description"
+F 5 "Microchip Technology" H 4600 900 60  0001 C CNN "Manufacture"
+F 6 "MIC5317-3.3YM5-TR" H 4600 900 60  0001 C CNN "Mfg Part Number"
+F 7 "SOT23-5" H 4600 900 60  0001 C CNN "Package"
 	1    4600 900 
 	1    0    0    -1  
 $EndComp
@@ -437,6 +437,65 @@ F 5 "Samsung Electro-Mechanics" H 5300 1100 60  0001 C CNN "Manufacture"
 F 6 "CL21B105KOFNNNG" H 5300 1100 60  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 5300 1100 60  0001 C CNN "Package"
 	1    5300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J3
+U 1 1 5B2B0B33
+P 1150 1100
+F 0 "J3" H 1150 1200 50  0000 C CNN
+F 1 "Vin" H 1150 900 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_S2B-PH-K_02x2.00mm_Angled" H 1150 1100 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1150 1100 50  0001 C CNN
+F 4 "CONN HEADER PH SIDE 2POS 2MM" H 1150 1100 60  0001 C CNN "Description"
+F 5 "JST Sales America Inc." H 1150 1100 60  0001 C CNN "Manufacture"
+F 6 "S2B-PH-K-S(LF)(SN)" H 1150 1100 60  0001 C CNN "Mfg Part Number"
+F 7 "2.0mm Pin" H 1150 1100 60  0001 C CNN "Package"
+	1    1150 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG016
+U 1 1 5B2BCABB
+P 750 7750
+F 0 "#FLG016" H 750 7825 50  0001 C CNN
+F 1 "PWR_FLAG" H 750 7900 50  0000 C CNN
+F 2 "" H 750 7750 50  0001 C CNN
+F 3 "" H 750 7750 50  0001 C CNN
+	1    750  7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 5B2BCBCF
+P 750 7750
+F 0 "#PWR017" H 750 7500 50  0001 C CNN
+F 1 "GND" H 750 7600 50  0000 C CNN
+F 2 "" H 750 7750 50  0001 C CNN
+F 3 "" H 750 7750 50  0001 C CNN
+	1    750  7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR018
+U 1 1 5B2C495B
+P 1200 7750
+F 0 "#PWR018" H 1200 7600 50  0001 C CNN
+F 1 "VCC" H 1200 7900 50  0000 C CNN
+F 2 "" H 1200 7750 50  0001 C CNN
+F 3 "" H 1200 7750 50  0001 C CNN
+	1    1200 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG019
+U 1 1 5B2C4DB7
+P 1200 7750
+F 0 "#FLG019" H 1200 7825 50  0001 C CNN
+F 1 "PWR_FLAG" H 1200 7900 50  0000 C CNN
+F 2 "" H 1200 7750 50  0001 C CNN
+F 3 "" H 1200 7750 50  0001 C CNN
+	1    1200 7750
 	1    0    0    -1  
 $EndComp
 Text Label 9050 6350 0    60   ~ 0
@@ -467,6 +526,10 @@ Text Notes 600  2000 0    60   ~ 0
 Battery Voltage Monitoring
 Text Label 4700 4800 0    60   ~ 0
 BATT_V
+Text Notes 650  1750 0    50   ~ 0
+Battery Clip Wire \nto JST Connector
+Text Notes 550  7500 0    60   ~ 0
+Make ERC Happy
 Wire Wire Line
 	1900 1600 1900 1400
 Wire Wire Line
@@ -721,33 +784,6 @@ Wire Notes Line
 	600  2000 2100 2000
 Wire Wire Line
 	4700 4800 5050 4800
-Connection ~ 4750 3000
-Connection ~ 4750 3400
-Connection ~ 4450 3000
-Connection ~ 750  2550
-Connection ~ 3400 1000
-Connection ~ 3400 1200
-Connection ~ 3900 900 
-Connection ~ 4050 900 
-Connection ~ 3550 900 
-Connection ~ 4450 3400
-NoConn ~ 3250 800 
-NoConn ~ 9550 5950
-$Comp
-L Conn_01x02 J3
-U 1 1 5B2B0B33
-P 1150 1100
-F 0 "J3" H 1150 1200 50  0000 C CNN
-F 1 "Vin" H 1150 900 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_S2B-PH-K_02x2.00mm_Angled" H 1150 1100 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1150 1100 50  0001 C CNN
-F 4 "JST Sales America Inc." H 1150 1100 60  0001 C CNN "Manufacture"
-F 5 "S2B-PH-K-S(LF)(SN)" H 1150 1100 60  0001 C CNN "Mfg Part Number"
-F 6 "2.0mm Pin" H 1150 1100 60  0001 C CNN "Package"
-F 7 "CONN HEADER PH SIDE 2POS 2MM" H 1150 1100 60  0001 C CNN "Description"
-	1    1150 1100
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	1350 1200 1450 1200
 Wire Wire Line
@@ -770,8 +806,28 @@ Wire Notes Line
 	950  1300 950  1200
 Wire Notes Line
 	950  1200 1100 1200
-Text Notes 650  1750 0    50   ~ 0
-Battery Clip Wire \nto JST Connector
+Wire Notes Line
+	550  7400 550  7950
+Wire Notes Line
+	550  7950 1450 7950
+Wire Notes Line
+	1450 7950 1450 7400
+Wire Notes Line
+	1450 7400 550  7400
+Wire Notes Line
+	550  7500 1450 7500
+Connection ~ 4750 3000
+Connection ~ 4750 3400
+Connection ~ 4450 3000
+Connection ~ 750  2550
+Connection ~ 3400 1000
+Connection ~ 3400 1200
+Connection ~ 3900 900 
+Connection ~ 4050 900 
+Connection ~ 3550 900 
+Connection ~ 4450 3400
+NoConn ~ 3250 800 
+NoConn ~ 9550 5950
 NoConn ~ 5050 3600
 NoConn ~ 5050 3700
 NoConn ~ 5050 3800
@@ -785,62 +841,6 @@ NoConn ~ 5050 4700
 NoConn ~ 7750 5600
 NoConn ~ 7750 5700
 NoConn ~ 7750 5800
-$Comp
-L PWR_FLAG #FLG016
-U 1 1 5B2BCABB
-P 750 7750
-F 0 "#FLG016" H 750 7825 50  0001 C CNN
-F 1 "PWR_FLAG" H 750 7900 50  0000 C CNN
-F 2 "" H 750 7750 50  0001 C CNN
-F 3 "" H 750 7750 50  0001 C CNN
-	1    750  7750
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR017
-U 1 1 5B2BCBCF
-P 750 7750
-F 0 "#PWR017" H 750 7500 50  0001 C CNN
-F 1 "GND" H 750 7600 50  0000 C CNN
-F 2 "" H 750 7750 50  0001 C CNN
-F 3 "" H 750 7750 50  0001 C CNN
-	1    750  7750
-	1    0    0    -1  
-$EndComp
-Text Notes 550  7500 0    60   ~ 0
-Make ERC Happy
-Wire Notes Line
-	550  7400 550  7950
-Wire Notes Line
-	550  7950 1450 7950
-Wire Notes Line
-	1450 7950 1450 7400
-Wire Notes Line
-	1450 7400 550  7400
-Wire Notes Line
-	550  7500 1450 7500
-$Comp
-L VCC #PWR018
-U 1 1 5B2C495B
-P 1200 7750
-F 0 "#PWR018" H 1200 7600 50  0001 C CNN
-F 1 "VCC" H 1200 7900 50  0000 C CNN
-F 2 "" H 1200 7750 50  0001 C CNN
-F 3 "" H 1200 7750 50  0001 C CNN
-	1    1200 7750
-	-1   0    0    1   
-$EndComp
-$Comp
-L PWR_FLAG #FLG019
-U 1 1 5B2C4DB7
-P 1200 7750
-F 0 "#FLG019" H 1200 7825 50  0001 C CNN
-F 1 "PWR_FLAG" H 1200 7900 50  0000 C CNN
-F 2 "" H 1200 7750 50  0001 C CNN
-F 3 "" H 1200 7750 50  0001 C CNN
-	1    1200 7750
-	1    0    0    -1  
-$EndComp
 NoConn ~ 5050 5800
 NoConn ~ 5050 5900
 NoConn ~ 5050 6000

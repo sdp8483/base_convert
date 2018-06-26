@@ -884,6 +884,81 @@ F 3 "" H 9000 6850 50  0001 C CNN
 	1    9000 6850
 	1    0    0    -1  
 $EndComp
+$Comp
+L LTD-2601WC DS1
+U 1 1 5B29B754
+P 5400 1050
+F 0 "DS1" H 6100 550 60  0000 C CNN
+F 1 "LTD-2601WC" H 5400 1550 60  0000 C CNN
+F 2 "Lite-On:Display_Lite-On_LTD-2601WC" H 5200 1125 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTD-2601WC_11-14-00.pdf" H 5200 1125 60  0001 C CNN
+F 4 "LED 7-SEG 2DIGIT RED LC 0.28\" CA" H 5400 1050 60  0001 C CNN "Description"
+F 5 "Lite-On Inc." H 5400 1050 60  0001 C CNN "Manufacture"
+F 6 "LTD-2601WC" H 5400 1050 60  0001 C CNN "Mfg Part Number"
+F 7 "10-DIP" H 5400 1050 60  0001 C CNN "Package"
+	1    5400 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LTD-2601WC DS2
+U 1 1 5B29C24B
+P 5400 2100
+F 0 "DS2" H 6100 1600 60  0000 C CNN
+F 1 "LTD-2601WC" H 5400 2600 60  0000 C CNN
+F 2 "Lite-On:Display_Lite-On_LTD-2601WC" H 5200 2175 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTD-2601WC_11-14-00.pdf" H 5200 2175 60  0001 C CNN
+F 4 "LED 7-SEG 2DIGIT RED LC 0.28\" CA" H 5400 2100 60  0001 C CNN "Description"
+F 5 "Lite-On Inc." H 5400 2100 60  0001 C CNN "Manufacture"
+F 6 "LTD-2601WC" H 5400 2100 60  0001 C CNN "Mfg Part Number"
+F 7 "10-DIP" H 5400 2100 60  0001 C CNN "Package"
+	1    5400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LTD-2601WC DS3
+U 1 1 5B29C305
+P 5400 3250
+F 0 "DS3" H 6100 2750 60  0000 C CNN
+F 1 "LTD-2601WC" H 5400 3750 60  0000 C CNN
+F 2 "Lite-On:Display_Lite-On_LTD-2601WC" H 5200 3325 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTD-2601WC_11-14-00.pdf" H 5200 3325 60  0001 C CNN
+F 4 "LED 7-SEG 2DIGIT RED LC 0.28\" CA" H 5400 3250 60  0001 C CNN "Description"
+F 5 "Lite-On Inc." H 5400 3250 60  0001 C CNN "Manufacture"
+F 6 "LTD-2601WC" H 5400 3250 60  0001 C CNN "Mfg Part Number"
+F 7 "10-DIP" H 5400 3250 60  0001 C CNN "Package"
+	1    5400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LTD-2601WC DS4
+U 1 1 5B29C3D4
+P 5400 4300
+F 0 "DS4" H 6100 3800 60  0000 C CNN
+F 1 "LTD-2601WC" H 5400 4800 60  0000 C CNN
+F 2 "Lite-On:Display_Lite-On_LTD-2601WC" H 5200 4375 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTD-2601WC_11-14-00.pdf" H 5200 4375 60  0001 C CNN
+F 4 "LED 7-SEG 2DIGIT RED LC 0.28\" CA" H 5400 4300 60  0001 C CNN "Description"
+F 5 "Lite-On Inc." H 5400 4300 60  0001 C CNN "Manufacture"
+F 6 "LTD-2601WC" H 5400 4300 60  0001 C CNN "Mfg Part Number"
+F 7 "10-DIP" H 5400 4300 60  0001 C CNN "Package"
+	1    5400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LTD-2601WC DS5
+U 1 1 5B29C498
+P 5400 5350
+F 0 "DS5" H 6100 4850 60  0000 C CNN
+F 1 "LTD-2601WC" H 5400 5850 60  0000 C CNN
+F 2 "Lite-On:Display_Lite-On_LTD-2601WC" H 5200 5425 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTD-2601WC_11-14-00.pdf" H 5200 5425 60  0001 C CNN
+F 4 "LED 7-SEG 2DIGIT RED LC 0.28\" CA" H 5400 5350 60  0001 C CNN "Description"
+F 5 "Lite-On Inc." H 5400 5350 60  0001 C CNN "Manufacture"
+F 6 "LTD-2601WC" H 5400 5350 60  0001 C CNN "Mfg Part Number"
+F 7 "10-DIP" H 5400 5350 60  0001 C CNN "Package"
+	1    5400 5350
+	1    0    0    -1  
+$EndComp
 Text Label 4100 700  0    60   ~ 0
 HEX1
 Text Label 4100 800  0    60   ~ 0
@@ -1418,79 +1493,4 @@ Entry Wire Line
 	6550 5700 6650 5600
 Entry Wire Line
 	8350 6200 8450 6300
-$Comp
-L LTD-2601WC DS1
-U 1 1 5B29B754
-P 5400 1050
-F 0 "DS1" H 6100 550 60  0000 C CNN
-F 1 "LTD-2601WC" H 5400 1550 60  0000 C CNN
-F 2 "Lite-On:Display_Lite-On_LTD-2601WC" H 5200 1125 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTD-2601WC_11-14-00.pdf" H 5200 1125 60  0001 C CNN
-F 4 "Lite-On Inc." H 5400 1050 60  0001 C CNN "Manufacture"
-F 5 "LTD-2601WC" H 5400 1050 60  0001 C CNN "Mfg Part Number"
-F 6 "10-DIP" H 5400 1050 60  0001 C CNN "Package"
-F 7 "LED 7-SEG 2DIGIT RED LC 0.28\" CA" H 5400 1050 60  0001 C CNN "Description"
-	1    5400 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L LTD-2601WC DS2
-U 1 1 5B29C24B
-P 5400 2100
-F 0 "DS2" H 6100 1600 60  0000 C CNN
-F 1 "LTD-2601WC" H 5400 2600 60  0000 C CNN
-F 2 "Lite-On:Display_Lite-On_LTD-2601WC" H 5200 2175 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTD-2601WC_11-14-00.pdf" H 5200 2175 60  0001 C CNN
-F 4 "Lite-On Inc." H 5400 2100 60  0001 C CNN "Manufacture"
-F 5 "LTD-2601WC" H 5400 2100 60  0001 C CNN "Mfg Part Number"
-F 6 "10-DIP" H 5400 2100 60  0001 C CNN "Package"
-F 7 "LED 7-SEG 2DIGIT RED LC 0.28\" CA" H 5400 2100 60  0001 C CNN "Description"
-	1    5400 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L LTD-2601WC DS3
-U 1 1 5B29C305
-P 5400 3250
-F 0 "DS3" H 6100 2750 60  0000 C CNN
-F 1 "LTD-2601WC" H 5400 3750 60  0000 C CNN
-F 2 "Lite-On:Display_Lite-On_LTD-2601WC" H 5200 3325 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTD-2601WC_11-14-00.pdf" H 5200 3325 60  0001 C CNN
-F 4 "Lite-On Inc." H 5400 3250 60  0001 C CNN "Manufacture"
-F 5 "LTD-2601WC" H 5400 3250 60  0001 C CNN "Mfg Part Number"
-F 6 "10-DIP" H 5400 3250 60  0001 C CNN "Package"
-F 7 "LED 7-SEG 2DIGIT RED LC 0.28\" CA" H 5400 3250 60  0001 C CNN "Description"
-	1    5400 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L LTD-2601WC DS4
-U 1 1 5B29C3D4
-P 5400 4300
-F 0 "DS4" H 6100 3800 60  0000 C CNN
-F 1 "LTD-2601WC" H 5400 4800 60  0000 C CNN
-F 2 "Lite-On:Display_Lite-On_LTD-2601WC" H 5200 4375 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTD-2601WC_11-14-00.pdf" H 5200 4375 60  0001 C CNN
-F 4 "Lite-On Inc." H 5400 4300 60  0001 C CNN "Manufacture"
-F 5 "LTD-2601WC" H 5400 4300 60  0001 C CNN "Mfg Part Number"
-F 6 "10-DIP" H 5400 4300 60  0001 C CNN "Package"
-F 7 "LED 7-SEG 2DIGIT RED LC 0.28\" CA" H 5400 4300 60  0001 C CNN "Description"
-	1    5400 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L LTD-2601WC DS5
-U 1 1 5B29C498
-P 5400 5350
-F 0 "DS5" H 6100 4850 60  0000 C CNN
-F 1 "LTD-2601WC" H 5400 5850 60  0000 C CNN
-F 2 "Lite-On:Display_Lite-On_LTD-2601WC" H 5200 5425 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTD-2601WC_11-14-00.pdf" H 5200 5425 60  0001 C CNN
-F 4 "Lite-On Inc." H 5400 5350 60  0001 C CNN "Manufacture"
-F 5 "LTD-2601WC" H 5400 5350 60  0001 C CNN "Mfg Part Number"
-F 6 "10-DIP" H 5400 5350 60  0001 C CNN "Package"
-F 7 "LED 7-SEG 2DIGIT RED LC 0.28\" CA" H 5400 5350 60  0001 C CNN "Description"
-	1    5400 5350
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
