@@ -312,12 +312,44 @@ Text HLabel 6150 4900 3    60   Input ~ 0
 COL3
 Text HLabel 7600 1700 2    60   Input ~ 0
 CLEAR
+NoConn ~ 6650 1900
+NoConn ~ 6250 1900
+NoConn ~ 6250 2550
+NoConn ~ 6650 2550
+NoConn ~ 5850 2550
+NoConn ~ 5450 2550
+NoConn ~ 5050 2550
+NoConn ~ 4650 2550
+NoConn ~ 4250 2550
+NoConn ~ 3850 2550
+NoConn ~ 3850 3200
+NoConn ~ 4250 3200
+NoConn ~ 4650 3200
+NoConn ~ 5050 3200
+NoConn ~ 5450 3200
+NoConn ~ 5850 3200
+NoConn ~ 5850 3850
+NoConn ~ 5450 3850
+NoConn ~ 5050 3850
+NoConn ~ 4650 3850
+NoConn ~ 4250 3850
+NoConn ~ 3850 3850
+NoConn ~ 3850 4500
+NoConn ~ 4250 4500
+NoConn ~ 4650 4500
+NoConn ~ 5050 4500
+NoConn ~ 5450 4500
+NoConn ~ 5850 4500
+NoConn ~ 6250 4500
+NoConn ~ 6650 4500
+NoConn ~ 6650 3850
+NoConn ~ 6250 3850
+NoConn ~ 6250 3200
+NoConn ~ 6650 3200
 Wire Wire Line
 	4250 2350 4250 2150
 Wire Wire Line
 	4250 2150 7600 2150
-Wire Wire Line
-	6650 2350 6650 2150
 Wire Wire Line
 	5850 2350 5850 2150
 Wire Wire Line
@@ -398,7 +430,6 @@ Wire Wire Line
 	6100 1700 6250 1700
 Wire Wire Line
 	7600 1700 6650 1700
-Connection ~ 6650 2150
 Connection ~ 5850 2150
 Connection ~ 5050 2150
 Connection ~ 6650 2800
@@ -422,38 +453,7 @@ Connection ~ 4550 3000
 Connection ~ 4550 3650
 Connection ~ 4550 4300
 Connection ~ 6650 3450
-NoConn ~ 6650 1900
-NoConn ~ 6250 1900
-NoConn ~ 6250 2550
-NoConn ~ 6650 2550
-NoConn ~ 5850 2550
-NoConn ~ 5450 2550
-NoConn ~ 5050 2550
-NoConn ~ 4650 2550
-NoConn ~ 4250 2550
-NoConn ~ 3850 2550
-NoConn ~ 3850 3200
-NoConn ~ 4250 3200
-NoConn ~ 4650 3200
-NoConn ~ 5050 3200
-NoConn ~ 5450 3200
-NoConn ~ 5850 3200
-NoConn ~ 5850 3850
-NoConn ~ 5450 3850
-NoConn ~ 5050 3850
-NoConn ~ 4650 3850
-NoConn ~ 4250 3850
-NoConn ~ 3850 3850
-NoConn ~ 3850 4500
-NoConn ~ 4250 4500
-NoConn ~ 4650 4500
-NoConn ~ 5050 4500
-NoConn ~ 5450 4500
-NoConn ~ 5850 4500
-NoConn ~ 6250 4500
-NoConn ~ 6650 4500
-NoConn ~ 6650 3850
-NoConn ~ 6250 3850
-NoConn ~ 6250 3200
-NoConn ~ 6650 3200
+Connection ~ 6650 2150
+Wire Wire Line
+	6650 2350 6650 2150
 $EndSCHEMATC
