@@ -104,68 +104,23 @@ $EndComp
 $Comp
 L Q_NPN_BEC Q6
 U 1 1 5AEDD3EC
-P 8350 2150
-F 0 "Q6" H 8550 2200 50  0000 L CNN
-F 1 "Q_NPN_BEC" H 8550 2100 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8550 2250 50  0001 C CNN
-F 3 "http://www.taiwansemi.com/products/datasheet/MMBT3904L_A15.pdf" H 8350 2150 50  0001 C CNN
-F 4 "TRANSISTOR, NPN, 40V, 0.2A, 100A" H 8550 2300 50  0001 C CNN "Description"
-F 5 "Taiwan Semiconductor Corporation" H 8550 2300 50  0001 C CNN "Manufacture"
-F 6 "MMBT3904L RFG" H 8550 2300 50  0001 C CNN "Mfg Part Number"
-F 7 "SOT-23" H 8550 2300 50  0001 C CNN "Package"
-	1    8350 2150
+P 9550 2150
+F 0 "Q6" H 9750 2200 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 9750 2100 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9750 2250 50  0001 C CNN
+F 3 "http://www.taiwansemi.com/products/datasheet/MMBT3904L_A15.pdf" H 9550 2150 50  0001 C CNN
+F 4 "TRANSISTOR, NPN, 40V, 0.2A, 100A" H 9750 2300 50  0001 C CNN "Description"
+F 5 "Taiwan Semiconductor Corporation" H 9750 2300 50  0001 C CNN "Manufacture"
+F 6 "MMBT3904L RFG" H 9750 2300 50  0001 C CNN "Mfg Part Number"
+F 7 "SOT-23" H 9750 2300 50  0001 C CNN "Package"
+	1    9550 2150
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R7
-U 1 1 5AEDD46D
-P 8250 1750
-F 0 "R7" V 8330 1750 50  0000 C CNN
-F 1 "150" V 8250 1750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8180 1750 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8250 1750 50  0001 C CNN
-F 4 "RES SMD 150 OHM 5% 1/10W 0603" H 8330 1850 50  0001 C CNN "Description"
-F 5 "Yageo" H 8330 1850 50  0001 C CNN "Manufacture"
-F 6 "RC0603JR-07150RL" H 8330 1850 50  0001 C CNN "Mfg Part Number"
-F 7 "0603" H 8330 1850 50  0001 C CNN "Package"
-	1    8250 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R11
-U 1 1 5AEDD5D7
-P 8750 2150
-F 0 "R11" V 8830 2150 50  0000 C CNN
-F 1 "4.7k" V 8750 2150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8680 2150 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 8750 2150 50  0001 C CNN
-F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 8830 2250 50  0001 C CNN "Description"
-F 5 "Panasonic Electronic Components" H 8830 2250 50  0001 C CNN "Manufacture"
-F 6 "ERJ-3GEYJ472V" H 8830 2250 50  0001 C CNN "Mfg Part Number"
-F 7 "0603" H 8830 2250 50  0001 C CNN "Package"
-	1    8750 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L R R3
-U 1 1 5AEDD6B3
-P 3800 1000
-F 0 "R3" V 3880 1000 50  0000 C CNN
-F 1 "4.7k" V 3800 1000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3730 1000 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 3800 1000 50  0001 C CNN
-F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 3880 1100 50  0001 C CNN "Description"
-F 5 "Panasonic Electronic Components" H 3880 1100 50  0001 C CNN "Manufacture"
-F 6 "ERJ-3GEYJ472V" H 3880 1100 50  0001 C CNN "Mfg Part Number"
-F 7 "0603" H 3880 1100 50  0001 C CNN "Package"
-	1    3800 1000
-	0    1    1    0   
-$EndComp
-$Comp
-L VCC #PWR019
+L VCC #PWR17
 U 1 1 5AEDDAFD
 P 4300 750
-F 0 "#PWR019" H 4300 600 50  0001 C CNN
+F 0 "#PWR17" H 4300 600 50  0001 C CNN
 F 1 "VCC" H 4300 900 50  0000 C CNN
 F 2 "" H 4300 750 50  0001 C CNN
 F 3 "" H 4300 750 50  0001 C CNN
@@ -173,182 +128,92 @@ F 3 "" H 4300 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L GND #PWR21
 U 1 1 5AEE40C6
-P 8250 2400
-F 0 "#PWR020" H 8250 2150 50  0001 C CNN
-F 1 "GND" H 8250 2250 50  0000 C CNN
-F 2 "" H 8250 2400 50  0001 C CNN
-F 3 "" H 8250 2400 50  0001 C CNN
-	1    8250 2400
+P 9450 2400
+F 0 "#PWR21" H 9450 2150 50  0001 C CNN
+F 1 "GND" H 9450 2250 50  0000 C CNN
+F 2 "" H 9450 2400 50  0001 C CNN
+F 3 "" H 9450 2400 50  0001 C CNN
+	1    9450 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Q_NPN_BEC Q7
 U 1 1 5AEEC0B6
-P 8350 3450
-F 0 "Q7" H 8550 3500 50  0000 L CNN
-F 1 "Q_NPN_BEC" H 8550 3400 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8550 3550 50  0001 C CNN
-F 3 "http://www.taiwansemi.com/products/datasheet/MMBT3904L_A15.pdf" H 8350 3450 50  0001 C CNN
-F 4 "TRANSISTOR, NPN, 40V, 0.2A, 100A" H 8550 3600 50  0001 C CNN "Description"
-F 5 "Taiwan Semiconductor Corporation" H 8550 3600 50  0001 C CNN "Manufacture"
-F 6 "MMBT3904L RFG" H 8550 3600 50  0001 C CNN "Mfg Part Number"
-F 7 "SOT-23" H 8550 3600 50  0001 C CNN "Package"
-	1    8350 3450
+P 9550 3450
+F 0 "Q7" H 9750 3500 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 9750 3400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9750 3550 50  0001 C CNN
+F 3 "http://www.taiwansemi.com/products/datasheet/MMBT3904L_A15.pdf" H 9550 3450 50  0001 C CNN
+F 4 "TRANSISTOR, NPN, 40V, 0.2A, 100A" H 9750 3600 50  0001 C CNN "Description"
+F 5 "Taiwan Semiconductor Corporation" H 9750 3600 50  0001 C CNN "Manufacture"
+F 6 "MMBT3904L RFG" H 9750 3600 50  0001 C CNN "Mfg Part Number"
+F 7 "SOT-23" H 9750 3600 50  0001 C CNN "Package"
+	1    9550 3450
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R8
-U 1 1 5AEEC0C0
-P 8250 3050
-F 0 "R8" V 8330 3050 50  0000 C CNN
-F 1 "150" V 8250 3050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8180 3050 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8250 3050 50  0001 C CNN
-F 4 "RES SMD 150 OHM 5% 1/10W 0603" H 8330 3150 50  0001 C CNN "Description"
-F 5 "Yageo" H 8330 3150 50  0001 C CNN "Manufacture"
-F 6 "RC0603JR-07150RL" H 8330 3150 50  0001 C CNN "Mfg Part Number"
-F 7 "0603" H 8330 3150 50  0001 C CNN "Package"
-	1    8250 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R12
-U 1 1 5AEEC0CA
-P 8750 3450
-F 0 "R12" V 8830 3450 50  0000 C CNN
-F 1 "4.7k" V 8750 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8680 3450 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 8750 3450 50  0001 C CNN
-F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 8830 3550 50  0001 C CNN "Description"
-F 5 "Panasonic Electronic Components" H 8830 3550 50  0001 C CNN "Manufacture"
-F 6 "ERJ-3GEYJ472V" H 8830 3550 50  0001 C CNN "Mfg Part Number"
-F 7 "0603" H 8830 3550 50  0001 C CNN "Package"
-	1    8750 3450
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR021
+L GND #PWR22
 U 1 1 5AEEC0D0
-P 8250 3700
-F 0 "#PWR021" H 8250 3450 50  0001 C CNN
-F 1 "GND" H 8250 3550 50  0000 C CNN
-F 2 "" H 8250 3700 50  0001 C CNN
-F 3 "" H 8250 3700 50  0001 C CNN
-	1    8250 3700
+P 9450 3700
+F 0 "#PWR22" H 9450 3450 50  0001 C CNN
+F 1 "GND" H 9450 3550 50  0000 C CNN
+F 2 "" H 9450 3700 50  0001 C CNN
+F 3 "" H 9450 3700 50  0001 C CNN
+	1    9450 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Q_NPN_BEC Q8
 U 1 1 5AEEC488
-P 8350 4750
-F 0 "Q8" H 8550 4800 50  0000 L CNN
-F 1 "Q_NPN_BEC" H 8550 4700 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8550 4850 50  0001 C CNN
-F 3 "http://www.taiwansemi.com/products/datasheet/MMBT3904L_A15.pdf" H 8350 4750 50  0001 C CNN
-F 4 "TRANSISTOR, NPN, 40V, 0.2A, 100A" H 8550 4900 50  0001 C CNN "Description"
-F 5 "Taiwan Semiconductor Corporation" H 8550 4900 50  0001 C CNN "Manufacture"
-F 6 "MMBT3904L RFG" H 8550 4900 50  0001 C CNN "Mfg Part Number"
-F 7 "SOT-23" H 8550 4900 50  0001 C CNN "Package"
-	1    8350 4750
+P 9550 4750
+F 0 "Q8" H 9750 4800 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 9750 4700 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9750 4850 50  0001 C CNN
+F 3 "http://www.taiwansemi.com/products/datasheet/MMBT3904L_A15.pdf" H 9550 4750 50  0001 C CNN
+F 4 "TRANSISTOR, NPN, 40V, 0.2A, 100A" H 9750 4900 50  0001 C CNN "Description"
+F 5 "Taiwan Semiconductor Corporation" H 9750 4900 50  0001 C CNN "Manufacture"
+F 6 "MMBT3904L RFG" H 9750 4900 50  0001 C CNN "Mfg Part Number"
+F 7 "SOT-23" H 9750 4900 50  0001 C CNN "Package"
+	1    9550 4750
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R9
-U 1 1 5AEEC492
-P 8250 4350
-F 0 "R9" V 8330 4350 50  0000 C CNN
-F 1 "150" V 8250 4350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8180 4350 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8250 4350 50  0001 C CNN
-F 4 "RES SMD 150 OHM 5% 1/10W 0603" H 8330 4450 50  0001 C CNN "Description"
-F 5 "Yageo" H 8330 4450 50  0001 C CNN "Manufacture"
-F 6 "RC0603JR-07150RL" H 8330 4450 50  0001 C CNN "Mfg Part Number"
-F 7 "0603" H 8330 4450 50  0001 C CNN "Package"
-	1    8250 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R13
-U 1 1 5AEEC49C
-P 8750 4750
-F 0 "R13" V 8830 4750 50  0000 C CNN
-F 1 "4.7k" V 8750 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8680 4750 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 8750 4750 50  0001 C CNN
-F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 8830 4850 50  0001 C CNN "Description"
-F 5 "Panasonic Electronic Components" H 8830 4850 50  0001 C CNN "Manufacture"
-F 6 "ERJ-3GEYJ472V" H 8830 4850 50  0001 C CNN "Mfg Part Number"
-F 7 "0603" H 8830 4850 50  0001 C CNN "Package"
-	1    8750 4750
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR022
+L GND #PWR23
 U 1 1 5AEEC4A2
-P 8250 5000
-F 0 "#PWR022" H 8250 4750 50  0001 C CNN
-F 1 "GND" H 8250 4850 50  0000 C CNN
-F 2 "" H 8250 5000 50  0001 C CNN
-F 3 "" H 8250 5000 50  0001 C CNN
-	1    8250 5000
+P 9450 5000
+F 0 "#PWR23" H 9450 4750 50  0001 C CNN
+F 1 "GND" H 9450 4850 50  0000 C CNN
+F 2 "" H 9450 5000 50  0001 C CNN
+F 3 "" H 9450 5000 50  0001 C CNN
+	1    9450 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Q_NPN_BEC Q9
 U 1 1 5AEEC4AC
-P 8350 6050
-F 0 "Q9" H 8550 6100 50  0000 L CNN
-F 1 "Q_NPN_BEC" H 8550 6000 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8550 6150 50  0001 C CNN
-F 3 "http://www.taiwansemi.com/products/datasheet/MMBT3904L_A15.pdf" H 8350 6050 50  0001 C CNN
-F 4 "TRANSISTOR, NPN, 40V, 0.2A, 100A" H 8550 6200 50  0001 C CNN "Description"
-F 5 "Taiwan Semiconductor Corporation" H 8550 6200 50  0001 C CNN "Manufacture"
-F 6 "MMBT3904L RFG" H 8550 6200 50  0001 C CNN "Mfg Part Number"
-F 7 "SOT-23" H 8550 6200 50  0001 C CNN "Package"
-	1    8350 6050
+P 9550 6050
+F 0 "Q9" H 9750 6100 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 9750 6000 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9750 6150 50  0001 C CNN
+F 3 "http://www.taiwansemi.com/products/datasheet/MMBT3904L_A15.pdf" H 9550 6050 50  0001 C CNN
+F 4 "TRANSISTOR, NPN, 40V, 0.2A, 100A" H 9750 6200 50  0001 C CNN "Description"
+F 5 "Taiwan Semiconductor Corporation" H 9750 6200 50  0001 C CNN "Manufacture"
+F 6 "MMBT3904L RFG" H 9750 6200 50  0001 C CNN "Mfg Part Number"
+F 7 "SOT-23" H 9750 6200 50  0001 C CNN "Package"
+	1    9550 6050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R10
-U 1 1 5AEEC4B6
-P 8250 5650
-F 0 "R10" V 8330 5650 50  0000 C CNN
-F 1 "150" V 8250 5650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8180 5650 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" H 8250 5650 50  0001 C CNN
-F 4 "RES SMD 150 OHM 5% 1/10W 0603" H 8330 5750 50  0001 C CNN "Description"
-F 5 "Yageo" H 8330 5750 50  0001 C CNN "Manufacture"
-F 6 "RC0603JR-07150RL" H 8330 5750 50  0001 C CNN "Mfg Part Number"
-F 7 "0603" H 8330 5750 50  0001 C CNN "Package"
-	1    8250 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R14
-U 1 1 5AEEC4C0
-P 8750 6050
-F 0 "R14" V 8830 6050 50  0000 C CNN
-F 1 "4.7k" V 8750 6050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8680 6050 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 8750 6050 50  0001 C CNN
-F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 8830 6150 50  0001 C CNN "Description"
-F 5 "Panasonic Electronic Components" H 8830 6150 50  0001 C CNN "Manufacture"
-F 6 "ERJ-3GEYJ472V" H 8830 6150 50  0001 C CNN "Mfg Part Number"
-F 7 "0603" H 8830 6150 50  0001 C CNN "Package"
-	1    8750 6050
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR023
+L GND #PWR24
 U 1 1 5AEEC4C6
-P 8250 6300
-F 0 "#PWR023" H 8250 6050 50  0001 C CNN
-F 1 "GND" H 8250 6150 50  0000 C CNN
-F 2 "" H 8250 6300 50  0001 C CNN
-F 3 "" H 8250 6300 50  0001 C CNN
-	1    8250 6300
+P 9450 6300
+F 0 "#PWR24" H 9450 6050 50  0001 C CNN
+F 1 "GND" H 9450 6150 50  0000 C CNN
+F 2 "" H 9450 6300 50  0001 C CNN
+F 3 "" H 9450 6300 50  0001 C CNN
+	1    9450 6300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -427,25 +292,10 @@ F 7 "SOT-23" H 4400 2800 50  0001 C CNN "Package"
 	1    0    0    1   
 $EndComp
 $Comp
-L R R4
-U 1 1 5AEECB2E
-P 3800 2650
-F 0 "R4" V 3880 2650 50  0000 C CNN
-F 1 "4.7k" V 3800 2650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3730 2650 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 3800 2650 50  0001 C CNN
-F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 3880 2750 50  0001 C CNN "Description"
-F 5 "Panasonic Electronic Components" H 3880 2750 50  0001 C CNN "Manufacture"
-F 6 "ERJ-3GEYJ472V" H 3880 2750 50  0001 C CNN "Mfg Part Number"
-F 7 "0603" H 3880 2750 50  0001 C CNN "Package"
-	1    3800 2650
-	0    1    1    0   
-$EndComp
-$Comp
-L VCC #PWR024
+L VCC #PWR18
 U 1 1 5AEECB34
 P 4300 2400
-F 0 "#PWR024" H 4300 2250 50  0001 C CNN
+F 0 "#PWR18" H 4300 2250 50  0001 C CNN
 F 1 "VCC" H 4300 2550 50  0000 C CNN
 F 2 "" H 4300 2400 50  0001 C CNN
 F 3 "" H 4300 2400 50  0001 C CNN
@@ -528,25 +378,10 @@ F 7 "SOT-23" H 4400 4500 50  0001 C CNN "Package"
 	1    0    0    1   
 $EndComp
 $Comp
-L R R5
-U 1 1 5AEED024
-P 3800 4350
-F 0 "R5" V 3880 4350 50  0000 C CNN
-F 1 "4.7k" V 3800 4350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3730 4350 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 3800 4350 50  0001 C CNN
-F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 3880 4450 50  0001 C CNN "Description"
-F 5 "Panasonic Electronic Components" H 3880 4450 50  0001 C CNN "Manufacture"
-F 6 "ERJ-3GEYJ472V" H 3880 4450 50  0001 C CNN "Mfg Part Number"
-F 7 "0603" H 3880 4450 50  0001 C CNN "Package"
-	1    3800 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L VCC #PWR025
+L VCC #PWR19
 U 1 1 5AEED02A
 P 4300 4100
-F 0 "#PWR025" H 4300 3950 50  0001 C CNN
+F 0 "#PWR19" H 4300 3950 50  0001 C CNN
 F 1 "VCC" H 4300 4250 50  0000 C CNN
 F 2 "" H 4300 4100 50  0001 C CNN
 F 3 "" H 4300 4100 50  0001 C CNN
@@ -629,25 +464,10 @@ F 7 "SOT-23" H 4400 6150 50  0001 C CNN "Package"
 	1    0    0    1   
 $EndComp
 $Comp
-L R R6
-U 1 1 5AEED06A
-P 3800 6000
-F 0 "R6" V 3880 6000 50  0000 C CNN
-F 1 "4.7k" V 3800 6000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3730 6000 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ472V+7+WW" H 3800 6000 50  0001 C CNN
-F 4 "RES SMD 4.7K OHM 5% 1/10W 0603" H 3880 6100 50  0001 C CNN "Description"
-F 5 "Panasonic Electronic Components" H 3880 6100 50  0001 C CNN "Manufacture"
-F 6 "ERJ-3GEYJ472V" H 3880 6100 50  0001 C CNN "Mfg Part Number"
-F 7 "0603" H 3880 6100 50  0001 C CNN "Package"
-	1    3800 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L VCC #PWR026
+L VCC #PWR20
 U 1 1 5AEED070
 P 4300 5750
-F 0 "#PWR026" H 4300 5600 50  0001 C CNN
+F 0 "#PWR20" H 4300 5600 50  0001 C CNN
 F 1 "VCC" H 4300 5900 50  0000 C CNN
 F 2 "" H 4300 5750 50  0001 C CNN
 F 3 "" H 4300 5750 50  0001 C CNN
@@ -688,27 +508,27 @@ Text Label 4300 6950 1    60   ~ 0
 BIT3
 Text Label 7700 1500 0    60   ~ 0
 BIT0
-Text Label 7700 2800 0    60   ~ 0
+Text Label 7700 1600 0    60   ~ 0
 BIT1
-Text Label 7700 4100 0    60   ~ 0
+Text Label 7700 1700 0    60   ~ 0
 BIT2
-Text Label 7700 5400 0    60   ~ 0
+Text Label 7700 1800 0    60   ~ 0
 BIT3
-Text HLabel 9300 2150 2    60   Input ~ 0
+Text HLabel 10700 2150 2    60   Input ~ 0
 LED_BIT0
-Text HLabel 9300 3450 2    60   Input ~ 0
+Text HLabel 10700 2250 2    60   Input ~ 0
 LED_BIT1
-Text HLabel 9300 4750 2    60   Input ~ 0
+Text HLabel 10700 2350 2    60   Input ~ 0
 LED_BIT2
-Text HLabel 9300 6050 2    60   Input ~ 0
+Text HLabel 10700 2450 2    60   Input ~ 0
 LED_BIT3
-Text HLabel 3250 1000 0    60   Input ~ 0
+Text HLabel 3150 1000 0    60   Input ~ 0
 NIBBLE0
-Text HLabel 3250 2650 0    60   Input ~ 0
+Text HLabel 3150 1100 0    60   Input ~ 0
 NIBBLE1
-Text HLabel 3250 4350 0    60   Input ~ 0
+Text HLabel 3150 1200 0    60   Input ~ 0
 NIBBLE2
-Text HLabel 3250 6000 0    60   Input ~ 0
+Text HLabel 3150 1300 0    60   Input ~ 0
 NIBBLE3
 Wire Wire Line
 	4300 750  4300 800 
@@ -723,8 +543,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 1400 4600 1300
 Wire Wire Line
-	4000 1000 3950 1000
-Wire Wire Line
 	4300 1700 4300 1950
 Wire Wire Line
 	4600 1950 4600 1700
@@ -735,39 +553,19 @@ Wire Wire Line
 Wire Bus Line
 	4400 2050 5400 2050
 Wire Wire Line
-	8250 1900 8250 1950
+	9750 2150 10200 2150
 Wire Wire Line
-	8550 2150 8600 2150
+	9450 2350 9450 2400
 Wire Wire Line
-	8250 2350 8250 2400
+	10600 2150 10700 2150
 Wire Wire Line
-	8900 2150 9300 2150
+	4000 1000 3600 1000
 Wire Wire Line
-	3650 1000 3250 1000
+	9450 3650 9450 3700
 Wire Wire Line
-	8250 3200 8250 3250
+	9450 4950 9450 5000
 Wire Wire Line
-	8550 3450 8600 3450
-Wire Wire Line
-	8250 3650 8250 3700
-Wire Wire Line
-	8900 3450 9300 3450
-Wire Wire Line
-	8250 4500 8250 4550
-Wire Wire Line
-	8550 4750 8600 4750
-Wire Wire Line
-	8250 4950 8250 5000
-Wire Wire Line
-	8900 4750 9300 4750
-Wire Wire Line
-	8250 5800 8250 5850
-Wire Wire Line
-	8550 6050 8600 6050
-Wire Wire Line
-	8250 6250 8250 6300
-Wire Wire Line
-	8900 6050 9300 6050
+	9450 6250 9450 6300
 Wire Wire Line
 	4300 2400 4300 2450
 Wire Wire Line
@@ -781,8 +579,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 3050 4600 2950
 Wire Wire Line
-	4000 2650 3950 2650
-Wire Wire Line
 	4300 3350 4300 3600
 Wire Wire Line
 	4600 3600 4600 3350
@@ -792,8 +588,6 @@ Wire Wire Line
 	5200 3600 5200 3350
 Wire Bus Line
 	4400 3700 5400 3700
-Wire Wire Line
-	3650 2650 3250 2650
 Wire Wire Line
 	4300 4100 4300 4150
 Wire Wire Line
@@ -807,8 +601,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 4750 4600 4650
 Wire Wire Line
-	4000 4350 3950 4350
-Wire Wire Line
 	4300 5050 4300 5300
 Wire Wire Line
 	4600 5300 4600 5050
@@ -818,8 +610,6 @@ Wire Wire Line
 	5200 5300 5200 5050
 Wire Bus Line
 	4400 5400 5400 5400
-Wire Wire Line
-	3650 4350 3250 4350
 Wire Wire Line
 	4300 5750 4300 5800
 Wire Wire Line
@@ -833,8 +623,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 6400 4600 6300
 Wire Wire Line
-	4000 6000 3950 6000
-Wire Wire Line
 	4300 6700 4300 6950
 Wire Wire Line
 	4600 6950 4600 6700
@@ -845,25 +633,15 @@ Wire Wire Line
 Wire Bus Line
 	4400 7050 5400 7050
 Wire Wire Line
-	3650 6000 3250 6000
+	8000 1500 7700 1500
 Wire Wire Line
-	8250 1600 8250 1500
+	8000 1600 7700 1600
 Wire Wire Line
-	8250 1500 7700 1500
+	8000 1700 7700 1700
 Wire Wire Line
-	8250 2900 8250 2800
-Wire Wire Line
-	8250 2800 7700 2800
-Wire Wire Line
-	8250 4200 8250 4100
-Wire Wire Line
-	8250 4100 7700 4100
-Wire Wire Line
-	8250 5500 8250 5400
-Wire Wire Line
-	8250 5400 7700 5400
+	8000 1800 7700 1800
 Wire Bus Line
-	7600 5300 7600 1000
+	7600 1000 7600 1700
 Wire Bus Line
 	7600 1000 5500 1000
 Wire Bus Line
@@ -911,11 +689,11 @@ Entry Bus Bus
 Entry Wire Line
 	7600 1400 7700 1500
 Entry Wire Line
-	7600 2700 7700 2800
+	7600 1500 7700 1600
 Entry Wire Line
-	7600 4000 7700 4100
+	7600 1600 7700 1700
 Entry Wire Line
-	7600 5300 7700 5400
+	7600 1700 7700 1800
 Connection ~ 4300 1300
 Connection ~ 4900 1300
 Connection ~ 4600 1300
@@ -928,4 +706,117 @@ Connection ~ 4600 4650
 Connection ~ 4300 6300
 Connection ~ 4900 6300
 Connection ~ 4600 6300
+$Comp
+L R_Pack04 RN1
+U 1 1 5B345686
+P 3400 1200
+F 0 "RN1" V 3100 1200 50  0000 C CNN
+F 1 "4.7k" V 3600 1200 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 3675 1200 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RAVF.pdf" H 3400 1200 50  0001 C CNN
+F 4 "Stackpole Electronics Inc." H 3400 1200 60  0001 C CNN "Manufacture"
+F 5 "RAVF164DJT4K70" H 3400 1200 60  0001 C CNN "Mfg Part Number"
+F 6 "1206" H 3400 1200 60  0001 C CNN "Package"
+F 7 "RES ARRAY 4 RES 4.7K OHM 1206" H 3400 1200 60  0001 C CNN "Description"
+	1    3400 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 1000 3200 1000
+Wire Wire Line
+	3150 1100 3200 1100
+Wire Wire Line
+	3150 1200 3200 1200
+Wire Wire Line
+	3150 1300 3200 1300
+Wire Wire Line
+	3600 1100 4000 1100
+Wire Wire Line
+	4000 1100 4000 2650
+Wire Wire Line
+	3600 1200 3900 1200
+Wire Wire Line
+	3900 1200 3900 4350
+Wire Wire Line
+	3900 4350 4000 4350
+Wire Wire Line
+	3600 1300 3800 1300
+Wire Wire Line
+	3800 1300 3800 6000
+Wire Wire Line
+	3800 6000 4000 6000
+$Comp
+L R_Pack04 RN3
+U 1 1 5B3495D3
+P 10400 2350
+F 0 "RN3" V 10100 2350 50  0000 C CNN
+F 1 "4.7k" V 10600 2350 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 10675 2350 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RAVF.pdf" H 10400 2350 50  0001 C CNN
+F 4 "Stackpole Electronics Inc." H 10400 2350 60  0001 C CNN "Manufacture"
+F 5 "RAVF164DJT4K70" H 10400 2350 60  0001 C CNN "Mfg Part Number"
+F 6 "1206" H 10400 2350 60  0001 C CNN "Package"
+F 7 "RES ARRAY 4 RES 4.7K OHM 1206" H 10400 2350 60  0001 C CNN "Description"
+	1    10400 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10600 2250 10700 2250
+Wire Wire Line
+	10600 2350 10700 2350
+Wire Wire Line
+	10600 2450 10700 2450
+Wire Wire Line
+	9750 3450 9750 2250
+Wire Wire Line
+	9750 2250 10200 2250
+Wire Wire Line
+	10200 2350 9850 2350
+Wire Wire Line
+	9850 2350 9850 4750
+Wire Wire Line
+	9850 4750 9750 4750
+Wire Wire Line
+	10200 2450 9950 2450
+Wire Wire Line
+	9950 2450 9950 6050
+Wire Wire Line
+	9950 6050 9750 6050
+$Comp
+L R_Pack04 RN2
+U 1 1 5B34C5E7
+P 8200 1700
+F 0 "RN2" V 7900 1700 50  0000 C CNN
+F 1 "150" V 8400 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 8475 1700 50  0001 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor_network/mnr_g.pdf" H 8200 1700 50  0001 C CNN
+F 4 "Rohm Semiconductor" H 8200 1700 60  0001 C CNN "Manufacture"
+F 5 "MNR14ERAPJ151" H 8200 1700 60  0001 C CNN "Mfg Part Number"
+F 6 "1206" H 8200 1700 60  0001 C CNN "Package"
+F 7 "RES ARRAY 4 RES 150 OHM 1206" H 8200 1700 60  0001 C CNN "Description"
+	1    8200 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8400 1500 9450 1500
+Wire Wire Line
+	9450 1500 9450 1950
+Wire Wire Line
+	8400 1600 8900 1600
+Wire Wire Line
+	8900 1600 8900 3250
+Wire Wire Line
+	8900 3250 9450 3250
+Wire Wire Line
+	8400 1700 8800 1700
+Wire Wire Line
+	8800 1700 8800 4550
+Wire Wire Line
+	8800 4550 9450 4550
+Wire Wire Line
+	8400 1800 8700 1800
+Wire Wire Line
+	8700 1800 8700 5850
+Wire Wire Line
+	8700 5850 9450 5850
 $EndSCHEMATC
