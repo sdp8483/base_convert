@@ -1,4 +1,4 @@
-update=6/25/2018 7:59:39 PM
+update=6/28/2018 6:10:08 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -50,5 +50,6 @@ LibName10=kicad-symbols/Switch
 LibName11=kicad-symbols/Connector_Generic
 LibName12=lib_sch/MPD_BatteryClip
 LibName13=base_convert-cache
+LibName14=kicad-symbols/Transistor_Array
 [general]
 version=1
