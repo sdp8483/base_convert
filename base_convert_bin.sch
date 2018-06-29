@@ -720,7 +720,7 @@ F 5 "RAVF164DJT4K70" H 3400 1200 60  0001 C CNN "Mfg Part Number"
 F 6 "1206" H 3400 1200 60  0001 C CNN "Package"
 F 7 "RES ARRAY 4 RES 4.7K OHM 1206" H 3400 1200 60  0001 C CNN "Description"
 	1    3400 1200
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	3150 1000 3200 1000
