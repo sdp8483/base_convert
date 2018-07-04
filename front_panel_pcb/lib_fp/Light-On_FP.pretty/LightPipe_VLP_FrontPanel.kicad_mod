@@ -1,0 +1,9 @@
+(module LightPipe_VLP_FrontPanel (layer F.Cu) (tedit 5B3CD088)
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
+  (fp_text value LightPipe_VLP_FrontPanel (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+)
