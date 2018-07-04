@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Light-On_FP)(type KiCad)(uri "$(KIPRJMOD)/lib_fp/Light-On_FP.pretty")(options "")(descr ""))
+  (lib (name CK_FP)(type KiCad)(uri "$(KIPRJMOD)/lib_fp/CK_FP.pretty")(options "")(descr ""))
 )
