@@ -29,3 +29,6 @@ _autosave-*
 **/Debug/
 **/Release/
 *.xdchelp
+
+#freeCAD stuff
+*.FCStd1
