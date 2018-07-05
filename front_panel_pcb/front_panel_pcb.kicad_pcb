@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 53.324999 49.994999 146.675001 150.005001)
     (thickness 1.6)
-    (drawings 117)
+    (drawings 116)
     (tracks 0)
     (zones 0)
     (modules 41)
@@ -802,9 +802,6 @@
   )
 
   (gr_text "CUT OUT" (at 106 82.83) (layer F.Fab)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (gr_text "CUT OUT" (at 106 82.83) (layer "BAD INDEX!")
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text Decimal (at 140.26 56.49) (layer F.SilkS) (tstamp 5B3D5674)
