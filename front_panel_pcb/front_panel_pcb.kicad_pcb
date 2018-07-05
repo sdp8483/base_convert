@@ -682,6 +682,11 @@
       (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 3.7) (layers B.Cu B.Mask))
+    (model ${KIPRJMOD}/3d_models/WE_spacer.3dshapes/WE_9774100951R.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module WE_spacer:WE_RoundSpacer_Unthread_2-5mm_SMD locked (layer B.Cu) (tedit 5B3D666C) (tstamp 5B288829)
@@ -693,6 +698,11 @@
       (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 3.7) (layers B.Cu B.Mask))
+    (model ${KIPRJMOD}/3d_models/WE_spacer.3dshapes/WE_9774100951R.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module WE_spacer:WE_RoundSpacer_Unthread_2-5mm_SMD locked (layer B.Cu) (tedit 5B3D666C) (tstamp 5B288806)
@@ -704,6 +714,11 @@
       (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 3.7) (layers B.Cu B.Mask))
+    (model ${KIPRJMOD}/3d_models/WE_spacer.3dshapes/WE_9774100951R.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module WE_spacer:WE_RoundSpacer_Unthread_2-5mm_SMD locked (layer B.Cu) (tedit 5B3D666C) (tstamp 5B288830)
@@ -715,6 +730,11 @@
       (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 3.7) (layers B.Cu B.Mask))
+    (model ${KIPRJMOD}/3d_models/WE_spacer.3dshapes/WE_9774100951R.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module WE_spacer:WE_RoundSpacer_Unthread_2-5mm_SMD locked (layer B.Cu) (tedit 5B3D666C) (tstamp 5B28880D)
@@ -726,6 +746,11 @@
       (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 3.7) (layers B.Cu B.Mask))
+    (model ${KIPRJMOD}/3d_models/WE_spacer.3dshapes/WE_9774100951R.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module WE_spacer:WE_RoundSpacer_Unthread_2-5mm_SMD locked (layer B.Cu) (tedit 5B3D666C) (tstamp 5B28881B)
@@ -737,6 +762,11 @@
       (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 3.7) (layers B.Cu B.Mask))
+    (model ${KIPRJMOD}/3d_models/WE_spacer.3dshapes/WE_9774100951R.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module WE_spacer:WE_RoundSpacer_Unthread_2-5mm_SMD locked (layer B.Cu) (tedit 5B3D666C) (tstamp 5B288814)
@@ -748,6 +778,11 @@
       (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 3.7) (layers B.Cu B.Mask))
+    (model ${KIPRJMOD}/3d_models/WE_spacer.3dshapes/WE_9774100951R.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module WE_spacer:WE_RoundSpacer_Unthread_2-5mm_SMD locked (layer B.Cu) (tedit 5B3D666C) (tstamp 5B288822)
@@ -759,6 +794,11 @@
       (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 3.7) (layers B.Cu B.Mask))
+    (model ${KIPRJMOD}/3d_models/WE_spacer.3dshapes/WE_9774100951R.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (gr_text "CUT OUT" (at 106 82.83) (layer F.Fab)
