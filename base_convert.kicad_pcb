@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
-    (links 0)
+    (links 237)
     (no_connects 0)
-    (area 51.731429 49 148.268571 151.000001)
+    (area 53.324999 49.994999 146.675001 150.005001)
     (thickness 1.6)
     (drawings 12)
     (tracks 1304)
@@ -832,7 +832,7 @@
       (net 7 "/Binary Display/BIT3"))
     (pad "" np_thru_hole circle (at 2.05 -2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2.05 2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-400-R.wrl
+    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-450-R.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -888,7 +888,7 @@
       (net 7 "/Binary Display/BIT3"))
     (pad "" np_thru_hole circle (at 2.05 -2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2.05 2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-400-R.wrl
+    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-450-R.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -944,7 +944,7 @@
       (net 7 "/Binary Display/BIT3"))
     (pad "" np_thru_hole circle (at 2.05 -2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2.05 2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-400-R.wrl
+    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-450-R.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1000,7 +1000,7 @@
       (net 7 "/Binary Display/BIT3"))
     (pad "" np_thru_hole circle (at 2.05 -2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2.05 2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-400-R.wrl
+    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-450-R.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1056,7 +1056,7 @@
       (net 8 "/Binary Display/BIT2"))
     (pad "" np_thru_hole circle (at 2.05 -2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2.05 2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-400-R.wrl
+    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-450-R.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1112,7 +1112,7 @@
       (net 8 "/Binary Display/BIT2"))
     (pad "" np_thru_hole circle (at 2.05 -2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2.05 2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-400-R.wrl
+    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-450-R.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1168,7 +1168,7 @@
       (net 8 "/Binary Display/BIT2"))
     (pad "" np_thru_hole circle (at 2.05 -2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2.05 2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-400-R.wrl
+    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-450-R.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1224,7 +1224,7 @@
       (net 8 "/Binary Display/BIT2"))
     (pad "" np_thru_hole circle (at 2.05 -2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2.05 2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-400-R.wrl
+    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-450-R.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1280,7 +1280,7 @@
       (net 9 "/Binary Display/BIT1"))
     (pad "" np_thru_hole circle (at 2.05 -2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2.05 2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-400-R.wrl
+    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-450-R.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1336,7 +1336,7 @@
       (net 9 "/Binary Display/BIT1"))
     (pad "" np_thru_hole circle (at 2.05 -2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2.05 2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-400-R.wrl
+    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-450-R.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1392,7 +1392,7 @@
       (net 9 "/Binary Display/BIT1"))
     (pad "" np_thru_hole circle (at 2.05 -2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2.05 2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-400-R.wrl
+    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-450-R.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1448,7 +1448,7 @@
       (net 9 "/Binary Display/BIT1"))
     (pad "" np_thru_hole circle (at 2.05 -2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2.05 2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-400-R.wrl
+    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-450-R.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1504,7 +1504,7 @@
       (net 10 "/Binary Display/BIT0"))
     (pad "" np_thru_hole circle (at 2.05 -2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2.05 2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-400-R.wrl
+    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-450-R.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1560,7 +1560,7 @@
       (net 10 "/Binary Display/BIT0"))
     (pad "" np_thru_hole circle (at 2.05 -2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2.05 2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-400-R.wrl
+    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-450-R.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1616,7 +1616,7 @@
       (net 10 "/Binary Display/BIT0"))
     (pad "" np_thru_hole circle (at 2.05 -2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2.05 2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-400-R.wrl
+    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-450-R.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1672,7 +1672,7 @@
       (net 10 "/Binary Display/BIT0"))
     (pad "" np_thru_hole circle (at 2.05 -2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2.05 2.05 90) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-400-R.wrl
+    (model ${KIPRJMOD}/3d_models/LightPipe.3dshapes/LightPipe_VLP-450-R.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
