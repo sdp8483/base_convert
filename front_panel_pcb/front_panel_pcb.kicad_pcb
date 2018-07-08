@@ -3,9 +3,9 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 53.324999 49.994999 146.675001 150.005001)
+    (area 52.381429 49.994999 147.618571 150.005001)
     (thickness 1.6)
-    (drawings 116)
+    (drawings 120)
     (tracks 0)
     (zones 0)
     (modules 41)
@@ -825,6 +825,10 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask))
   )
 
+  (gr_line (start 109.25 87.5) (end 107.25 86.09) (layer F.SilkS) (width 0.2))
+  (gr_line (start 102.75 87.5) (end 104.75 86.09) (layer F.SilkS) (width 0.2))
+  (gr_line (start 113.21 86.9) (end 109.85 86.12) (layer F.SilkS) (width 0.4) (tstamp 5B4287B7))
+  (gr_line (start 98.75 86.91) (end 102.15 86.08) (layer F.SilkS) (width 0.4))
   (gr_text "CUT OUT" (at 106 82.83) (layer F.Fab)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
