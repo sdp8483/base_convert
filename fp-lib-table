@@ -4,4 +4,5 @@
   (lib (name MPD)(type KiCad)(uri ${KIPRJMOD}/lib_fp/MPD.pretty)(options "")(descr ""))
   (lib (name Artwork)(type KiCad)(uri ${KIPRJMOD}/lib_fp/Artwork.pretty)(options "")(descr ""))
   (lib (name LightPipe_Bivar)(type KiCad)(uri ${KIPRJMOD}/lib_fp/LightPipe_Bivar.pretty)(options "")(descr ""))
+  (lib (name PL_logo)(type KiCad)(uri ${KIPRJMOD}/lib_fp/PL_logo.pretty)(options "")(descr ""))
 )
