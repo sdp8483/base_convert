@@ -1,4 +1,4 @@
-update=7/4/2018 9:22:30 AM
+update=7/9/2018 11:15:08 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,10 +23,10 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=C:/Program Files/KiCad/share/kicad/library/kicad-symbols
 [eeschema/libraries]
 LibName1=power
+[general]
+version=1
