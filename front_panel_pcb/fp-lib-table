@@ -3,4 +3,5 @@
   (lib (name CK_FP)(type KiCad)(uri "$(KIPRJMOD)/lib_fp/CK_FP.pretty")(options "")(descr ""))
   (lib (name WE_spacer)(type KiCad)(uri "$(KIPRJMOD)/lib_fp/WE_spacer.pretty")(options "")(descr ""))
   (lib (name Artwork)(type KiCad)(uri "$(KIPRJMOD)/lib_fp/Artwork.pretty")(options "")(descr ""))
+  (lib (name PL_logo)(type KiCad)(uri "$(KIPRJMOD)/lib_fp/PL_logo.pretty")(options "")(descr ""))
 )
