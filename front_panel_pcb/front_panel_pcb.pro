@@ -1,4 +1,4 @@
-update=7/4/2018 9:22:30 AM
+update=7/9/2018 9:29:45 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -30,3 +30,4 @@ version=1
 LibDir=C:/Program Files/KiCad/share/kicad/library/kicad-symbols
 [eeschema/libraries]
 LibName1=power
+LibName2=Device
