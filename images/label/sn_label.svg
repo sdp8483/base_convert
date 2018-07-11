@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200mm"
+   height="75mm"
+   viewBox="0 0 200 75"
+   version="1.1"
+   id="svg824"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="sn_label.svg"
+   inkscape:export-filename="\\gwfs1\data2\DATA\Eng_Lab\Test_Tracking\Test_Requests_Folders and Data\TR0329\RD0036_SpinIII\images\sn_label.png"
+   inkscape:export-xdpi="250"
+   inkscape:export-ydpi="250">
+  <defs
+     id="defs818" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.75633418"
+     inkscape:cx="396.85039"
+     inkscape:cy="206.39826"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="1592"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata821">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-222)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1369"
+       style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21373373"
+       transform="matrix(1.237911,0,0,1.237911,-172.10993,-130.76453)"><flowRegion
+         id="flowRegion1371"
+         style="stroke-width:0.21373373"><rect
+           id="rect1373"
+           width="288.57144"
+           height="151.42857"
+           x="145.71428"
+           y="285.37683"
+           style="stroke-width:0.21373373" /></flowRegion><flowPara
+         id="flowPara1375"
+         style="stroke-width:0.21373373">SERIAL NO:</flowPara></flowRoot>    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.65900004;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1377"
+       width="179.341"
+       height="39.341"
+       x="10.3295"
+       y="252.3295" />
+  </g>
+</svg>
