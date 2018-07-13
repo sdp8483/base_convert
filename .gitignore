@@ -35,3 +35,6 @@ _autosave-*
 
 # MAC OS shit
 *.DS_Store
+
+# Gerber Zip File
+*.zip
