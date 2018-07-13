@@ -30,5 +30,8 @@ _autosave-*
 **/Release/
 *.xdchelp
 
-#freeCAD stuff
+# FreeCAD stuff
 *.FCStd1
+
+# MAC OS shit
+*.DS_Store
