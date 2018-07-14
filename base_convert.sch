@@ -5,14 +5,8 @@ LIBS:Switch_CK
 LIBS:Switch_Generic
 LIBS:Regulator_Microchip
 LIBS:Vreg-TI
-LIBS:Device
-LIBS:LED
-LIBS:power
-LIBS:Switch
-LIBS:Connector_Generic
 LIBS:MPD_BatteryClip
 LIBS:base_convert-cache
-LIBS:Transistor_Array
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500

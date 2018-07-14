@@ -5,14 +5,8 @@ LIBS:Switch_CK
 LIBS:Switch_Generic
 LIBS:Regulator_Microchip
 LIBS:Vreg-TI
-LIBS:Device
-LIBS:LED
-LIBS:power
-LIBS:Switch
-LIBS:Connector_Generic
 LIBS:MPD_BatteryClip
 LIBS:base_convert-cache
-LIBS:Transistor_Array
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -287,7 +281,7 @@ F 2 "TO_SOT_Packages_SMD:SOT-23" H 4400 2750 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 4200 2650 50  0001 C CNN
 F 4 "TRANS PNP 40V 0.2A SOT24" H 4400 2800 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 4400 2800 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,236" H 4400 2800 50  0001 C CNN "Mfg Part Number"
+F 6 "PMBT3906,235" H 4400 2800 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 4400 2800 50  0001 C CNN "Package"
 	1    4200 2650
 	1    0    0    1   
@@ -373,7 +367,7 @@ F 2 "TO_SOT_Packages_SMD:SOT-23" H 4400 4450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 4200 4350 50  0001 C CNN
 F 4 "TRANS PNP 40V 0.2A SOT26" H 4400 4500 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 4400 4500 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,238" H 4400 4500 50  0001 C CNN "Mfg Part Number"
+F 6 "PMBT3906,235" H 4400 4500 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 4400 4500 50  0001 C CNN "Package"
 	1    4200 4350
 	1    0    0    1   
@@ -459,7 +453,7 @@ F 2 "TO_SOT_Packages_SMD:SOT-23" H 4400 6100 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 4200 6000 50  0001 C CNN
 F 4 "TRANS PNP 40V 0.2A SOT27" H 4400 6150 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 4400 6150 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,239" H 4400 6150 50  0001 C CNN "Mfg Part Number"
+F 6 "PMBT3906,235" H 4400 6150 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 4400 6150 50  0001 C CNN "Package"
 	1    4200 6000
 	1    0    0    1   
