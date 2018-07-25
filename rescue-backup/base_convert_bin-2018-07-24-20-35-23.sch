@@ -1,6 +1,13 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:Display_LiteOn
+LIBS:MSP430
+LIBS:Switch_CK
+LIBS:Switch_Generic
+LIBS:Regulator_Microchip
+LIBS:Vreg-TI
+LIBS:MPD_BatteryClip
 LIBS:base_convert-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +22,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L base_convert-rescue:LED D13
+L LED D13
 U 1 1 5AEDC3E2
 P 5200 1550
 F 0 "D13" H 5200 1650 50  0000 C CNN
@@ -30,7 +37,7 @@ F 7 "0805" H 5200 1750 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:LED D9
+L LED D9
 U 1 1 5AEDC4ED
 P 4900 1550
 F 0 "D9" H 4900 1650 50  0000 C CNN
@@ -45,7 +52,7 @@ F 7 "0805" H 4900 1750 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:LED D5
+L LED D5
 U 1 1 5AEDC50F
 P 4600 1550
 F 0 "D5" H 4600 1650 50  0000 C CNN
@@ -60,7 +67,7 @@ F 7 "0805" H 4600 1750 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:LED D1
+L LED D1
 U 1 1 5AEDC538
 P 4300 1550
 F 0 "D1" H 4300 1650 50  0000 C CNN
@@ -75,7 +82,7 @@ F 7 "0805" H 4300 1750 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:Q_PNP_BEC Q2
+L Q_PNP_BEC Q2
 U 1 1 5AEDD2D2
 P 4200 1000
 F 0 "Q2" H 4400 1050 50  0000 L CNN
@@ -90,7 +97,7 @@ F 7 "SOT-23" H 4400 1150 50  0001 C CNN "Package"
 	1    0    0    1   
 $EndComp
 $Comp
-L base_convert-rescue:Q_NPN_BEC Q6
+L Q_NPN_BEC Q6
 U 1 1 5AEDD3EC
 P 9550 2150
 F 0 "Q6" H 9750 2200 50  0000 L CNN
@@ -105,7 +112,7 @@ F 7 "SOT-23" H 9750 2300 50  0001 C CNN "Package"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:VCC #PWR019
+L VCC #PWR019
 U 1 1 5AEDDAFD
 P 4300 750
 F 0 "#PWR019" H 4300 600 50  0001 C CNN
@@ -116,7 +123,7 @@ F 3 "" H 4300 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:GND #PWR020
+L GND #PWR020
 U 1 1 5AEE40C6
 P 9450 2400
 F 0 "#PWR020" H 9450 2150 50  0001 C CNN
@@ -127,7 +134,7 @@ F 3 "" H 9450 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:Q_NPN_BEC Q7
+L Q_NPN_BEC Q7
 U 1 1 5AEEC0B6
 P 9550 3450
 F 0 "Q7" H 9750 3500 50  0000 L CNN
@@ -142,7 +149,7 @@ F 7 "SOT-23" H 9750 3600 50  0001 C CNN "Package"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:GND #PWR021
+L GND #PWR021
 U 1 1 5AEEC0D0
 P 9450 3700
 F 0 "#PWR021" H 9450 3450 50  0001 C CNN
@@ -153,7 +160,7 @@ F 3 "" H 9450 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:Q_NPN_BEC Q8
+L Q_NPN_BEC Q8
 U 1 1 5AEEC488
 P 9550 4750
 F 0 "Q8" H 9750 4800 50  0000 L CNN
@@ -168,7 +175,7 @@ F 7 "SOT-23" H 9750 4900 50  0001 C CNN "Package"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:GND #PWR022
+L GND #PWR022
 U 1 1 5AEEC4A2
 P 9450 5000
 F 0 "#PWR022" H 9450 4750 50  0001 C CNN
@@ -179,7 +186,7 @@ F 3 "" H 9450 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:Q_NPN_BEC Q9
+L Q_NPN_BEC Q9
 U 1 1 5AEEC4AC
 P 9550 6050
 F 0 "Q9" H 9750 6100 50  0000 L CNN
@@ -194,7 +201,7 @@ F 7 "SOT-23" H 9750 6200 50  0001 C CNN "Package"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:GND #PWR023
+L GND #PWR023
 U 1 1 5AEEC4C6
 P 9450 6300
 F 0 "#PWR023" H 9450 6050 50  0001 C CNN
@@ -205,7 +212,7 @@ F 3 "" H 9450 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:LED D14
+L LED D14
 U 1 1 5AEECB0C
 P 5200 3200
 F 0 "D14" H 5200 3300 50  0000 C CNN
@@ -220,7 +227,7 @@ F 7 "0805" H 5200 3400 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:LED D10
+L LED D10
 U 1 1 5AEECB12
 P 4900 3200
 F 0 "D10" H 4900 3300 50  0000 C CNN
@@ -235,7 +242,7 @@ F 7 "0805" H 4900 3400 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:LED D6
+L LED D6
 U 1 1 5AEECB18
 P 4600 3200
 F 0 "D6" H 4600 3300 50  0000 C CNN
@@ -250,7 +257,7 @@ F 7 "0805" H 4600 3400 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:LED D2
+L LED D2
 U 1 1 5AEECB1E
 P 4300 3200
 F 0 "D2" H 4300 3300 50  0000 C CNN
@@ -265,7 +272,7 @@ F 7 "0805" H 4300 3400 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:Q_PNP_BEC Q3
+L Q_PNP_BEC Q3
 U 1 1 5AEECB24
 P 4200 2650
 F 0 "Q3" H 4400 2700 50  0000 L CNN
@@ -280,7 +287,7 @@ F 7 "SOT-23" H 4400 2800 50  0001 C CNN "Package"
 	1    0    0    1   
 $EndComp
 $Comp
-L base_convert-rescue:VCC #PWR024
+L VCC #PWR024
 U 1 1 5AEECB34
 P 4300 2400
 F 0 "#PWR024" H 4300 2250 50  0001 C CNN
@@ -291,7 +298,7 @@ F 3 "" H 4300 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:LED D15
+L LED D15
 U 1 1 5AEED002
 P 5200 4900
 F 0 "D15" H 5200 5000 50  0000 C CNN
@@ -306,7 +313,7 @@ F 7 "0805" H 5200 5100 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:LED D11
+L LED D11
 U 1 1 5AEED008
 P 4900 4900
 F 0 "D11" H 4900 5000 50  0000 C CNN
@@ -321,7 +328,7 @@ F 7 "0805" H 4900 5100 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:LED D7
+L LED D7
 U 1 1 5AEED00E
 P 4600 4900
 F 0 "D7" H 4600 5000 50  0000 C CNN
@@ -336,7 +343,7 @@ F 7 "0805" H 4600 5100 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:LED D3
+L LED D3
 U 1 1 5AEED014
 P 4300 4900
 F 0 "D3" H 4300 5000 50  0000 C CNN
@@ -351,7 +358,7 @@ F 7 "0805" H 4300 5100 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:Q_PNP_BEC Q4
+L Q_PNP_BEC Q4
 U 1 1 5AEED01A
 P 4200 4350
 F 0 "Q4" H 4400 4400 50  0000 L CNN
@@ -366,7 +373,7 @@ F 7 "SOT-23" H 4400 4500 50  0001 C CNN "Package"
 	1    0    0    1   
 $EndComp
 $Comp
-L base_convert-rescue:VCC #PWR025
+L VCC #PWR025
 U 1 1 5AEED02A
 P 4300 4100
 F 0 "#PWR025" H 4300 3950 50  0001 C CNN
@@ -377,7 +384,7 @@ F 3 "" H 4300 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:LED D16
+L LED D16
 U 1 1 5AEED048
 P 5200 6550
 F 0 "D16" H 5200 6650 50  0000 C CNN
@@ -392,7 +399,7 @@ F 7 "0805" H 5200 6750 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:LED D12
+L LED D12
 U 1 1 5AEED04E
 P 4900 6550
 F 0 "D12" H 4900 6650 50  0000 C CNN
@@ -407,7 +414,7 @@ F 7 "0805" H 4900 6750 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:LED D8
+L LED D8
 U 1 1 5AEED054
 P 4600 6550
 F 0 "D8" H 4600 6650 50  0000 C CNN
@@ -422,7 +429,7 @@ F 7 "0805" H 4600 6750 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:LED D4
+L LED D4
 U 1 1 5AEED05A
 P 4300 6550
 F 0 "D4" H 4300 6650 50  0000 C CNN
@@ -437,7 +444,7 @@ F 7 "0805" H 4300 6750 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:Q_PNP_BEC Q5
+L Q_PNP_BEC Q5
 U 1 1 5AEED060
 P 4200 6000
 F 0 "Q5" H 4400 6050 50  0000 L CNN
@@ -452,7 +459,7 @@ F 7 "SOT-23" H 4400 6150 50  0001 C CNN "Package"
 	1    0    0    1   
 $EndComp
 $Comp
-L base_convert-rescue:VCC #PWR026
+L VCC #PWR026
 U 1 1 5AEED070
 P 4300 5750
 F 0 "#PWR026" H 4300 5600 50  0001 C CNN
@@ -695,7 +702,7 @@ Connection ~ 4300 6300
 Connection ~ 4900 6300
 Connection ~ 4600 6300
 $Comp
-L base_convert-rescue:R_Pack04 RN1
+L R_Pack04 RN1
 U 1 1 5B345686
 P 3400 1200
 F 0 "RN1" V 3100 1200 50  0000 C CNN
@@ -734,7 +741,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 6000 4000 6000
 $Comp
-L base_convert-rescue:R_Pack04 RN3
+L R_Pack04 RN3
 U 1 1 5B3495D3
 P 10400 2350
 F 0 "RN3" V 10100 2350 50  0000 C CNN
@@ -771,7 +778,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 6050 9750 6050
 $Comp
-L base_convert-rescue:R_Pack04 RN2
+L R_Pack04 RN2
 U 1 1 5B34C5E7
 P 8200 1700
 F 0 "RN2" V 7900 1700 50  0000 C CNN

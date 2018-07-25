@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name base_convert-rescue)(type Legacy)(uri ${KIPRJMOD}/base_convert-rescue.lib)(options "")(descr ""))
+  (lib (name Display_LiteOn)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Display_LiteOn.lib)(options "")(descr ""))
+  (lib (name MSP430)(type Legacy)(uri ${KIPRJMOD}/lib_sch/MSP430.lib)(options "")(descr ""))
+  (lib (name Switch_CK)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Switch_CK.lib)(options "")(descr ""))
+  (lib (name Switch_Generic)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Switch_Generic.lib)(options "")(descr ""))
+  (lib (name Regulator_Microchip)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Regulator_Microchip.lib)(options "")(descr ""))
+  (lib (name Vreg-TI)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Vreg-TI.lib)(options "")(descr ""))
+  (lib (name MPD_BatteryClip)(type Legacy)(uri ${KIPRJMOD}/lib_sch/MPD_BatteryClip.lib)(options "")(descr ""))
+)

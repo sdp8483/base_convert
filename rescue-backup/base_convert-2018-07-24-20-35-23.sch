@@ -1,6 +1,13 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:Display_LiteOn
+LIBS:MSP430
+LIBS:Switch_CK
+LIBS:Switch_Generic
+LIBS:Regulator_Microchip
+LIBS:Vreg-TI
+LIBS:MPD_BatteryClip
 LIBS:base_convert-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -68,7 +75,7 @@ F18 "~DIGIT8" I L 9050 5400 60
 F19 "~DIGIT9" I L 9050 5500 60 
 $EndSheet
 $Comp
-L MPD_BatteryClip:BC4AAW BT1
+L BC4AAW BT1
 U 1 1 5AEC3A00
 P 800 1150
 F 0 "BT1" H 800 1350 50  0000 C CNN
@@ -83,7 +90,7 @@ F 7 "Wire" H 800 1150 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:GND #PWR01
+L GND #PWR01
 U 1 1 5AEC3D6F
 P 1450 1300
 F 0 "#PWR01" H 1450 1050 50  0001 C CNN
@@ -94,7 +101,7 @@ F 3 "" H 1450 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:Q_PMOS_GSD Q1
+L Q_PMOS_GSD Q1
 U 1 1 5AEC4CC5
 P 1900 1200
 F 0 "Q1" V 1850 1100 50  0000 R CNN
@@ -109,7 +116,7 @@ F 7 "SOT-23" H 2100 1350 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L base_convert-rescue:GND #PWR02
+L GND #PWR02
 U 1 1 5AEC5CE6
 P 1900 1600
 F 0 "#PWR02" H 1900 1350 50  0001 C CNN
@@ -120,7 +127,7 @@ F 3 "" H 1900 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:GND #PWR03
+L GND #PWR03
 U 1 1 5AF08A85
 P 4450 3400
 F 0 "#PWR03" H 4450 3150 50  0001 C CNN
@@ -131,7 +138,7 @@ F 3 "" H 4450 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:C C2
+L C C2
 U 1 1 5AF0952E
 P 4450 3200
 F 0 "C2" H 4475 3300 50  0000 L CNN
@@ -146,7 +153,7 @@ F 7 "0805" H 4450 3200 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:C C3
+L C C3
 U 1 1 5AF09685
 P 4750 3200
 F 0 "C3" H 4775 3300 50  0000 L CNN
@@ -161,7 +168,7 @@ F 7 "0805" H 4750 3200 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch_CK:SS-24E06-TG5P SW1
+L SS-24E06-TG5P SW1
 U 1 1 5AF1B232
 P 3050 1100
 F 0 "SW1" H 3050 1470 50  0000 C CNN
@@ -176,7 +183,7 @@ F 7 "PC Pin" H 3050 1570 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch_CK:SS-24E06-TG5P SW1
+L SS-24E06-TG5P SW1
 U 2 1 5AF1B53D
 P 9750 6250
 F 0 "SW1" H 9750 6620 50  0000 C CNN
@@ -191,7 +198,7 @@ F 7 "PC Pin" H 9750 6720 50  0001 C CNN "Package"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:GND #PWR04
+L GND #PWR04
 U 1 1 5AF24AED
 P 10200 6500
 F 0 "#PWR04" H 10200 6250 50  0001 C CNN
@@ -202,7 +209,7 @@ F 3 "" H 10200 6500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:R R1
+L R R1
 U 1 1 5AF2F1FC
 P 750 2350
 F 0 "R1" V 830 2350 50  0000 C CNN
@@ -217,7 +224,7 @@ F 7 "0603" H 750 2350 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:R R2
+L R R2
 U 1 1 5AF2FAFB
 P 750 2750
 F 0 "R2" V 830 2750 50  0000 C CNN
@@ -232,7 +239,7 @@ F 7 "0603" H 750 2750 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:GND #PWR05
+L GND #PWR05
 U 1 1 5AF3048A
 P 750 2950
 F 0 "#PWR05" H 750 2700 50  0001 C CNN
@@ -243,7 +250,7 @@ F 3 "" H 750 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:Conn_01x04 J1
+L Conn_01x04 J1
 U 1 1 5AF372A3
 P 3100 4150
 F 0 "J1" H 3100 4350 50  0000 C CNN
@@ -254,7 +261,7 @@ F 3 "" H 3100 4150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:GND #PWR06
+L GND #PWR06
 U 1 1 5AF42179
 P 3450 4500
 F 0 "#PWR06" H 3450 4250 50  0001 C CNN
@@ -265,7 +272,7 @@ F 3 "" H 3450 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:C C1
+L C C1
 U 1 1 5B284652
 P 3900 1100
 F 0 "C1" H 3925 1200 50  0000 L CNN
@@ -280,7 +287,7 @@ F 7 "0805" H 3900 1100 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:GND #PWR07
+L GND #PWR07
 U 1 1 5B285DA8
 P 3900 1250
 F 0 "#PWR07" H 3900 1000 50  0001 C CNN
@@ -291,7 +298,7 @@ F 3 "" H 3900 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:GND #PWR08
+L GND #PWR08
 U 1 1 5B285FB6
 P 4600 1450
 F 0 "#PWR08" H 4600 1200 50  0001 C CNN
@@ -302,7 +309,7 @@ F 3 "" H 4600 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:GND #PWR09
+L GND #PWR09
 U 1 1 5B286569
 P 5300 1250
 F 0 "#PWR09" H 5300 1000 50  0001 C CNN
@@ -313,7 +320,7 @@ F 3 "" H 5300 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:VCC #PWR010
+L VCC #PWR010
 U 1 1 5B28B1DA
 P 750 2200
 F 0 "#PWR010" H 750 2050 50  0001 C CNN
@@ -324,7 +331,7 @@ F 3 "" H 750 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:+3V3 #PWR011
+L +3V3 #PWR011
 U 1 1 5B28D631
 P 5300 900
 F 0 "#PWR011" H 5300 750 50  0001 C CNN
@@ -335,7 +342,7 @@ F 3 "" H 5300 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:Jumper_NO_Small JP1
+L Jumper_NO_Small JP1
 U 1 1 5B29066B
 P 3550 3950
 F 0 "JP1" H 3550 4030 50  0000 C CNN
@@ -350,7 +357,7 @@ F 7 "1206" H 3550 3950 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:VCC #PWR012
+L VCC #PWR012
 U 1 1 5B29E8A8
 P 3550 850
 F 0 "#PWR012" H 3550 700 50  0001 C CNN
@@ -361,7 +368,7 @@ F 3 "" H 3550 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:+3V3 #PWR013
+L +3V3 #PWR013
 U 1 1 5B2A0C6B
 P 4450 3000
 F 0 "#PWR013" H 4450 2850 50  0001 C CNN
@@ -372,7 +379,7 @@ F 3 "" H 4450 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MSP430:MSP430FR2033IPMR U2
+L MSP430FR2033IPMR U2
 U 1 1 5B2ADB04
 P 5050 3000
 F 0 "U2" H 7400 -650 60  0000 C CNN
@@ -387,7 +394,7 @@ F 7 "64LQFP" H 7400 -150 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Microchip:MIC5317 U1
+L MIC5317 U1
 U 1 1 5B283B2B
 P 4600 900
 F 0 "U1" H 4850 500 60  0000 C CNN
@@ -402,7 +409,7 @@ F 7 "SOT23-5" H 4600 900 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:C C4
+L C C4
 U 1 1 5B28CF1A
 P 5300 1100
 F 0 "C4" H 5325 1200 50  0000 L CNN
@@ -417,7 +424,7 @@ F 7 "0805" H 5300 1100 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:Conn_01x02 J3
+L Conn_01x02 J3
 U 1 1 5B2B0B33
 P 1150 1100
 F 0 "J3" H 1150 1200 50  0000 C CNN
@@ -432,7 +439,7 @@ F 7 "2.0mm Pin" H 1150 1100 60  0001 C CNN "Package"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:PWR_FLAG #FLG014
+L PWR_FLAG #FLG014
 U 1 1 5B2BCABB
 P 750 7750
 F 0 "#FLG014" H 750 7825 50  0001 C CNN
@@ -443,7 +450,7 @@ F 3 "" H 750 7750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:GND #PWR015
+L GND #PWR015
 U 1 1 5B2BCBCF
 P 750 7750
 F 0 "#PWR015" H 750 7500 50  0001 C CNN
@@ -454,7 +461,7 @@ F 3 "" H 750 7750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base_convert-rescue:VCC #PWR016
+L VCC #PWR016
 U 1 1 5B2C495B
 P 1200 7750
 F 0 "#PWR016" H 1200 7600 50  0001 C CNN
@@ -465,7 +472,7 @@ F 3 "" H 1200 7750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L base_convert-rescue:PWR_FLAG #FLG017
+L PWR_FLAG #FLG017
 U 1 1 5B2C4DB7
 P 1200 7750
 F 0 "#FLG017" H 1200 7825 50  0001 C CNN
@@ -510,7 +517,7 @@ Make ERC Happy
 Wire Wire Line
 	1900 1600 1900 1400
 Wire Wire Line
-	4450 3000 4750 3000
+	4450 3000 5050 3000
 Wire Wire Line
 	4450 3000 4450 3050
 Wire Wire Line
@@ -518,7 +525,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 3350 4450 3400
 Wire Wire Line
-	4450 3400 4750 3400
+	4450 3400 5050 3400
 Wire Wire Line
 	3400 1400 3250 1400
 Wire Wire Line
@@ -528,7 +535,7 @@ Wire Wire Line
 Wire Wire Line
 	750  2950 750  2900
 Wire Wire Line
-	750  2500 750  2550
+	750  2500 750  2600
 Wire Wire Line
 	750  2550 1150 2550
 Wire Wire Line
@@ -662,7 +669,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 900  5300 950 
 Wire Wire Line
-	3400 1000 3400 1200
+	3400 1000 3400 1400
 Wire Wire Line
 	3300 4050 3300 3950
 Wire Wire Line
@@ -682,9 +689,9 @@ Wire Notes Line
 Wire Notes Line
 	2950 3700 3900 3700
 Wire Wire Line
-	3550 1000 3400 1000
+	3550 1000 3250 1000
 Wire Wire Line
-	3550 900  3900 900 
+	3550 900  4100 900 
 Wire Notes Line
 	3750 550  3750 1800
 Wire Notes Line
@@ -734,7 +741,7 @@ Wire Notes Line
 Wire Notes Line
 	2800 650  3650 650 
 Wire Wire Line
-	3550 850  3550 900 
+	3550 850  3550 1000
 Wire Wire Line
 	4750 3400 4750 3350
 Wire Wire Line
@@ -827,7 +834,7 @@ NoConn ~ 5050 6300
 NoConn ~ 5050 6400
 NoConn ~ 5050 6500
 $Comp
-L base_convert-rescue:+3V3 #PWR018
+L +3V3 #PWR018
 U 1 1 5B340006
 P 3700 3900
 F 0 "#PWR018" H 3700 3750 50  0001 C CNN
@@ -837,20 +844,4 @@ F 3 "" H 3700 3900 50  0001 C CNN
 	1    3700 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4750 3000 5050 3000
-Wire Wire Line
-	4750 3400 5050 3400
-Wire Wire Line
-	750  2550 750  2600
-Wire Wire Line
-	3400 1000 3250 1000
-Wire Wire Line
-	3400 1200 3400 1400
-Wire Wire Line
-	3900 900  4050 900 
-Wire Wire Line
-	4050 900  4100 900 
-Wire Wire Line
-	3550 900  3550 1000
 $EndSCHEMATC
