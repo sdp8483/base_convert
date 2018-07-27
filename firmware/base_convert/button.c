@@ -336,6 +336,143 @@ uint16_t keyPollDEC(uint16_t num)
     return num;
 } // end keyPollDEC()
 
+#ifdef REVA
+uint16_t keyPollBIN(uint16_t num)
+{
+    // we are in bin input mode
+    static uint8_t row = 0;                     // this is the current row to scan
+
+    switch (row)
+    {
+    case (0):
+        BKPOUT ^= BKPROW0;                      // toggle row0 low
+        if (!(BKPIN & BKPCOL0))
+        {
+            WDT_startDebounce();
+            num ^= BIT3;
+            WAITFORRELESE(BKPIN, BKPCOL0);      // wait for user to release
+        }
+        else if (!(BKPIN & BKPCOL1))
+        {
+            WDT_startDebounce();
+            num ^= BIT2;
+            WAITFORRELESE(BKPIN, BKPCOL1);      // wait for user to release
+        }
+        else if (!(BKPIN & BKPCOL2))
+        {
+            WDT_startDebounce();
+            num ^= BIT1;
+            WAITFORRELESE(BKPIN, BKPCOL2);      // wait for user to release
+        }
+        else if (!(BKPIN & BKPCOL3))
+        {
+            WDT_startDebounce();
+            num ^= BITB;
+            WAITFORRELESE(BKPIN, BKPCOL3);      // wait for user to release
+        }
+
+        BKPOUT ^= BKPROW0;                      // toggle row0 high
+        break;
+
+    case (1):
+        BKPOUT ^= BKPROW1;                      // toggle row1 low
+        if (!(BKPIN & BKPCOL0))
+        {
+            WDT_startDebounce();
+            num ^= BIT6;
+            WAITFORRELESE(BKPIN, BKPCOL0);      // wait for user to release
+        }
+        else if (!(BKPIN & BKPCOL1))
+        {
+            WDT_startDebounce();
+            num ^= BIT5;
+            WAITFORRELESE(BKPIN, BKPCOL1);      // wait for user to release
+        }
+        else if (!(BKPIN & BKPCOL2))
+        {
+            WDT_startDebounce();
+            num ^= BIT4;
+            WAITFORRELESE(BKPIN, BKPCOL2);      // wait for user to release
+        }
+        else if (!(BKPIN & BKPCOL3))
+        {
+            WDT_startDebounce();
+            num ^= BITC;
+            WAITFORRELESE(BKPIN, BKPCOL3);      // wait for user to release
+        }
+
+        BKPOUT ^= BKPROW1;                      // toggle row1 high
+        break;
+
+    case (2):
+        BKPOUT ^= BKPROW2;                      // toggle row2 low
+        if (!(BKPIN & BKPCOL0))
+        {
+            WDT_startDebounce();
+            num ^= BIT9;
+            WAITFORRELESE(BKPIN, BKPCOL0);      // wait for user to release
+        }
+        else if (!(BKPIN & BKPCOL1))
+        {
+            WDT_startDebounce();
+            num ^= BIT8;
+            WAITFORRELESE(BKPIN, BKPCOL1);      // wait for user to release
+        }
+        else if (!(BKPIN & BKPCOL2))
+        {
+            WDT_startDebounce();
+            num ^= BIT7;
+            WAITFORRELESE(BKPIN, BKPCOL2);      // wait for user to release
+        }
+        else if (!(BKPIN & BKPCOL3))
+        {
+            WDT_startDebounce();
+            num ^= BITD;
+            WAITFORRELESE(BKPIN, BKPCOL3);      // wait for user to release
+        }
+
+        BKPOUT ^= BKPROW2;                      // toggle row2 high
+        break;
+
+    case (3):
+        BKPOUT ^= BKPROW3;                      // toggle row3 low
+        if (!(BKPIN & BKPCOL0))
+        {
+            WDT_startDebounce();
+            num ^= BITF;
+            WAITFORRELESE(BKPIN, BKPCOL0);      // wait for user to release
+        }
+        else if (!(BKPIN & BKPCOL1))
+        {
+            WDT_startDebounce();
+            num ^= BIT0;
+            WAITFORRELESE(BKPIN, BKPCOL1);      // wait for user to release
+        }
+        else if (!(BKPIN & BKPCOL2))
+        {
+            WDT_startDebounce();
+            num ^= BITA;
+            WAITFORRELESE(BKPIN, BKPCOL2);      // wait for user to release
+        }
+        else if (!(BKPIN & BKPCOL3))
+        {
+            WDT_startDebounce();
+            num ^= BITE;
+            WAITFORRELESE(BKPIN, BKPCOL3);      // wait for user to release
+        }
+
+        BKPOUT ^= BKPROW3;                      // toggle row3 high
+        break;
+    } // end switch(row)
+
+    row++;
+    if (row > 4)
+    {
+        row = 0;
+    }
+    return num;
+} // end keyPollBIN()
+#else
 uint16_t keyPollBIN(uint16_t num)
 {
     // we are in bin input mode
@@ -471,3 +608,4 @@ uint16_t keyPollBIN(uint16_t num)
     }
     return num;
 } // end keyPollBIN()
+#endif

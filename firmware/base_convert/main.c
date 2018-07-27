@@ -4,11 +4,12 @@
  *  Created on: May 28, 2018
  *      Author: Sam
  */
-
 #include <msp430.h>
 #include <stdint.h>
 #include "display.h"
 #include "button.h"
+
+#define REVA                                    // REV A remove separate BIN keypad
 
 void main(void) {
     WDTCTL = WDTPW | WDTHOLD;                   // Stop watchdog timer

@@ -8,6 +8,8 @@
 #ifndef BUTTON_H_
 #define BUTTON_H_
 
+#define REVA                                    // REV A remove separate BIN keypad
+
 #define WAITFORRELESE(pin, colPin)  while(!(pin & colPin)){ WDT_waitForRelease();}
 
 // Mode slide switch inputs
@@ -46,6 +48,20 @@
 #define KPCOL3  BIT0
 
 // bin keypad rows and columns
+#ifdef REVA
+#define BKPOUT  P1OUT
+#define BKPIN   P1IN
+#define BKPDIR  P1DIR
+#define BKPREN  P1REN
+#define BKPROW0 BIT7
+#define BKPROW1 BIT6
+#define BKPROW2 BIT5
+#define BKPROW3 BIT4
+#define BKPCOL0 BIT3
+#define BKPCOL1 BIT2
+#define BKPCOL2 BIT1
+#define BKPCOL3 BIT0
+#else
 #define BKPOUT  P5OUT
 #define BKPIN   P5IN
 #define BKPDIR  P5DIR
@@ -58,6 +74,7 @@
 #define BKPCOL1 BIT2
 #define BKPCOL2 BIT1
 #define BKPCOL3 BIT0
+#endif
 
 void modeSetup(void);                           // setup input pins for mode slide switch
 void clearSetup(void);                          // setup input pin for clear button
