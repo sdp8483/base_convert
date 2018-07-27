@@ -38,3 +38,16 @@ _autosave-*
 
 # Gerber Zip File
 *.zip
+firmware/base_convert/.cproject
+firmware/base_convert/.cproject
+*.map
+*.out
+*.d
+*.obj
+*.opt
+*.d
+*.opt
+firmware/base_convert/Debug/makefile
+*.mk
+*.cmd
+*.ccxml
