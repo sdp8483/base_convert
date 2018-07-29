@@ -51,3 +51,4 @@ firmware/base_convert/Debug/makefile
 *.mk
 *.cmd
 *.ccxml
+*.stl
