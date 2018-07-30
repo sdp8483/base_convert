@@ -53,6 +53,7 @@ void main(void) {
 
         case NOMODE:
             //num = 0xFFFF;                       // no mode, display test?
+            break;
 
         default:                                // should never get here
             break;
