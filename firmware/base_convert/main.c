@@ -28,7 +28,7 @@ void main(void) {
     TA0CCR0 = 1190;                             // 1190 should interrupt at ~840Hz
     TA0CTL = TASSEL__SMCLK | MC__UP;            // SMCLK, UP mode
 
-    uint16_t num = 0xba5e;                      // this is the number that is being displayed, what it is all about
+    uint16_t num = 0x0;                         // this is the number that is being displayed, what it is all about
 
     for (;;){
         __bis_SR_register(LPM3_bits | GIE);     // Enter LPM3 w/ interrupt
