@@ -7,3 +7,4 @@ Future Fixes
   Placing a 1k resistor between the base and emitter of each PNP solves the problem but it appears 
   like there is an issue caused with the 3.3V LDO since the voltage to the uC is 4.1V or so not the 3.3V it should be.
   Going to see if 3V for the battery is bright enough and maybe switch to 2AA as battery or go to LiPo in the future.
+* Swap C2 and C4 on PCB so that the correct capacitor is near the correct IC
