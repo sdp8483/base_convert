@@ -140,7 +140,7 @@ F 2 "Capacitors_SMD:C_0805" H 4488 3050 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A106KQFNNNG.jsp" H 4450 3200 50  0001 C CNN
 F 4 "CAP CER 10UF 6.3V X5R 0805" H 4450 3200 60  0001 C CNN "Description"
 F 5 "Samsung Electro-Mechanics" H 4450 3200 60  0001 C CNN "Manufacture"
-F 6 "CL21A106KQFNNNG" H 4450 3200 60  0001 C CNN "Mfg Part Number"
+F 6 "CL21A106MQFNNNE" H 4450 3200 60  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 4450 3200 60  0001 C CNN "Package"
 	1    4450 3200
 	1    0    0    -1  
