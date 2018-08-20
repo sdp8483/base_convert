@@ -19,6 +19,7 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+*~$*.xlsx
 
 #Code Composer Studio files
 /firmware/.jxbrowser-data/**
