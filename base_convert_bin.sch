@@ -702,10 +702,10 @@ F 0 "RN1" V 3100 1200 50  0000 C CNN
 F 1 "4.7k" V 3600 1200 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 3675 1200 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RAVF.pdf" H 3400 1200 50  0001 C CNN
-F 4 "Stackpole Electronics Inc." H 3400 1200 60  0001 C CNN "Manufacture"
-F 5 "RAVF164DJT4K70" H 3400 1200 60  0001 C CNN "Mfg Part Number"
-F 6 "1206" H 3400 1200 60  0001 C CNN "Package"
-F 7 "RES ARRAY 4 RES 4.7K OHM 1206" H 3400 1200 60  0001 C CNN "Description"
+F 4 "Rohm Semiconductor" H 3400 1200 60  0001 C CNN "Manufacture"
+F 5 "MNR34J5ABJ562" H 3400 1200 60  0001 C CNN "Mfg Part Number"
+F 6 "2012" H 3400 1200 60  0001 C CNN "Package"
+F 7 "RES ARRAY 4 RES 5.6K OHM 2012" H 3400 1200 60  0001 C CNN "Description"
 	1    3400 1200
 	0    -1   1    0   
 $EndComp
@@ -741,10 +741,10 @@ F 0 "RN3" V 10100 2350 50  0000 C CNN
 F 1 "4.7k" V 10600 2350 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 10675 2350 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RAVF.pdf" H 10400 2350 50  0001 C CNN
-F 4 "Stackpole Electronics Inc." H 10400 2350 60  0001 C CNN "Manufacture"
-F 5 "RAVF164DJT4K70" H 10400 2350 60  0001 C CNN "Mfg Part Number"
-F 6 "1206" H 10400 2350 60  0001 C CNN "Package"
-F 7 "RES ARRAY 4 RES 4.7K OHM 1206" H 10400 2350 60  0001 C CNN "Description"
+F 4 "Rohm Semiconductor" H 10400 2350 60  0001 C CNN "Manufacture"
+F 5 "MNR34J5ABJ562" H 10400 2350 60  0001 C CNN "Mfg Part Number"
+F 6 "2012" H 10400 2350 60  0001 C CNN "Package"
+F 7 "RES ARRAY 4 RES 5.6K OHM 2012" H 10400 2350 60  0001 C CNN "Description"
 	1    10400 2350
 	0    1    1    0   
 $EndComp
@@ -779,8 +779,8 @@ F 1 "150" V 8400 1700 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 8475 1700 50  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor_network/mnr_g.pdf" H 8200 1700 50  0001 C CNN
 F 4 "Rohm Semiconductor" H 8200 1700 60  0001 C CNN "Manufacture"
-F 5 "MNR14ERAPJ151" H 8200 1700 60  0001 C CNN "Mfg Part Number"
-F 6 "1206" H 8200 1700 60  0001 C CNN "Package"
+F 5 "MNR34J5ABJ151" H 8200 1700 60  0001 C CNN "Mfg Part Number"
+F 6 "2012" H 8200 1700 60  0001 C CNN "Package"
 F 7 "RES ARRAY 4 RES 150 OHM 1206" H 8200 1700 60  0001 C CNN "Description"
 	1    8200 1700
 	0    1    1    0   

@@ -1029,10 +1029,10 @@ F 0 "RN4" V 850 1150 50  0000 C CNN
 F 1 "4.7k" V 1350 1150 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 1425 1150 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RAVF.pdf" H 1150 1150 50  0001 C CNN
-F 4 "Stackpole Electronics Inc." H 1150 1150 60  0001 C CNN "Manufacture"
-F 5 "RAVF164DJT4K70" H 1150 1150 60  0001 C CNN "Mfg Part Number"
-F 6 "1206" H 1150 1150 60  0001 C CNN "Package"
-F 7 "RES ARRAY 4 RES 4.7K OHM 1206" H 1150 1150 60  0001 C CNN "Description"
+F 4 "Rohm Semiconductor" H 1150 1150 60  0001 C CNN "Manufacture"
+F 5 "MNR34J5ABJ562" H 1150 1150 60  0001 C CNN "Mfg Part Number"
+F 6 "2012" H 1150 1150 60  0001 C CNN "Package"
+F 7 "RES ARRAY 4 RES 5.6K OHM 2012" H 1150 1150 60  0001 C CNN "Description"
 	1    1150 1150
 	0    1    1    0   
 $EndComp
@@ -1045,8 +1045,8 @@ F 1 "150" V 8400 1000 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 8475 1000 50  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor_network/mnr_g.pdf" H 8200 1000 50  0001 C CNN
 F 4 "Rohm Semiconductor" H 8200 1000 60  0001 C CNN "Manufacture"
-F 5 "MNR14ERAPJ151" H 8200 1000 60  0001 C CNN "Mfg Part Number"
-F 6 "1206" H 8200 1000 60  0001 C CNN "Package"
+F 5 "MNR34J5ABJ151" H 8200 1000 60  0001 C CNN "Mfg Part Number"
+F 6 "2012" H 8200 1000 60  0001 C CNN "Package"
 F 7 "RES ARRAY 4 RES 150 OHM 1206" H 8200 1000 60  0001 C CNN "Description"
 	1    8200 1000
 	0    1    1    0   
@@ -1075,10 +1075,10 @@ F 0 "RN5" V 850 3950 50  0000 C CNN
 F 1 "4.7k" V 1350 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 1425 3950 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RAVF.pdf" H 1150 3950 50  0001 C CNN
-F 4 "Stackpole Electronics Inc." H 1150 3950 60  0001 C CNN "Manufacture"
-F 5 "RAVF164DJT4K70" H 1150 3950 60  0001 C CNN "Mfg Part Number"
-F 6 "1206" H 1150 3950 60  0001 C CNN "Package"
-F 7 "RES ARRAY 4 RES 4.7K OHM 1206" H 1150 3950 60  0001 C CNN "Description"
+F 4 "Rohm Semiconductor" H 1150 3950 60  0001 C CNN "Manufacture"
+F 5 "MNR34J5ABJ562" H 1150 3950 60  0001 C CNN "Mfg Part Number"
+F 6 "2012" H 1150 3950 60  0001 C CNN "Package"
+F 7 "RES ARRAY 4 RES 5.6K OHM 2012" H 1150 3950 60  0001 C CNN "Description"
 	1    1150 3950
 	0    1    1    0   
 $EndComp
@@ -1106,10 +1106,10 @@ F 0 "RN6" V 850 6750 50  0000 C CNN
 F 1 "4.7k" V 1350 6750 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 1425 6750 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RAVF.pdf" H 1150 6750 50  0001 C CNN
-F 4 "Stackpole Electronics Inc." H 1150 6750 60  0001 C CNN "Manufacture"
-F 5 "RAVF164DJT4K70" H 1150 6750 60  0001 C CNN "Mfg Part Number"
-F 6 "1206" H 1150 6750 60  0001 C CNN "Package"
-F 7 "RES ARRAY 4 RES 4.7K OHM 1206" H 1150 6750 60  0001 C CNN "Description"
+F 4 "Rohm Semiconductor" H 1150 6750 60  0001 C CNN "Manufacture"
+F 5 "MNR34J5ABJ562" H 1150 6750 60  0001 C CNN "Mfg Part Number"
+F 6 "2012" H 1150 6750 60  0001 C CNN "Package"
+F 7 "RES ARRAY 4 RES 5.6K OHM 2012" H 1150 6750 60  0001 C CNN "Description"
 	1    1150 6750
 	0    1    1    0   
 $EndComp
@@ -1138,8 +1138,8 @@ F 1 "150" V 8400 4200 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 8475 4200 50  0001 C CNN
 F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor_network/mnr_g.pdf" H 8200 4200 50  0001 C CNN
 F 4 "Rohm Semiconductor" H 8200 4200 60  0001 C CNN "Manufacture"
-F 5 "MNR14ERAPJ151" H 8200 4200 60  0001 C CNN "Mfg Part Number"
-F 6 "1206" H 8200 4200 60  0001 C CNN "Package"
+F 5 "MNR34J5ABJ151" H 8200 4200 60  0001 C CNN "Mfg Part Number"
+F 6 "2012" H 8200 4200 60  0001 C CNN "Package"
 F 7 "RES ARRAY 4 RES 150 OHM 1206" H 8200 4200 60  0001 C CNN "Description"
 	1    8200 4200
 	0    1    1    0   
@@ -1184,10 +1184,10 @@ F 0 "RN9" V 9550 1200 50  0000 C CNN
 F 1 "4.7k" V 10050 1200 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 10125 1200 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RAVF.pdf" H 9850 1200 50  0001 C CNN
-F 4 "Stackpole Electronics Inc." H 9850 1200 60  0001 C CNN "Manufacture"
-F 5 "RAVF164DJT4K70" H 9850 1200 60  0001 C CNN "Mfg Part Number"
-F 6 "1206" H 9850 1200 60  0001 C CNN "Package"
-F 7 "RES ARRAY 4 RES 4.7K OHM 1206" H 9850 1200 60  0001 C CNN "Description"
+F 4 "Rohm Semiconductor" H 9850 1200 60  0001 C CNN "Manufacture"
+F 5 "MNR34J5ABJ562" H 9850 1200 60  0001 C CNN "Mfg Part Number"
+F 6 "2012" H 9850 1200 60  0001 C CNN "Package"
+F 7 "RES ARRAY 4 RES 5.6K OHM 2012" H 9850 1200 60  0001 C CNN "Description"
 	1    9850 1200
 	0    1    1    0   
 $EndComp
@@ -1215,10 +1215,10 @@ F 0 "RN10" V 9550 4400 50  0000 C CNN
 F 1 "4.7k" V 10050 4400 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 10125 4400 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RAVF.pdf" H 9850 4400 50  0001 C CNN
-F 4 "Stackpole Electronics Inc." H 9850 4400 60  0001 C CNN "Manufacture"
-F 5 "RAVF164DJT4K70" H 9850 4400 60  0001 C CNN "Mfg Part Number"
-F 6 "1206" H 9850 4400 60  0001 C CNN "Package"
-F 7 "RES ARRAY 4 RES 4.7K OHM 1206" H 9850 4400 60  0001 C CNN "Description"
+F 4 "Rohm Semiconductor" H 9850 4400 60  0001 C CNN "Manufacture"
+F 5 "MNR34J5ABJ562" H 9850 4400 60  0001 C CNN "Mfg Part Number"
+F 6 "2012" H 9850 4400 60  0001 C CNN "Package"
+F 7 "RES ARRAY 4 RES 5.6K OHM 2012" H 9850 4400 60  0001 C CNN "Description"
 	1    9850 4400
 	0    1    1    0   
 $EndComp
