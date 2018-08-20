@@ -24,7 +24,7 @@ F 2 "LightPipe_Bivar:LED_0805_LightPipe_VLP" H 5200 1550 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 5200 1550 50  0001 C CNN
 F 4 "LED RED CLEAR 0805 SMD" H 5200 1750 50  0001 C CNN "Description"
 F 5 "Wurth Electronics Inc." H 5200 1750 50  0001 C CNN "Manufacture"
-F 6 "150080RS75004" H 5200 1750 50  0001 C CNN "Mfg Part Number"
+F 6 "150080RS75000" H 5200 1750 50  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 5200 1750 50  0001 C CNN "Package"
 	1    5200 1550
 	0    -1   -1   0   
@@ -39,7 +39,7 @@ F 2 "LightPipe_Bivar:LED_0805_LightPipe_VLP" H 4900 1550 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 4900 1550 50  0001 C CNN
 F 4 "LED RED CLEAR 0805 SMD" H 4900 1750 50  0001 C CNN "Description"
 F 5 "Wurth Electronics Inc." H 4900 1750 50  0001 C CNN "Manufacture"
-F 6 "150080RS75015" H 4900 1750 50  0001 C CNN "Mfg Part Number"
+F 6 "150080RS75000" H 4900 1750 50  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 4900 1750 50  0001 C CNN "Package"
 	1    4900 1550
 	0    -1   -1   0   
@@ -54,7 +54,7 @@ F 2 "LightPipe_Bivar:LED_0805_LightPipe_VLP" H 4600 1550 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 4600 1550 50  0001 C CNN
 F 4 "LED RED CLEAR 0805 SMD" H 4600 1750 50  0001 C CNN "Description"
 F 5 "Wurth Electronics Inc." H 4600 1750 50  0001 C CNN "Manufacture"
-F 6 "150080RS75011" H 4600 1750 50  0001 C CNN "Mfg Part Number"
+F 6 "150080RS75000" H 4600 1750 50  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 4600 1750 50  0001 C CNN "Package"
 	1    4600 1550
 	0    -1   -1   0   
@@ -214,7 +214,7 @@ F 2 "LightPipe_Bivar:LED_0805_LightPipe_VLP" H 5200 3200 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 5200 3200 50  0001 C CNN
 F 4 "LED RED CLEAR 0805 SMD" H 5200 3400 50  0001 C CNN "Description"
 F 5 "Wurth Electronics Inc." H 5200 3400 50  0001 C CNN "Manufacture"
-F 6 "150080RS75005" H 5200 3400 50  0001 C CNN "Mfg Part Number"
+F 6 "150080RS75000" H 5200 3400 50  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 5200 3400 50  0001 C CNN "Package"
 	1    5200 3200
 	0    -1   -1   0   
@@ -229,7 +229,7 @@ F 2 "LightPipe_Bivar:LED_0805_LightPipe_VLP" H 4900 3200 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 4900 3200 50  0001 C CNN
 F 4 "LED RED CLEAR 0805 SMD" H 4900 3400 50  0001 C CNN "Description"
 F 5 "Wurth Electronics Inc." H 4900 3400 50  0001 C CNN "Manufacture"
-F 6 "150080RS75001" H 4900 3400 50  0001 C CNN "Mfg Part Number"
+F 6 "150080RS75000" H 4900 3400 50  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 4900 3400 50  0001 C CNN "Package"
 	1    4900 3200
 	0    -1   -1   0   
@@ -244,7 +244,7 @@ F 2 "LightPipe_Bivar:LED_0805_LightPipe_VLP" H 4600 3200 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 4600 3200 50  0001 C CNN
 F 4 "LED RED CLEAR 0805 SMD" H 4600 3400 50  0001 C CNN "Description"
 F 5 "Wurth Electronics Inc." H 4600 3400 50  0001 C CNN "Manufacture"
-F 6 "150080RS75012" H 4600 3400 50  0001 C CNN "Mfg Part Number"
+F 6 "150080RS75000" H 4600 3400 50  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 4600 3400 50  0001 C CNN "Package"
 	1    4600 3200
 	0    -1   -1   0   
@@ -259,7 +259,7 @@ F 2 "LightPipe_Bivar:LED_0805_LightPipe_VLP" H 4300 3200 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 4300 3200 50  0001 C CNN
 F 4 "LED RED CLEAR 0805 SMD" H 4300 3400 50  0001 C CNN "Description"
 F 5 "Wurth Electronics Inc." H 4300 3400 50  0001 C CNN "Manufacture"
-F 6 "150080RS75008" H 4300 3400 50  0001 C CNN "Mfg Part Number"
+F 6 "150080RS75000" H 4300 3400 50  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 4300 3400 50  0001 C CNN "Package"
 	1    4300 3200
 	0    -1   -1   0   
@@ -300,7 +300,7 @@ F 2 "LightPipe_Bivar:LED_0805_LightPipe_VLP" H 5200 4900 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 5200 4900 50  0001 C CNN
 F 4 "LED RED CLEAR 0805 SMD" H 5200 5100 50  0001 C CNN "Description"
 F 5 "Wurth Electronics Inc." H 5200 5100 50  0001 C CNN "Manufacture"
-F 6 "150080RS75006" H 5200 5100 50  0001 C CNN "Mfg Part Number"
+F 6 "150080RS75000" H 5200 5100 50  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 5200 5100 50  0001 C CNN "Package"
 	1    5200 4900
 	0    -1   -1   0   
@@ -315,7 +315,7 @@ F 2 "LightPipe_Bivar:LED_0805_LightPipe_VLP" H 4900 4900 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 4900 4900 50  0001 C CNN
 F 4 "LED RED CLEAR 0805 SMD" H 4900 5100 50  0001 C CNN "Description"
 F 5 "Wurth Electronics Inc." H 4900 5100 50  0001 C CNN "Manufacture"
-F 6 "150080RS75002" H 4900 5100 50  0001 C CNN "Mfg Part Number"
+F 6 "150080RS75000" H 4900 5100 50  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 4900 5100 50  0001 C CNN "Package"
 	1    4900 4900
 	0    -1   -1   0   
@@ -330,7 +330,7 @@ F 2 "LightPipe_Bivar:LED_0805_LightPipe_VLP" H 4600 4900 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 4600 4900 50  0001 C CNN
 F 4 "LED RED CLEAR 0805 SMD" H 4600 5100 50  0001 C CNN "Description"
 F 5 "Wurth Electronics Inc." H 4600 5100 50  0001 C CNN "Manufacture"
-F 6 "150080RS75013" H 4600 5100 50  0001 C CNN "Mfg Part Number"
+F 6 "150080RS75000" H 4600 5100 50  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 4600 5100 50  0001 C CNN "Package"
 	1    4600 4900
 	0    -1   -1   0   
@@ -345,7 +345,7 @@ F 2 "LightPipe_Bivar:LED_0805_LightPipe_VLP" H 4300 4900 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 4300 4900 50  0001 C CNN
 F 4 "LED RED CLEAR 0805 SMD" H 4300 5100 50  0001 C CNN "Description"
 F 5 "Wurth Electronics Inc." H 4300 5100 50  0001 C CNN "Manufacture"
-F 6 "150080RS75009" H 4300 5100 50  0001 C CNN "Mfg Part Number"
+F 6 "150080RS75000" H 4300 5100 50  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 4300 5100 50  0001 C CNN "Package"
 	1    4300 4900
 	0    -1   -1   0   
@@ -386,7 +386,7 @@ F 2 "LightPipe_Bivar:LED_0805_LightPipe_VLP" H 5200 6550 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 5200 6550 50  0001 C CNN
 F 4 "LED RED CLEAR 0805 SMD" H 5200 6750 50  0001 C CNN "Description"
 F 5 "Wurth Electronics Inc." H 5200 6750 50  0001 C CNN "Manufacture"
-F 6 "150080RS75007" H 5200 6750 50  0001 C CNN "Mfg Part Number"
+F 6 "150080RS75000" H 5200 6750 50  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 5200 6750 50  0001 C CNN "Package"
 	1    5200 6550
 	0    -1   -1   0   
@@ -401,7 +401,7 @@ F 2 "LightPipe_Bivar:LED_0805_LightPipe_VLP" H 4900 6550 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 4900 6550 50  0001 C CNN
 F 4 "LED RED CLEAR 0805 SMD" H 4900 6750 50  0001 C CNN "Description"
 F 5 "Wurth Electronics Inc." H 4900 6750 50  0001 C CNN "Manufacture"
-F 6 "150080RS75003" H 4900 6750 50  0001 C CNN "Mfg Part Number"
+F 6 "150080RS75000" H 4900 6750 50  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 4900 6750 50  0001 C CNN "Package"
 	1    4900 6550
 	0    -1   -1   0   
@@ -416,7 +416,7 @@ F 2 "LightPipe_Bivar:LED_0805_LightPipe_VLP" H 4600 6550 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 4600 6550 50  0001 C CNN
 F 4 "LED RED CLEAR 0805 SMD" H 4600 6750 50  0001 C CNN "Description"
 F 5 "Wurth Electronics Inc." H 4600 6750 50  0001 C CNN "Manufacture"
-F 6 "150080RS75014" H 4600 6750 50  0001 C CNN "Mfg Part Number"
+F 6 "150080RS75000" H 4600 6750 50  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 4600 6750 50  0001 C CNN "Package"
 	1    4600 6550
 	0    -1   -1   0   
@@ -431,7 +431,7 @@ F 2 "LightPipe_Bivar:LED_0805_LightPipe_VLP" H 4300 6550 50  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 4300 6550 50  0001 C CNN
 F 4 "LED RED CLEAR 0805 SMD" H 4300 6750 50  0001 C CNN "Description"
 F 5 "Wurth Electronics Inc." H 4300 6750 50  0001 C CNN "Manufacture"
-F 6 "150080RS75010" H 4300 6750 50  0001 C CNN "Mfg Part Number"
+F 6 "150080RS75000" H 4300 6750 50  0001 C CNN "Mfg Part Number"
 F 7 "0805" H 4300 6750 50  0001 C CNN "Package"
 	1    4300 6550
 	0    -1   -1   0   
