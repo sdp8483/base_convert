@@ -249,7 +249,11 @@ P 3100 4150
 F 0 "J1" H 3100 4350 50  0000 C CNN
 F 1 "ISP" H 3100 3850 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 3100 4150 50  0001 C CNN
-F 3 "" H 3100 4150 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/M20-975.pdf" H 3100 4150 50  0001 C CNN
+F 4 "4POS SIL HORIZONTAL PIN HEADER" H 0   0   50  0001 C CNN "Description"
+F 5 "Harwin Inc." H 0   0   50  0001 C CNN "Manufacture"
+F 6 "M20-9750446" H 0   0   50  0001 C CNN "Mfg Part Number"
+F 7 "4PIN THT" H 0   0   50  0001 C CNN "Package"
 	1    3100 4150
 	-1   0    0    -1  
 $EndComp
