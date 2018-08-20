@@ -248,7 +248,7 @@ U 1 1 5AF372A3
 P 3100 4150
 F 0 "J1" H 3100 4350 50  0000 C CNN
 F 1 "ISP" H 3100 3850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 3100 4150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 3100 4150 50  0001 C CNN
 F 3 "" H 3100 4150 50  0001 C CNN
 	1    3100 4150
 	-1   0    0    -1  
