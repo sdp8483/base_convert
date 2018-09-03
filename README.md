@@ -8,8 +8,8 @@ Base Convert PL-47710 Rev. A is a simple desk/handheld device to convert between
 |Hex Display      |4 digit, 7 segment red LED  |
 |Decimal Display  |6 digit, 7 segment red LED  |
 |Binary Display   |16 red LEDs                 |
-|User Input       |16 digit alpahnumeric keypad|
-|Power            |4 AA Alkiline               |
+|User Input       |16 digit alphanumeric keypad|
+|Power            |4 AA Alkaline               |
 |Battery Life     |100 hrs estimated           |
 |Width            |94mm / 3.7"                 |
 |Height           |100mm / 3.94"               |
