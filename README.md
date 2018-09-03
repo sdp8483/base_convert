@@ -30,7 +30,7 @@ Base Convert PL-47710 Rev. A is a simple desk/handheld device to convert between
 Using a 1.5mm hex bit remove the eight M2.5 button head hex bolts holding the back panel to the unit. Install 4x AA batteries into the battery holder attached to the main PCB. Follow the polarity imprinted on the battery holder. The device does have reverse polarity projection that should project it from damage but it is still advisable to not reverse the polarity of the batteries. Replace the back panel after installing the batteries.
 
 ## Use
-To turn on the unit slide the selector switch from the OFF position to any of the three input positions. The display will illuminate at the default vale of 0.
+To turn on the unit slide the selector switch from the OFF position to any of the three input positions. The display will illuminate at the default value of 0.
 
 ### To Input Hexadecimal Number
 Slide the selector switch to *HEX*. The right most decimal on the hexadecimal display will illuminate when the unit is in hexadecimal input mode. Use the alphanumeric keypad to input a hexadecimal number, all three displays will update after each key press. If the hexadecimal number exceeds 4 digits the left most digit will be dropped to shift in the right most digit. Clearing the display by pressing the *CLEAR* button will set the hexadecimal number to 0.
