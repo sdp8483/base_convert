@@ -16,6 +16,15 @@ Base Convert PL-47710 Rev. A is a simple desk/handheld device to convert between
 |Thickness        |35mm / 1.38"                |
 |Weight, with 4xAA|275g / 9.65oz               |
 
+## Layout
+![Front Layout Image](https://github.com/sdp8483/base_convert/blob/master/images/Rev%20A/05_BaseConvert_FrontLayout.png?raw=true)
+
+1. Hexadecimal Display
+2. Decimal Display
+3. Binary Display
+4. Power and Input Selection Switch
+5. Alphanumeric Input Keypad
+6. Programming Port (Right Angle Header on Side)
 
 ## Future Fixes
 - [ ] Silkscreen label of programming interface connections/pins
