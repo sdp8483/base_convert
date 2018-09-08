@@ -81,10 +81,10 @@ P 4200 1000
 F 0 "Q2" H 4400 1050 50  0000 L CNN
 F 1 "Q_PNP_BEC" H 4400 950 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 4400 1100 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 4200 1000 50  0001 C CNN
-F 4 "TRANS PNP 40V 0.2A SOT23" H 4400 1150 50  0001 C CNN "Description"
+F 3 "https://assets.nexperia.com/documents/data-sheet/PDTA123E_SERIES.pdf" H 4200 1000 50  0001 C CNN
+F 4 "TRANS PREBIAS PNP 250MW TO236AB" H 4400 1150 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 4400 1150 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,235" H 4400 1150 50  0001 C CNN "Mfg Part Number"
+F 6 "PDTA123ET,215" H 4400 1150 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 4400 1150 50  0001 C CNN "Package"
 	1    4200 1000
 	1    0    0    1   
@@ -271,10 +271,10 @@ P 4200 2650
 F 0 "Q3" H 4400 2700 50  0000 L CNN
 F 1 "Q_PNP_BEC" H 4400 2600 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 4400 2750 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 4200 2650 50  0001 C CNN
-F 4 "TRANS PNP 40V 0.2A SOT24" H 4400 2800 50  0001 C CNN "Description"
+F 3 "https://assets.nexperia.com/documents/data-sheet/PDTA123E_SERIES.pdf" H 4200 2650 50  0001 C CNN
+F 4 "TRANS PREBIAS PNP 250MW TO236AB" H 4400 2800 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 4400 2800 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,235" H 4400 2800 50  0001 C CNN "Mfg Part Number"
+F 6 "PDTA123ET,215" H 4400 2800 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 4400 2800 50  0001 C CNN "Package"
 	1    4200 2650
 	1    0    0    1   
@@ -357,10 +357,10 @@ P 4200 4350
 F 0 "Q4" H 4400 4400 50  0000 L CNN
 F 1 "Q_PNP_BEC" H 4400 4300 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 4400 4450 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 4200 4350 50  0001 C CNN
-F 4 "TRANS PNP 40V 0.2A SOT26" H 4400 4500 50  0001 C CNN "Description"
+F 3 "https://assets.nexperia.com/documents/data-sheet/PDTA123E_SERIES.pdf" H 4200 4350 50  0001 C CNN
+F 4 "TRANS PREBIAS PNP 250MW TO236AB" H 4400 4500 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 4400 4500 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,235" H 4400 4500 50  0001 C CNN "Mfg Part Number"
+F 6 "PDTA123ET,215" H 4400 4500 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 4400 4500 50  0001 C CNN "Package"
 	1    4200 4350
 	1    0    0    1   
@@ -443,10 +443,10 @@ P 4200 6000
 F 0 "Q5" H 4400 6050 50  0000 L CNN
 F 1 "Q_PNP_BEC" H 4400 5950 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 4400 6100 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 4200 6000 50  0001 C CNN
-F 4 "TRANS PNP 40V 0.2A SOT27" H 4400 6150 50  0001 C CNN "Description"
+F 3 "https://assets.nexperia.com/documents/data-sheet/PDTA123E_SERIES.pdf" H 4200 6000 50  0001 C CNN
+F 4 "TRANS PREBIAS PNP 250MW TO236AB" H 4400 6150 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 4400 6150 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,235" H 4400 6150 50  0001 C CNN "Mfg Part Number"
+F 6 "PDTA123ET,215" H 4400 6150 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 4400 6150 50  0001 C CNN "Package"
 	1    4200 6000
 	1    0    0    1   
@@ -521,11 +521,11 @@ NIBBLE3
 Wire Wire Line
 	4300 750  4300 800 
 Wire Wire Line
-	4300 1200 4300 1400
+	4300 1200 4300 1300
 Wire Wire Line
 	5200 1300 5200 1400
 Wire Wire Line
-	4300 1300 5200 1300
+	4300 1300 4600 1300
 Wire Wire Line
 	4900 1400 4900 1300
 Wire Wire Line
@@ -538,8 +538,6 @@ Wire Wire Line
 	4900 1700 4900 1950
 Wire Wire Line
 	5200 1950 5200 1700
-Wire Bus Line
-	4400 2050 5400 2050
 Wire Wire Line
 	9750 2150 10200 2150
 Wire Wire Line
@@ -557,11 +555,11 @@ Wire Wire Line
 Wire Wire Line
 	4300 2400 4300 2450
 Wire Wire Line
-	4300 2850 4300 3050
+	4300 2850 4300 2950
 Wire Wire Line
 	5200 2950 5200 3050
 Wire Wire Line
-	4300 2950 5200 2950
+	4300 2950 4600 2950
 Wire Wire Line
 	4900 3050 4900 2950
 Wire Wire Line
@@ -574,16 +572,14 @@ Wire Wire Line
 	4900 3350 4900 3600
 Wire Wire Line
 	5200 3600 5200 3350
-Wire Bus Line
-	4400 3700 5400 3700
 Wire Wire Line
 	4300 4100 4300 4150
 Wire Wire Line
-	4300 4550 4300 4750
+	4300 4550 4300 4650
 Wire Wire Line
 	5200 4650 5200 4750
 Wire Wire Line
-	4300 4650 5200 4650
+	4300 4650 4600 4650
 Wire Wire Line
 	4900 4750 4900 4650
 Wire Wire Line
@@ -596,16 +592,14 @@ Wire Wire Line
 	4900 5050 4900 5300
 Wire Wire Line
 	5200 5300 5200 5050
-Wire Bus Line
-	4400 5400 5400 5400
 Wire Wire Line
 	4300 5750 4300 5800
 Wire Wire Line
-	4300 6200 4300 6400
+	4300 6200 4300 6300
 Wire Wire Line
 	5200 6300 5200 6400
 Wire Wire Line
-	4300 6300 5200 6300
+	4300 6300 4600 6300
 Wire Wire Line
 	4900 6400 4900 6300
 Wire Wire Line
@@ -618,8 +612,6 @@ Wire Wire Line
 	4900 6700 4900 6950
 Wire Wire Line
 	5200 6950 5200 6700
-Wire Bus Line
-	4400 7050 5400 7050
 Wire Wire Line
 	8000 1500 7700 1500
 Wire Wire Line
@@ -629,11 +621,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 1800 7700 1800
 Wire Bus Line
-	7600 1000 7600 1700
-Wire Bus Line
 	7600 1000 5500 1000
-Wire Bus Line
-	5500 1000 5500 6950
 Entry Wire Line
 	4300 1950 4400 2050
 Entry Wire Line
@@ -807,4 +795,40 @@ Wire Wire Line
 	8700 1800 8700 5850
 Wire Wire Line
 	8700 5850 9450 5850
+Wire Wire Line
+	4300 1300 4300 1400
+Wire Wire Line
+	4900 1300 5200 1300
+Wire Wire Line
+	4600 1300 4900 1300
+Wire Wire Line
+	4300 2950 4300 3050
+Wire Wire Line
+	4900 2950 5200 2950
+Wire Wire Line
+	4600 2950 4900 2950
+Wire Wire Line
+	4300 4650 4300 4750
+Wire Wire Line
+	4900 4650 5200 4650
+Wire Wire Line
+	4600 4650 4900 4650
+Wire Wire Line
+	4300 6300 4300 6400
+Wire Wire Line
+	4900 6300 5200 6300
+Wire Wire Line
+	4600 6300 4900 6300
+Wire Bus Line
+	4400 2050 5400 2050
+Wire Bus Line
+	4400 3700 5400 3700
+Wire Bus Line
+	4400 5400 5400 5400
+Wire Bus Line
+	4400 7050 5400 7050
+Wire Bus Line
+	7600 1000 7600 1700
+Wire Bus Line
+	5500 1000 5500 6950
 $EndSCHEMATC

@@ -36,10 +36,10 @@ P 1750 950
 F 0 "Q10" H 1950 1000 50  0000 L CNN
 F 1 "Q_PNP_BEC" H 1950 900 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 1950 1050 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 1750 950 50  0001 C CNN
-F 4 "TRANS PNP 40V 0.2A SOT25" H 1950 1100 50  0001 C CNN "Description"
+F 3 "https://assets.nexperia.com/documents/data-sheet/PDTA123E_SERIES.pdf" H 1750 950 50  0001 C CNN
+F 4 "TRANS PREBIAS PNP 250MW TO236AB" H 1950 1100 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 1950 1100 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,235" H 1950 1100 50  0001 C CNN "Mfg Part Number"
+F 6 "PDTA123ET,215" H 1950 1100 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 1950 1100 50  0001 C CNN "Package"
 	1    1750 950 
 	1    0    0    1   
@@ -62,10 +62,10 @@ P 1750 1650
 F 0 "Q11" H 1950 1700 50  0000 L CNN
 F 1 "Q_PNP_BEC" H 1950 1600 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 1950 1750 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 1750 1650 50  0001 C CNN
-F 4 "TRANS PNP 40V 0.2A SOT23" H 1950 1800 50  0001 C CNN "Description"
+F 3 "https://assets.nexperia.com/documents/data-sheet/PDTA123E_SERIES.pdf" H 1750 1650 50  0001 C CNN
+F 4 "TRANS PREBIAS PNP 250MW TO236AB" H 1950 1800 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 1950 1800 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,235" H 1950 1800 50  0001 C CNN "Mfg Part Number"
+F 6 "PDTA123ET,215" H 1950 1800 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 1950 1800 50  0001 C CNN "Package"
 	1    1750 1650
 	1    0    0    1   
@@ -88,10 +88,10 @@ P 1750 2350
 F 0 "Q12" H 1950 2400 50  0000 L CNN
 F 1 "Q_PNP_BEC" H 1950 2300 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 1950 2450 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 1750 2350 50  0001 C CNN
-F 4 "TRANS PNP 40V 0.2A SOT24" H 1950 2500 50  0001 C CNN "Description"
+F 3 "https://assets.nexperia.com/documents/data-sheet/PDTA123E_SERIES.pdf" H 1750 2350 50  0001 C CNN
+F 4 "TRANS PREBIAS PNP 250MW TO236AB" H 1950 2500 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 1950 2500 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,235" H 1950 2500 50  0001 C CNN "Mfg Part Number"
+F 6 "PDTA123ET,215" H 1950 2500 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 1950 2500 50  0001 C CNN "Package"
 	1    1750 2350
 	1    0    0    1   
@@ -114,10 +114,10 @@ P 1750 3050
 F 0 "Q13" H 1950 3100 50  0000 L CNN
 F 1 "Q_PNP_BEC" H 1950 3000 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 1950 3150 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 1750 3050 50  0001 C CNN
-F 4 "TRANS PNP 40V 0.2A SOT25" H 1950 3200 50  0001 C CNN "Description"
+F 3 "https://assets.nexperia.com/documents/data-sheet/PDTA123E_SERIES.pdf" H 1750 3050 50  0001 C CNN
+F 4 "TRANS PREBIAS PNP 250MW TO236AB" H 1950 3200 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 1950 3200 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,235" H 1950 3200 50  0001 C CNN "Mfg Part Number"
+F 6 "PDTA123ET,215" H 1950 3200 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 1950 3200 50  0001 C CNN "Package"
 	1    1750 3050
 	1    0    0    1   
@@ -140,10 +140,10 @@ P 1750 3750
 F 0 "Q14" H 1950 3800 50  0000 L CNN
 F 1 "Q_PNP_BEC" H 1950 3700 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 1950 3850 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 1750 3750 50  0001 C CNN
-F 4 "TRANS PNP 40V 0.2A SOT26" H 1950 3900 50  0001 C CNN "Description"
+F 3 "https://assets.nexperia.com/documents/data-sheet/PDTA123E_SERIES.pdf" H 1750 3750 50  0001 C CNN
+F 4 "TRANS PREBIAS PNP 250MW TO236AB" H 1950 3900 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 1950 3900 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,235" H 1950 3900 50  0001 C CNN "Mfg Part Number"
+F 6 "PDTA123ET,215" H 1950 3900 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 1950 3900 50  0001 C CNN "Package"
 	1    1750 3750
 	1    0    0    1   
@@ -166,10 +166,10 @@ P 1750 4450
 F 0 "Q15" H 1950 4500 50  0000 L CNN
 F 1 "Q_PNP_BEC" H 1950 4400 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 1950 4550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 1750 4450 50  0001 C CNN
-F 4 "TRANS PNP 40V 0.2A SOT27" H 1950 4600 50  0001 C CNN "Description"
+F 3 "https://assets.nexperia.com/documents/data-sheet/PDTA123E_SERIES.pdf" H 1750 4450 50  0001 C CNN
+F 4 "TRANS PREBIAS PNP 250MW TO236AB" H 1950 4600 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 1950 4600 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,235" H 1950 4600 50  0001 C CNN "Mfg Part Number"
+F 6 "PDTA123ET,215" H 1950 4600 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 1950 4600 50  0001 C CNN "Package"
 	1    1750 4450
 	1    0    0    1   
@@ -192,10 +192,10 @@ P 1750 5150
 F 0 "Q16" H 1950 5200 50  0000 L CNN
 F 1 "Q_PNP_BEC" H 1950 5100 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 1950 5250 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 1750 5150 50  0001 C CNN
-F 4 "TRANS PNP 40V 0.2A SOT28" H 1950 5300 50  0001 C CNN "Description"
+F 3 "https://assets.nexperia.com/documents/data-sheet/PDTA123E_SERIES.pdf" H 1750 5150 50  0001 C CNN
+F 4 "TRANS PREBIAS PNP 250MW TO236AB" H 1950 5300 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 1950 5300 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,235" H 1950 5300 50  0001 C CNN "Mfg Part Number"
+F 6 "PDTA123ET,215" H 1950 5300 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 1950 5300 50  0001 C CNN "Package"
 	1    1750 5150
 	1    0    0    1   
@@ -218,10 +218,10 @@ P 1750 5850
 F 0 "Q17" H 1950 5900 50  0000 L CNN
 F 1 "Q_PNP_BEC" H 1950 5800 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 1950 5950 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 1750 5850 50  0001 C CNN
-F 4 "TRANS PNP 40V 0.2A SOT29" H 1950 6000 50  0001 C CNN "Description"
+F 3 "https://assets.nexperia.com/documents/data-sheet/PDTA123E_SERIES.pdf" H 1750 5850 50  0001 C CNN
+F 4 "TRANS PREBIAS PNP 250MW TO236AB" H 1950 6000 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 1950 6000 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,235" H 1950 6000 50  0001 C CNN "Mfg Part Number"
+F 6 "PDTA123ET,215" H 1950 6000 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 1950 6000 50  0001 C CNN "Package"
 	1    1750 5850
 	1    0    0    1   
@@ -244,10 +244,10 @@ P 1750 6550
 F 0 "Q18" H 1950 6600 50  0000 L CNN
 F 1 "Q_PNP_BEC" H 1950 6500 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 1950 6650 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 1750 6550 50  0001 C CNN
-F 4 "TRANS PNP 40V 0.2A SOT23" H 1950 6700 50  0001 C CNN "Description"
+F 3 "https://assets.nexperia.com/documents/data-sheet/PDTA123E_SERIES.pdf" H 1750 6550 50  0001 C CNN
+F 4 "TRANS PREBIAS PNP 250MW TO236AB" H 1950 6700 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 1950 6700 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,235" H 1950 6700 50  0001 C CNN "Mfg Part Number"
+F 6 "PDTA123ET,215" H 1950 6700 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 1950 6700 50  0001 C CNN "Package"
 	1    1750 6550
 	1    0    0    1   
@@ -437,10 +437,10 @@ P 1750 7250
 F 0 "Q19" H 1950 7300 50  0000 L CNN
 F 1 "Q_PNP_BEC" H 1950 7200 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 1950 7350 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMBT3906.pdf" H 1750 7250 50  0001 C CNN
-F 4 "TRANS PNP 40V 0.2A SOT23" H 1950 7400 50  0001 C CNN "Description"
+F 3 "https://assets.nexperia.com/documents/data-sheet/PDTA123E_SERIES.pdf" H 1750 7250 50  0001 C CNN
+F 4 "TRANS PREBIAS PNP 250MW TO236AB" H 1950 7400 50  0001 C CNN "Description"
 F 5 "Nexperia USA Inc." H 1950 7400 50  0001 C CNN "Manufacture"
-F 6 "PMBT3906,235" H 1950 7400 50  0001 C CNN "Mfg Part Number"
+F 6 "PDTA123ET,215" H 1950 7400 50  0001 C CNN "Mfg Part Number"
 F 7 "SOT-23" H 1950 7400 50  0001 C CNN "Package"
 	1    1750 7250
 	1    0    0    1   
