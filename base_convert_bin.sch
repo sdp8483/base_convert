@@ -687,13 +687,13 @@ L base_convert-rescue:R_Pack04 RN1
 U 1 1 5B345686
 P 3400 1200
 F 0 "RN1" V 3100 1200 50  0000 C CNN
-F 1 "4.7k" V 3600 1200 50  0000 C CNN
+F 1 "10k" V 3600 1200 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 3675 1200 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RAVF.pdf" H 3400 1200 50  0001 C CNN
-F 4 "Rohm Semiconductor" H 3400 1200 60  0001 C CNN "Manufacture"
-F 5 "MNR34J5ABJ562" H 3400 1200 60  0001 C CNN "Mfg Part Number"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/YC102-358,TC122-164_Series_DS.pdf" H 3400 1200 50  0001 C CNN
+F 4 "Yageo" H 3400 1200 60  0001 C CNN "Manufacture"
+F 5 "YC324-JK-0710KL" H 3400 1200 60  0001 C CNN "Mfg Part Number"
 F 6 "2012" H 3400 1200 60  0001 C CNN "Package"
-F 7 "RES ARRAY 4 RES 5.6K OHM 2012" H 3400 1200 60  0001 C CNN "Description"
+F 7 "RES ARRAY 4 RES 10K OHM 2012" H 3400 1200 60  0001 C CNN "Description"
 	1    3400 1200
 	0    -1   1    0   
 $EndComp

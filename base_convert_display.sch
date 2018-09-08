@@ -1026,13 +1026,13 @@ L base_convert-rescue:R_Pack04 RN4
 U 1 1 5B34EE43
 P 1150 1150
 F 0 "RN4" V 850 1150 50  0000 C CNN
-F 1 "4.7k" V 1350 1150 50  0000 C CNN
+F 1 "10k" V 1350 1150 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 1425 1150 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RAVF.pdf" H 1150 1150 50  0001 C CNN
-F 4 "Rohm Semiconductor" H 1150 1150 60  0001 C CNN "Manufacture"
-F 5 "MNR34J5ABJ562" H 1150 1150 60  0001 C CNN "Mfg Part Number"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/YC102-358,TC122-164_Series_DS.pdf" H 1150 1150 50  0001 C CNN
+F 4 "Yageo" H 1150 1150 60  0001 C CNN "Manufacture"
+F 5 "YC324-JK-0710KL" H 1150 1150 60  0001 C CNN "Mfg Part Number"
 F 6 "2012" H 1150 1150 60  0001 C CNN "Package"
-F 7 "RES ARRAY 4 RES 5.6K OHM 2012" H 1150 1150 60  0001 C CNN "Description"
+F 7 "RES ARRAY 4 RES 10K OHM 2012" H 1150 1150 60  0001 C CNN "Description"
 	1    1150 1150
 	0    1    1    0   
 $EndComp
@@ -1072,13 +1072,13 @@ L base_convert-rescue:R_Pack04 RN5
 U 1 1 5B3521CC
 P 1150 3950
 F 0 "RN5" V 850 3950 50  0000 C CNN
-F 1 "4.7k" V 1350 3950 50  0000 C CNN
+F 1 "10k" V 1350 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 1425 3950 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RAVF.pdf" H 1150 3950 50  0001 C CNN
-F 4 "Rohm Semiconductor" H 1150 3950 60  0001 C CNN "Manufacture"
-F 5 "MNR34J5ABJ562" H 1150 3950 60  0001 C CNN "Mfg Part Number"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/YC102-358,TC122-164_Series_DS.pdf" H 1150 3950 50  0001 C CNN
+F 4 "Yageo" H 1150 3950 60  0001 C CNN "Manufacture"
+F 5 "YC324-JK-0710KL" H 1150 3950 60  0001 C CNN "Mfg Part Number"
 F 6 "2012" H 1150 3950 60  0001 C CNN "Package"
-F 7 "RES ARRAY 4 RES 5.6K OHM 2012" H 1150 3950 60  0001 C CNN "Description"
+F 7 "RES ARRAY 4 RES 10K OHM 2012" H 1150 3950 60  0001 C CNN "Description"
 	1    1150 3950
 	0    1    1    0   
 $EndComp
@@ -1103,13 +1103,13 @@ L base_convert-rescue:R_Pack04 RN6
 U 1 1 5B353203
 P 1150 6750
 F 0 "RN6" V 850 6750 50  0000 C CNN
-F 1 "4.7k" V 1350 6750 50  0000 C CNN
+F 1 "10k" V 1350 6750 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Convex_4x1206" V 1425 6750 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RAVF.pdf" H 1150 6750 50  0001 C CNN
-F 4 "Rohm Semiconductor" H 1150 6750 60  0001 C CNN "Manufacture"
-F 5 "MNR34J5ABJ562" H 1150 6750 60  0001 C CNN "Mfg Part Number"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/YC102-358,TC122-164_Series_DS.pdf" H 1150 6750 50  0001 C CNN
+F 4 "Yageo" H 1150 6750 60  0001 C CNN "Manufacture"
+F 5 "YC324-JK-0710KL" H 1150 6750 60  0001 C CNN "Mfg Part Number"
 F 6 "2012" H 1150 6750 60  0001 C CNN "Package"
-F 7 "RES ARRAY 4 RES 5.6K OHM 2012" H 1150 6750 60  0001 C CNN "Description"
+F 7 "RES ARRAY 4 RES 10K OHM 2012" H 1150 6750 60  0001 C CNN "Description"
 	1    1150 6750
 	0    1    1    0   
 $EndComp
